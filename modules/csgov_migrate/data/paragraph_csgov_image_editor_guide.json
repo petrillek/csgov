@@ -6,8 +6,8 @@
     "created": "1730822400",
     "field_csgov_p_image": "",
     "field_csgov_p_image_caption": "Screenshot: Záložka \"Úvodník\" s vyplněnými poli (název, datum, úvodník, hlavní obrázek)",
-    "field_csgov_p_full_width": "0",
-    "field_csgov_p_view_mode": ""
+    "field_csgov_p_full_width": "1",
+    "field_csgov_p_view_mode": "csgov_native"
   },
   {
     "uuid": "a1000002-0001-0001-0001-000000000002",
@@ -16,8 +16,8 @@
     "created": "1730822400",
     "field_csgov_p_image": "",
     "field_csgov_p_image_caption": "Screenshot: Dialog pro výběr média s tlačítky \"Přidat médium\" a \"Vložit vybrané\"",
-    "field_csgov_p_full_width": "0",
-    "field_csgov_p_view_mode": ""
+    "field_csgov_p_full_width": "1",
+    "field_csgov_p_view_mode": "csgov_native"
   },
   {
     "uuid": "a1000002-0001-0001-0001-000000000003",
@@ -26,8 +26,8 @@
     "created": "1730822400",
     "field_csgov_p_image": "",
     "field_csgov_p_image_caption": "Screenshot: Příklad Hero sekce s obrázkem na pozadí, nadpisem a tlačítkem",
-    "field_csgov_p_full_width": "0",
-    "field_csgov_p_view_mode": ""
+    "field_csgov_p_full_width": "1",
+    "field_csgov_p_view_mode": "csgov_native"
   },
   {
     "uuid": "a1000002-0001-0001-0001-000000000004",
@@ -36,8 +36,8 @@
     "created": "1730822400",
     "field_csgov_p_image": "",
     "field_csgov_p_image_caption": "Screenshot: Zaškrtnuté pole \"Zobrazit hero sekci\" a tlačítko \"Přidat Hero\"",
-    "field_csgov_p_full_width": "0",
-    "field_csgov_p_view_mode": ""
+    "field_csgov_p_full_width": "1",
+    "field_csgov_p_view_mode": "csgov_native"
   },
   {
     "uuid": "a1000002-0001-0001-0001-000000000005",
@@ -46,8 +46,8 @@
     "created": "1730822400",
     "field_csgov_p_image": "",
     "field_csgov_p_image_caption": "Screenshot: Formulář pro úpravu Hero komponenty se všemi poli (nadpis, perex, tlačítko, pozice, výška, překrytí)",
-    "field_csgov_p_full_width": "0",
-    "field_csgov_p_view_mode": ""
+    "field_csgov_p_full_width": "1",
+    "field_csgov_p_view_mode": "csgov_native"
   },
   {
     "uuid": "a1000002-0001-0001-0001-000000000006",
@@ -56,8 +56,8 @@
     "created": "1730822400",
     "field_csgov_p_image": "",
     "field_csgov_p_image_caption": "Screenshot: Boční panel s nastavením publikování (checkbox Publikováno, pole Scheduler, URL nastavení)",
-    "field_csgov_p_full_width": "0",
-    "field_csgov_p_view_mode": ""
+    "field_csgov_p_full_width": "1",
+    "field_csgov_p_view_mode": "csgov_native"
   },
   {
     "uuid": "a1000002-0001-0001-0001-000000000007",
@@ -66,7 +66,7 @@
     "created": "1730822400",
     "field_csgov_p_image": "",
     "field_csgov_p_image_caption": "Screenshot: Scheduler pole s vybranými datumy publikování a skrytí",
-    "field_csgov_p_full_width": "0",
-    "field_csgov_p_view_mode": ""
+    "field_csgov_p_full_width": "1",
+    "field_csgov_p_view_mode": "csgov_native"
   }
 ]
