@@ -1,6 +1,6 @@
 [
   {
-    "uuid": "ed-guide-step1-content",
+    "uuid": "a1000001-0001-0001-0001-000000000001",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -9,7 +9,7 @@
     "field_csgov_p_background": "default"
   },
   {
-    "uuid": "ed-guide-step2-content",
+    "uuid": "a1000001-0001-0001-0001-000000000002",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -18,7 +18,7 @@
     "field_csgov_p_background": "default"
   },
   {
-    "uuid": "ed-guide-step3-content",
+    "uuid": "a1000001-0001-0001-0001-000000000003",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -27,7 +27,7 @@
     "field_csgov_p_background": "default"
   },
   {
-    "uuid": "ed-guide-step4-content",
+    "uuid": "a1000001-0001-0001-0001-000000000004",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -36,7 +36,7 @@
     "field_csgov_p_background": "default"
   },
   {
-    "uuid": "ed-guide-step5-content",
+    "uuid": "a1000001-0001-0001-0001-000000000005",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -45,7 +45,7 @@
     "field_csgov_p_background": "default"
   },
   {
-    "uuid": "ed-guide-step6-content",
+    "uuid": "a1000001-0001-0001-0001-000000000006",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -54,7 +54,7 @@
     "field_csgov_p_background": "default"
   },
   {
-    "uuid": "ed-guide-step7-content",
+    "uuid": "a1000001-0001-0001-0001-000000000007",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -63,7 +63,7 @@
     "field_csgov_p_background": "default"
   },
   {
-    "uuid": "ed-guide-step8-content",
+    "uuid": "a1000001-0001-0001-0001-000000000008",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -72,7 +72,7 @@
     "field_csgov_p_background": "default"
   },
   {
-    "uuid": "ed-guide-step9-content",
+    "uuid": "a1000001-0001-0001-0001-000000000009",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",

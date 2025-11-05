@@ -1,6 +1,6 @@
 [
   {
-    "uuid": "ed-guide-step2-image1",
+    "uuid": "a1000002-0001-0001-0001-000000000001",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -10,7 +10,7 @@
     "field_csgov_p_view_mode": ""
   },
   {
-    "uuid": "ed-guide-step2-image2",
+    "uuid": "a1000002-0001-0001-0001-000000000002",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -20,7 +20,7 @@
     "field_csgov_p_view_mode": ""
   },
   {
-    "uuid": "ed-guide-step3-image1",
+    "uuid": "a1000002-0001-0001-0001-000000000003",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -30,7 +30,7 @@
     "field_csgov_p_view_mode": ""
   },
   {
-    "uuid": "ed-guide-step3-image2",
+    "uuid": "a1000002-0001-0001-0001-000000000004",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -40,7 +40,7 @@
     "field_csgov_p_view_mode": ""
   },
   {
-    "uuid": "ed-guide-step3-image3",
+    "uuid": "a1000002-0001-0001-0001-000000000005",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -50,7 +50,7 @@
     "field_csgov_p_view_mode": ""
   },
   {
-    "uuid": "ed-guide-step7-image1",
+    "uuid": "a1000002-0001-0001-0001-000000000006",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
@@ -60,7 +60,7 @@
     "field_csgov_p_view_mode": ""
   },
   {
-    "uuid": "ed-guide-step7-image2",
+    "uuid": "a1000002-0001-0001-0001-000000000007",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
