@@ -1,0 +1,12 @@
+[
+  {
+    "uuid": "ed-guide-overview",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Jak vytvořit novinku - návod pro editory",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_teaser": "Tento návod vás krok za krokem provede procesem vytváření novinky v redakčním systému CS Gov.",
+    "field_csgov_sbs_items": "ed-guide-step-01, ed-guide-step-02, ed-guide-step-03, ed-guide-step-04, ed-guide-step-05, ed-guide-step-06, ed-guide-step-07, ed-guide-step-08, ed-guide-step-09"
+  }
+]

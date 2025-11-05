@@ -1,0 +1,83 @@
+[
+  {
+    "uuid": "ed-guide-step1-content",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Jak začít</h2>\n\n<ol>\n<li>Přihlaste se do administračního rozhraní</li>\n<li>V hlavním menu přejděte na <strong>Obsah</strong> → <strong>Přidat obsah</strong> → <strong>Novinka</strong></li>\n<li>Otevře se formulář pro vytvoření novinky se třemi hlavními záložkami:\n<ul>\n<li><strong>Úvodník</strong> - základní informace a náhledový obrázek</li>\n<li><strong>Obsah</strong> - hlavní obsah novinky a obsahové komponenty</li>\n<li><strong>Extra</strong> - doplňkové informace</li>\n</ul>\n</li>\n</ol>\n\n<p>Po vyplnění těchto tří záložek budete připraveni novinku publikovat.</p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "ed-guide-step2-content",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Záložka Úvodník - Základní informace</h2>\n\n<h3>Název (povinné pole)</h3>\n<p>Zadejte výstižný název novinky. Název by měl být:</p>\n<ul>\n<li>Stručný a jasný</li>\n<li>Popisný - měl by čtenáři hned říct, o čem novinka je</li>\n<li>Optimálně do 60 znaků (kvůli zobrazení ve vyhledávání)</li>\n</ul>\n<p><strong>Příklad:</strong> \"Nová autobusová linka spojí centrum s nemocnicí\"</p>\n\n<h3>Datum publikování</h3>\n<p>Zadejte datum a čas, kdy byla novinka publikována nebo kdy má být zveřejněna. Toto datum se zobrazí u novinky na webu a používá se pro řazení novinek od nejnovější k nejstarší.</p>\n<p><strong>Formát:</strong> Den.Měsíc.Rok Hodina:Minuta</p>\n\n<h3>Úvodník (Teaser)</h3>\n<p>Krátký text, který shrnuje obsah novinky. Úvodník se zobrazuje:</p>\n<ul>\n<li>Na přehledových stránkách novinek</li>\n<li>Ve výsledcích vyhledávání</li>\n<li>Při sdílení na sociálních sítích</li>\n</ul>\n<p><strong>Doporučení:</strong></p>\n<ul>\n<li>Délka: do 320 znaků</li>\n<li>Měl by zaujmout čtenáře a motivovat ho k přečtení celé novinky</li>\n<li>Pište stručně a výstižně</li>\n</ul>\n\n<h3>Hlavní obrázek</h3>\n<p>Sekce pro přidání hlavního obrázku novinky.</p>\n<p><strong>Jak přidat hlavní obrázek:</strong></p>\n<ol>\n<li>Klikněte na tlačítko <strong>\"Přidat médium\"</strong></li>\n<li>Vybrat již existující obrázek z knihovny médií nebo nahrát nový</li>\n<li>Vyberte obrázek a klikněte na <strong>\"Vložit vybrané\"</strong></li>\n</ol>\n<p><strong>Doporučení pro obrázky:</strong></p>\n<ul>\n<li>Formát: JPG nebo PNG</li>\n<li>Minimální rozměry: 1200 × 630 px</li>\n<li>Poměr stran: 16:9 nebo 4:3</li>\n<li>Maximální velikost souboru: 2 MB</li>\n</ul>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "ed-guide-step3-content",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Záložka Obsah - Hero sekce</h2>\n\n<h3>Zobrazit hero sekci</h3>\n<p>Zaškrtněte, pokud chcete na začátku novinky zobrazit velkou výraznou hero sekci (hlavičku s obrázkem nebo videem).</p>\n\n<h3>Hero</h3>\n<p>Hero je velká vizuálně výrazná sekce, která se zobrazí na začátku stránky s novinkou.</p>\n<p><strong>Jak přidat hero:</strong></p>\n<ol>\n<li>Klikněte na tlačítko pro přidání hero</li>\n<li>Vyplňte obsah hero sekce (obrázek, nadpis, text)</li>\n</ol>\n\n<h3>Typ novinky</h3>\n<p>Vyberte kategorii/typ novinky z předem definovaného seznamu. Typy novinek slouží pro kategorizaci a filtrování.</p>\n<p><strong>Příklady typů:</strong></p>\n<ul>\n<li>Tisková zpráva</li>\n<li>Oznámení</li>\n<li>Pozvánka</li>\n<li>Aktualita</li>\n</ul>\n<p>Pokud potřebný typ neexistuje, můžete ho vytvořit přímo z tohoto pole napsáním názvu a potvrzením.</p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "ed-guide-step4-content",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Záložka Obsah - Obsahové komponenty</h2>\n\n<p>Zde vytvořte hlavní obsah novinky pomocí předpřipravených komponent. Komponenty vám umožňují vytvářet strukturovaný a vizuálně přitažlivý obsah bez znalosti HTML.</p>\n\n<h3>Dostupné komponenty:</h3>\n<ul>\n<li><strong>Obsah (Content)</strong> - Základní textový editor pro běžný text</li>\n<li><strong>Seznam odkazů na obsah (Node list)</strong> - Odkazy na související články</li>\n<li><strong>Dlaždice (Tiles)</strong> - Vizuální dlaždice s ikonami</li>\n<li><strong>Akordeón (Accordion)</strong> - Skládací sekce pro FAQ</li>\n<li><strong>Informační panel (Infopanel)</strong> - Zvýrazněný box s důležitou informací</li>\n<li><strong>Galerie (Gallery)</strong> - Fotogalerie s obrázky</li>\n<li><strong>Obrázek (Image)</strong> - Samostatný obrázek</li>\n<li><strong>Obrázek s textem (Image text)</strong> - Kombinace obrázku a textu</li>\n<li><strong>Přílohy (Attachments)</strong> - Seznam souborů ke stažení</li>\n<li><strong>Krok za krokem (Step by step)</strong> - Postupný návod</li>\n</ul>\n\n<h3>Jak přidat komponentu:</h3>\n<ol>\n<li>Klikněte na tlačítko <strong>\"Přidat Komponentu\"</strong></li>\n<li>Vyberte typ komponenty z nabídky</li>\n<li>Vyplňte pole dané komponenty</li>\n<li>Komponentu můžete <strong>Duplikovat</strong>, <strong>Přesunout</strong> nebo <strong>Smazat</strong></li>\n</ol>\n\n<p><strong>Tip:</strong> Nejčastěji začnete komponentou \"Obsah\" pro napsání hlavního textu novinky.</p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "ed-guide-step5-content",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Záložka Obsah - Související odkazy</h2>\n\n<p>Sekce pro přidání seznamu odkazů souvisejících s novinkou.</p>\n\n<h3>Název odkazů</h3>\n<p>Nadpis sekce s odkazy (např. \"Související informace\", \"Užitečné odkazy\", \"Více informací\")</p>\n\n<h3>Odkazy</h3>\n<p>Přidejte jeden nebo více odkazů:</p>\n<ul>\n<li><strong>Text odkazu:</strong> Popisný text, na který se bude klikat</li>\n<li><strong>URL:</strong> Webová adresa\n<ul>\n<li>Externí odkazy: zadejte celou URL (https://...)</li>\n<li>Interní odkazy: můžete zadat relativní cestu (/stranka)</li>\n</ul>\n</li>\n</ul>\n\n<p><strong>Příklad:</strong></p>\n<ul>\n<li>Text: \"Jízdní řád městské dopravy\"</li>\n<li>URL: \"https://doprava.mesto.cz/jizdni-rady\"</li>\n</ul>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "ed-guide-step6-content",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Záložka Extra</h2>\n\n<h3>Odkaz na osobu</h3>\n<p>Volitelné pole pro propojení novinky s konkrétní osobou (např. autor, kontaktní osoba, mluvčí).</p>\n\n<p>Začněte psát jméno osoby a systém vám nabídne existující záznamy osob. Pokud osoba neexistuje, musí být nejprve vytvořena v sekci Osoby.</p>\n\n<p>Tato informace se může zobrazit na stránce novinky jako kontaktní osoba nebo autor článku.</p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "ed-guide-step7-content",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Pokročilé nastavení</h2>\n\n<p>V postranním panelu najdete další důležitá nastavení:</p>\n\n<h3>Stav publikování</h3>\n<ul>\n<li><strong>Publikováno:</strong> Novinka je viditelná na veřejném webu</li>\n<li><strong>Nepublikováno:</strong> Novinka je skrytá, uložená jako koncept</li>\n</ul>\n\n<h3>Naplánované publikování (Scheduler)</h3>\n<p>Můžete naplánovat automatické publikování nebo skrytí novinky:</p>\n<ul>\n<li><strong>Publikovat dne:</strong> Zadejte datum a čas automatického zveřejnění</li>\n<li><strong>Skrýt dne:</strong> Zadejte datum a čas automatického skrytí</li>\n</ul>\n\n<h3>Propagovat na titulní stránku</h3>\n<p>Zaškrtnutím této možnosti se novinka může zobrazit na titulní stránce webu.</p>\n\n<h3>Připnout na začátek seznamů</h3>\n<p>Zaškrtnutím bude novinka vždy zobrazena na začátku seznamu novinek, bez ohledu na datum publikování.</p>\n\n<h3>URL adresa (Path)</h3>\n<p>Můžete ručně změnit URL adresu novinky. Pokud pole nevyplníte, URL se vygeneruje automaticky podle názvu novinky.</p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "ed-guide-step8-content",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Kontrola a publikování</h2>\n\n<h3>Uložení a publikování</h3>\n<p>Po vyplnění všech polí:</p>\n<ol>\n<li><strong>Náhled:</strong> Klikněte na \"Náhled\" pro zobrazení, jak bude novinka vypadat na webu</li>\n<li><strong>Uložit jako koncept:</strong> Klikněte \"Uložit\" s vypnutou volbou \"Publikováno\"</li>\n<li><strong>Publikovat:</strong> Zaškrtněte \"Publikováno\" a klikněte \"Uložit\"</li>\n</ol>\n\n<h3>Checklist před publikováním</h3>\n<p>Před publikováním novinky zkontrolujte:</p>\n<ul>\n<li>Název je výstižný a do 60 znaků</li>\n<li>Datum publikování je správně nastaveno</li>\n<li>Úvodník je vyplněný a do 320 znaků</li>\n<li>Hlavní obrázek je přidán a má dobrou kvalitu</li>\n<li>Hlavní obsah je vytvořen pomocí obsahových komponent</li>\n<li>Text neobsahuje gramatické chyby</li>\n<li>Všechny odkazy fungují</li>\n<li>Náhled vypadá správně</li>\n<li>Je zaškrtnuto \"Publikováno\" (pokud chcete zveřejnit okamžitě)</li>\n</ul>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "ed-guide-step9-content",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Co dál?</h2>\n\n<h3>Často kladené otázky</h3>\n\n<p><strong>Mohu upravit již publikovanou novinku?</strong><br>\nAno, v seznamu obsahu najděte novinku, klikněte na \"Upravit\", proveďte změny a uložte. Změny se projeví okamžitě.</p>\n\n<p><strong>Co když udělám chybu?</strong><br>\nSystém ukládá revize (verze) obsahu. Můžete se vrátit k předchozí verzi pomocí záložky \"Revize\" při úpravě novinky.</p>\n\n<p><strong>Jak smažu novinku?</strong><br>\nV seznamu obsahu najděte novinku a v rozbalovacím menu vyberte \"Smazat\". Pozor: smazání je nevratné!</p>\n\n<p><strong>Mohu novinku nejprve uložit a dokončit později?</strong><br>\nAno, vypněte volbu \"Publikováno\" a klikněte \"Uložit\". Novinka se uloží jako nepublikovaný koncept.</p>\n\n<h3>Tipy pro kvalitní novinky</h3>\n<ul>\n<li>Pište jasně a srozumitelně - Používejte krátké věty a odstavce</li>\n<li>Začněte tím nejdůležitějším - Klíčové informace dejte na začátek</li>\n<li>Používejte mezititulky - Strukturujte delší texty pomocí nadpisů</li>\n<li>Přidávejte vizuální obsah - Fotografie, infografiky zvyšují čtivost</li>\n<li>Kontrolujte před publikováním - Překlepů a chyb si čtenáři všimnou</li>\n<li>Buďte aktuální - Pravidelně kontrolujte a aktualizujte starší novinky</li>\n<li>Myslte na mobilní zařízení - Většina návštěvníků čte na telefonech</li>\n</ul>\n\n<h3>Potřebujete pomoc?</h3>\n<p>Pokud máte otázky nebo narazíte na problém, kontaktujte správce webu nebo technickou podporu.</p>",
+    "field_csgov_p_background": "default"
+  }
+]
