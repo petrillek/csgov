@@ -23,7 +23,7 @@
     "field_csgov_sbs_step_label": "Základní informace",
     "field_csgov_sbs_annotation": "Název, datum, úvodník a hlavní obrázek",
     "field_csgov_teaser": "Vyplnění základních údajů: název, datum publikování, úvodník a hlavní obrázek.",
-    "field_csgov_content_components": "ed-guide-step2-content"
+    "field_csgov_content_components": "ed-guide-step2-image1, ed-guide-step2-content, ed-guide-step2-image2"
   },
   {
     "uuid": "ed-guide-step-03",
@@ -36,7 +36,7 @@
     "field_csgov_sbs_step_label": "Hero sekce",
     "field_csgov_sbs_annotation": "Výrazná hlavička s obrázkem nebo videem",
     "field_csgov_teaser": "Jak přidat a nastavit hero sekci - velkou výraznou hlavičku na začátku stránky.",
-    "field_csgov_content_components": "ed-guide-step3-content"
+    "field_csgov_content_components": "ed-guide-step3-image1, ed-guide-step3-content, ed-guide-step3-image2, ed-guide-step3-image3"
   },
   {
     "uuid": "ed-guide-step-04",
@@ -88,7 +88,7 @@
     "field_csgov_sbs_step_label": "Publikování",
     "field_csgov_sbs_annotation": "Stav, scheduler, URL a další nastavení",
     "field_csgov_teaser": "Nastavení stavu publikování, naplánované publikování a URL adresy.",
-    "field_csgov_content_components": "ed-guide-step7-content"
+    "field_csgov_content_components": "ed-guide-step7-image1, ed-guide-step7-content, ed-guide-step7-image2"
   },
   {
     "uuid": "ed-guide-step-08",
@@ -114,6 +114,6 @@
     "field_csgov_sbs_step_label": "Po publikování",
     "field_csgov_sbs_annotation": "Úpravy, revize a mazání obsahu",
     "field_csgov_teaser": "Jak upravit, vrátit změny nebo smazat již publikovaný obsah.",
-    "field_csgov_content_components": "ed-guide-step9-content, ed-guide-step9-accordion"
+    "field_csgov_content_components": "ed-guide-step9-content, ed-guide-step9-warning, ed-guide-step9-accordion"
   }
 ]

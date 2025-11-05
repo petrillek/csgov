@@ -9,6 +9,8 @@ migration_dependencies:
   required:
     - csgov_migrate_paragraph_csgov_content_editor_guide
     - csgov_migrate_paragraph_csgov_accordion_editor_guide
+    - csgov_migrate_paragraph_csgov_image_editor_guide
+    - csgov_migrate_paragraph_csgov_infopanel_editor_guide
 
 source:
   plugin: url
@@ -89,6 +91,8 @@ process:
           migration:
             - csgov_migrate_paragraph_csgov_content_editor_guide
             - csgov_migrate_paragraph_csgov_accordion_editor_guide
+            - csgov_migrate_paragraph_csgov_image_editor_guide
+            - csgov_migrate_paragraph_csgov_infopanel_editor_guide
           no_stub: true
     - plugin: callback
       callable: csgov_migrate_process_reference

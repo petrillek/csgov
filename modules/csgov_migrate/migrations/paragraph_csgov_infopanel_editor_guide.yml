@@ -1,15 +1,16 @@
-id: csgov_migrate_paragraph_csgov_infopanel
-label: 'Paragraph - Infopanel'
+id: csgov_migrate_paragraph_csgov_infopanel_editor_guide
+label: 'Paragraph - Infopanel - Editor Guide'
 migration_group: csgov_migrate
 migration_tags:
   - csgov_migrate
   - csgov_migrate_paragraph
+  - csgov_migrate_editor_guide
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: 'profiles/contrib/csgov/modules/csgov_migrate/data/paragraph_csgov_infopanel.json'
+  urls: 'profiles/contrib/csgov/modules/csgov_migrate/data/paragraph_csgov_infopanel_editor_guide.json'
   item_selector: ''
 
   ids:
