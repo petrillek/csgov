@@ -1,0 +1,29 @@
+<?php
+/**
+ * Implements hook_install().
+ */
+function csgov_nodes_install() {
+  // List of modules for installation.
+  $submodules = [
+    'csgov_event',
+    'csgov_homepage',
+    'csgov_landing_page',
+    'csgov_notifications',
+    'csgov_page',
+    'csgov_step_by_step_node',
+    'csgov_news',
+    'csgov_directory_place',
+    'csgov_directory_person',
+    'csgov_board',
+    // Modules dependent on others.
+    'csgov_gallery_node',
+  ];
+
+  foreach ($submodules as $module) {
+    // Check if module is already installed.
+    if (!\Drupal::moduleHandler()->moduleExists($module)) {
+      // Install the module.
+      \Drupal::service('module_installer')->install([$module], TRUE);
+    }
+  }
+}

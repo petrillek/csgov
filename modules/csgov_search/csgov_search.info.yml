@@ -1,0 +1,11 @@
+name: 'CSGOV search'
+type: module
+description: 'Adds serach api capabilities to CSGOV.'
+package: CSGOV
+core_version_requirement: ^11.2
+dependencies:
+  - csgov_board:csgov_board
+  - csgov_nodes:csgov_nodes
+  - drupal:views
+  - facets:facets
+  - search_api:search_api_db
