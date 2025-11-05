@@ -76,5 +76,83 @@
     "field_csgov_sbs_annotation": "Automatický seznam odkazů na jiný obsah",
     "field_csgov_teaser": "Seznam stránek vytvoří automatický přehled vybraných stránek s náhledy, úvodníky a odkazy.",
     "field_csgov_content_components": "a1000021-0001-0001-0001-000000000006"
+  },
+  {
+    "uuid": "a1000020-0001-0001-0001-000000000007",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Komponenta: Obrázek s textem",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "",
+    "field_csgov_sbs_step_label": "Obrázek + text",
+    "field_csgov_sbs_annotation": "Kombinace obrázku a textu vedle sebe",
+    "field_csgov_teaser": "Komponenta Obrázek s textem umožňuje vytvořit layout s obrázkem a textem umístěnými vedle sebe.",
+    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000007"
+  },
+  {
+    "uuid": "a1000020-0001-0001-0001-000000000008",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Komponenta: Dlaždice",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "",
+    "field_csgov_sbs_step_label": "Dlaždice",
+    "field_csgov_sbs_annotation": "Vizuální dlaždice s ikonami a textem",
+    "field_csgov_teaser": "Dlaždice slouží k vytvoření vizuálně atraktivního přehledu služeb, kategorií nebo odkazů s ikonami.",
+    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000008"
+  },
+  {
+    "uuid": "a1000020-0001-0001-0001-000000000009",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Komponenta: Přílohy",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "",
+    "field_csgov_sbs_step_label": "Přílohy",
+    "field_csgov_sbs_annotation": "Seznam souborů ke stažení",
+    "field_csgov_teaser": "Komponenta Přílohy vytvoří seznam souborů ke stažení (PDF, DOC, XLS) s ikonami podle typu souboru.",
+    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000009"
+  },
+  {
+    "uuid": "a1000020-0001-0001-0001-000000000010",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Komponenta: Statistický pruh",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "",
+    "field_csgov_sbs_step_label": "Statistiky",
+    "field_csgov_sbs_annotation": "Zobrazení číselných údajů a statistik",
+    "field_csgov_teaser": "Statistický pruh slouží k výraznému zobrazení číselných údajů, statistik a metrik.",
+    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000010"
+  },
+  {
+    "uuid": "a1000020-0001-0001-0001-000000000011",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Komponenta: Hero sekce",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "",
+    "field_csgov_sbs_step_label": "Hero",
+    "field_csgov_sbs_annotation": "Výrazná hlavička stránky s velkým obrázkem",
+    "field_csgov_teaser": "Hero sekce je výrazná hlavička na začátku stránky s velkým obrázkem, nadpisem a volitelným vyhledávacím polem.",
+    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000011"
+  },
+  {
+    "uuid": "a1000020-0001-0001-0001-000000000012",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Komponenta: Vložený seznam",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "",
+    "field_csgov_sbs_step_label": "Vložený seznam",
+    "field_csgov_sbs_annotation": "Dynamický seznam obsahu z jiných stránek",
+    "field_csgov_teaser": "Vložený seznam umožňuje automaticky zobrazit filtrovaný seznam obsahu (články, novinky, události) přímo na stránce.",
+    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000012"
   }
 ]
