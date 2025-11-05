@@ -1,0 +1,24 @@
+[
+  {
+    "uuid": "ed-guide-step8-accordion",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Kontrolní seznam před publikováním",
+    "field_csgov_p_accordion_items": "ed-guide-faq8-item-01, ed-guide-faq8-item-02, ed-guide-faq8-item-03, ed-guide-faq8-item-04, ed-guide-faq8-item-05, ed-guide-faq8-item-06, ed-guide-faq8-item-07, ed-guide-faq8-item-08, ed-guide-faq8-item-09",
+    "field_csgov_p_variant": "secondary",
+    "field_csgov_p_size": "xs",
+    "field_csgov_p_trigger_tag": "h3"
+  },
+  {
+    "uuid": "ed-guide-step9-accordion",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Často kladené otázky",
+    "field_csgov_p_accordion_items": "ed-guide-faq9-item-01, ed-guide-faq9-item-02, ed-guide-faq9-item-03, ed-guide-faq9-item-04, ed-guide-faq9-item-05, ed-guide-faq9-item-06",
+    "field_csgov_p_variant": "secondary",
+    "field_csgov_p_size": "xs",
+    "field_csgov_p_trigger_tag": "h3"
+  }
+]
