@@ -4,23 +4,29 @@
     "langcode": "cs",
     "status": "1",
     "field_csgov_p_infopanel_type": "tip",
-    "field_csgov_p_infopanel_title": "Časové pásmo",
-    "field_csgov_p_infopanel_text": "<p>Všechny časy jsou v <strong>časovém pásmu serveru</strong> (obvykle CET/CEST - středoevropský čas). Ujistěte se, že zadáváte správný čas.</p>"
+    "field_csgov_p_title": "Časové pásmo",
+    "field_csgov_p_content": "<p>Všechny časy jsou v <strong>časovém pásmu serveru</strong> (obvykle CET/CEST - středoevropský čas). Ujistěte se, že zadáváte správný čas.</p>",
+    "created": "1699000000",
+    "field_csgov_p_icon": ""
   },
   {
     "uuid": "a1016200-0001-0000-0000-000000000002",
     "langcode": "cs",
     "status": "1",
     "field_csgov_p_infopanel_type": "warning",
-    "field_csgov_p_infopanel_title": "Nesmíte zaškrtnout \"Uveřejněno\"",
-    "field_csgov_p_infopanel_text": "<p>Pokud chcete naplánovat zveřejnění v budoucnosti:</p><ul><li><strong>NEZAŠKRTÁVEJTE</strong> \"Uveřejněno\"</li><li>Nastavte pouze datum a čas v plánovači</li></ul><p>Pokud zaškrtnete \"Uveřejněno\", obsah se zveřejní okamžitě a plánování nebude fungovat.</p>"
+    "field_csgov_p_title": "Nesmíte zaškrtnout \"Uveřejněno\"",
+    "field_csgov_p_content": "<p>Pokud chcete naplánovat zveřejnění v budoucnosti:</p><ul><li><strong>NEZAŠKRTÁVEJTE</strong> \"Uveřejněno\"</li><li>Nastavte pouze datum a čas v plánovači</li></ul><p>Pokud zaškrtnete \"Uveřejněno\", obsah se zveřejní okamžitě a plánování nebude fungovat.</p>",
+    "created": "1699000000",
+    "field_csgov_p_icon": ""
   },
   {
     "uuid": "a1016200-0001-0000-0000-000000000003",
     "langcode": "cs",
     "status": "1",
     "field_csgov_p_infopanel_type": "tip",
-    "field_csgov_p_infopanel_title": "Kontrola naplánovaného obsahu",
-    "field_csgov_p_infopanel_text": "<p>Doporučujeme pravidelně kontrolovat:</p><ul><li>Že obsah byl zveřejněn v očekávaný čas</li><li>Že žádný důležitý obsah nebyl omylem naplánován na špatný čas</li><li>Že staré naplánované koncepty jsou aktualizovány nebo smazány</li></ul>"
+    "field_csgov_p_title": "Kontrola naplánovaného obsahu",
+    "field_csgov_p_content": "<p>Doporučujeme pravidelně kontrolovat:</p><ul><li>Že obsah byl zveřejněn v očekávaný čas</li><li>Že žádný důležitý obsah nebyl omylem naplánován na špatný čas</li><li>Že staré naplánované koncepty jsou aktualizovány nebo smazány</li></ul>",
+    "created": "1699000000",
+    "field_csgov_p_icon": ""
   }
 ]

@@ -4,39 +4,49 @@
     "langcode": "cs",
     "status": "1",
     "field_csgov_p_infopanel_type": "tip",
-    "field_csgov_p_infopanel_title": "Přístup k médiím",
-    "field_csgov_p_infopanel_text": "<p>Knihovnu médií najdete v hlavním menu administrace pod položkou <strong>Obsah → Média</strong>. Zde uvidíte seznam všech nahraných souborů.</p>"
+    "field_csgov_p_title": "Přístup k médiím",
+    "field_csgov_p_content": "<p>Knihovnu médií najdete v hlavním menu administrace pod položkou <strong>Obsah → Média</strong>. Zde uvidíte seznam všech nahraných souborů.</p>",
+    "created": "1699000000",
+    "field_csgov_p_icon": ""
   },
   {
     "uuid": "a1012200-0001-0000-0000-000000000002",
     "langcode": "cs",
     "status": "1",
     "field_csgov_p_infopanel_type": "tip",
-    "field_csgov_p_infopanel_title": "Doporučené vlastnosti obrázků",
-    "field_csgov_p_infopanel_text": "<p>Pro nejlepší výsledky:</p><ul><li><strong>Rozlišení:</strong> Minimálně 1200px na šířku pro hlavní obrázky</li><li><strong>Formát:</strong> JPG pro fotografie, PNG pro grafiky s průhledností</li><li><strong>Velikost:</strong> Optimalizujte obrázky před nahráním (max 2 MB)</li><li><strong>Pojmenování:</strong> Používejte popisné názvy místo \"IMG_1234.jpg\"</li></ul>"
+    "field_csgov_p_title": "Doporučené vlastnosti obrázků",
+    "field_csgov_p_content": "<p>Pro nejlepší výsledky:</p><ul><li><strong>Rozlišení:</strong> Minimálně 1200px na šířku pro hlavní obrázky</li><li><strong>Formát:</strong> JPG pro fotografie, PNG pro grafiky s průhledností</li><li><strong>Velikost:</strong> Optimalizujte obrázky před nahráním (max 2 MB)</li><li><strong>Pojmenování:</strong> Používejte popisné názvy místo \"IMG_1234.jpg\"</li></ul>",
+    "created": "1699000000",
+    "field_csgov_p_icon": ""
   },
   {
     "uuid": "a1012200-0001-0000-0000-000000000003",
     "langcode": "cs",
     "status": "1",
     "field_csgov_p_infopanel_type": "warning",
-    "field_csgov_p_infopanel_title": "Pozor na autorská práva",
-    "field_csgov_p_infopanel_text": "<p>Nahrávejte pouze dokumenty, ke kterým máte práva. Nesdílejte chráněné nebo důvěrné dokumenty bez oprávnění.</p>"
+    "field_csgov_p_title": "Pozor na autorská práva",
+    "field_csgov_p_content": "<p>Nahrávejte pouze dokumenty, ke kterým máte práva. Nesdílejte chráněné nebo důvěrné dokumenty bez oprávnění.</p>",
+    "created": "1699000000",
+    "field_csgov_p_icon": ""
   },
   {
     "uuid": "a1012200-0001-0000-0000-000000000004",
     "langcode": "cs",
     "status": "1",
     "field_csgov_p_infopanel_type": "tip",
-    "field_csgov_p_infopanel_title": "Kde získat SVG ikony",
-    "field_csgov_p_infopanel_text": "<p>Bezplatné SVG ikony najdete na těchto webech:</p><ul><li><strong>Font Awesome</strong> – fontawesome.com</li><li><strong>Material Icons</strong> – fonts.google.com/icons</li><li><strong>Feather Icons</strong> – feathericons.com</li></ul><p>Nebo si můžete nechat vytvořit vlastní ikony od designéra.</p>"
+    "field_csgov_p_title": "Kde získat SVG ikony",
+    "field_csgov_p_content": "<p>Bezplatné SVG ikony najdete na těchto webech:</p><ul><li><strong>Font Awesome</strong> – fontawesome.com</li><li><strong>Material Icons</strong> – fonts.google.com/icons</li><li><strong>Feather Icons</strong> – feathericons.com</li></ul><p>Nebo si můžete nechat vytvořit vlastní ikony od designéra.</p>",
+    "created": "1699000000",
+    "field_csgov_p_icon": ""
   },
   {
     "uuid": "a1012200-0001-0000-0000-000000000005",
     "langcode": "cs",
     "status": "1",
     "field_csgov_p_infopanel_type": "tip",
-    "field_csgov_p_infopanel_title": "Pravidelná údržba",
-    "field_csgov_p_infopanel_text": "<p>Doporučujeme pravidelně kontrolovat knihovnu médií a odstraňovat:</p><ul><li>Duplicitní soubory</li><li>Staré a nepoužívané soubory</li><li>Soubory s nevhodným pojmenováním</li></ul><p>To pomáhá udržet knihovnu přehlednou a efektivní.</p>"
+    "field_csgov_p_title": "Pravidelná údržba",
+    "field_csgov_p_content": "<p>Doporučujeme pravidelně kontrolovat knihovnu médií a odstraňovat:</p><ul><li>Duplicitní soubory</li><li>Staré a nepoužívané soubory</li><li>Soubory s nevhodným pojmenováním</li></ul><p>To pomáhá udržet knihovnu přehlednou a efektivní.</p>",
+    "created": "1699000000",
+    "field_csgov_p_icon": ""
   }
 ]
