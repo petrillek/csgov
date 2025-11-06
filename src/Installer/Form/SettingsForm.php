@@ -32,6 +32,12 @@ class SettingsForm extends FormBase {
       '#title' => $this->t('Process default content migration'),
       '#default_value' => $install_state['csgov_migrate'] ?? 1,
     ];
+    $form['migrate']['csgov_install_guides'] = [
+      '#type' => 'checkbox',
+      '#title' => $this->t('Install guide documentation'),
+      '#description' => $this->t('Installs step-by-step guides for content editors covering login, user management, and content creation.'),
+      '#default_value' => $install_state['csgov_guides'] ?? 1,
+    ];
 
     $form['actions'] = ['#type' => 'actions'];
     $form['actions']['submit'] = [
@@ -49,6 +55,7 @@ class SettingsForm extends FormBase {
   public function submitForm(array &$form, FormStateInterface $form_state) {
     $build_info = $form_state->getBuildInfo();
     $build_info['args'][0]['parameters']['csgov_migrate'] = $form_state->getValue('csgov_install_migrate');
+    $build_info['args'][0]['parameters']['csgov_guides'] = $form_state->getValue('csgov_install_guides');
     $form_state->setBuildInfo($build_info);
   }
 

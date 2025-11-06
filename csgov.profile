@@ -26,6 +26,13 @@ function csgov_install_tasks(&$install_state) {
     ];
   }
 
+  if (!empty($install_state['parameters']['csgov_guides'])) {
+    $tasks['csgov_install_guides_batch'] = [
+      'display_name' => '- ' . t('Guide documentation'),
+      'type' => 'batch',
+    ];
+  }
+
   return $tasks;
 }
 
@@ -56,4 +63,44 @@ function csgov_install_migrate_batch(&$install_state) {
     ->set('page.front', '/node/1')->save(TRUE);
   // Process migrations.
   return _csgov_migrate_get_batch('import');
+}
+
+/**
+ * Installs guide documentation module during installation.
+ *
+ * @param $install_state
+ *   An array of information about the current installation state.
+ *
+ * @return array|null
+ *   The batch definition.
+ */
+function csgov_install_guides_batch(&$install_state) {
+  // Install the guides module which will automatically import guides via hook_install().
+  \Drupal::service('module_installer')->install(['csgov_guides']);
+
+  // Return empty batch since hook_install() handles the import.
+  return [
+    'title' => t('Installing guide documentation'),
+    'operations' => [],
+    'finished' => '_csgov_guides_install_finished',
+  ];
+}
+
+/**
+ * Batch finished callback for guide module installation.
+ *
+ * @param bool $success
+ *   Whether the batch completed successfully.
+ * @param array $results
+ *   The results array.
+ * @param array $operations
+ *   The operations array.
+ */
+function _csgov_guides_install_finished($success, $results, $operations) {
+  if ($success) {
+    \Drupal::messenger()->addMessage(t('Guide documentation module has been installed.'));
+  }
+  else {
+    \Drupal::messenger()->addError(t('An error occurred while installing the guide documentation module.'));
+  }
 }

@@ -1,0 +1,11 @@
+[
+  {
+    "uuid": "a1006005-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Tip: Pravidlo jedné akce",
+    "field_csgov_p_content": "<p>Úspěšné vstupní stránky mají vždy <strong>jeden jasný cíl</strong>. Nepřeplňujte stránku mnoha různými odkazy a akcemi - mohlo by to návštěvníky rozptýlit. Zvolte jednu primární akci (např. registrace, objednávka, stažení) a celou stránku zaměřte na přesvědčení návštěvníka k této akci. Sekundární akce (jako \"Zjistit více\") použijte jen jako alternativu pro ty, kdo ještě nejsou připraveni k hlavnímu kroku.</p>",
+    "field_csgov_p_variant": "info"
+  }
+]

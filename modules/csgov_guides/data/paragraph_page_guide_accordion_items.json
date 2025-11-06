@@ -1,0 +1,119 @@
+[
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Je název stránky výstižný a jedinečný?",
+    "field_csgov_p_content": "<p>Zkontrolujte, že název jasně vystihuje obsah stránky a odlišuje se od ostatních stránek na webu. Ideální délka je do 60 znaků.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Je URL adresa správně nastavená?",
+    "field_csgov_p_content": "<p>Ověřte, že URL adresa je krátká, srozumitelná a neobsahuje diakritiku nebo mezery. Používejte pomlčky místo mezer.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Je vyplněn úvodní text (teaser)?",
+    "field_csgov_p_content": "<p>Úvodník by měl být stručný (150-320 znaků) a výstižně popisovat obsah stránky. Zobrazuje se v přehledech a při sdílení.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000004",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Je přidán hlavní obrázek s alternativním textem?",
+    "field_csgov_p_content": "<p>Hlavní obrázek by měl být kvalitní (min. 1200×630 px) a relevantní k obsahu. Nezapomeňte vyplnit alternativní text pro přístupnost.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000005",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Je obsah přehledně strukturovaný?",
+    "field_csgov_p_content": "<p>Používejte nadpisy (H2, H3) pro rozdělení textu, odstavce pro čitelnost a seznamy pro výčty. Střídejte textové bloky s obrázky a jinými komponentami.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000006",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Jsou SEO metadata vyplněna?",
+    "field_csgov_p_content": "<p>Zkontrolujte meta titulek (50-60 znaků) a meta popisek (150-160 znaků). Pomáhají s umístěním ve vyhledávání a zobrazením náhledu.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000007",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Prohlédli jste si náhled na všech zařízeních?",
+    "field_csgov_p_content": "<p>Použijte funkci náhledu a zkontrolujte zobrazení na desktopu, tabletu i mobilu. Ověřte, že text je čitelný a komponenty fungují správně.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000008",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Jaký je rozdíl mezi Stránkou a Vstupní stránkou?",
+    "field_csgov_p_content": "<p><strong>Stránka</strong> je běžný obsah s textem, obrázky a dalšími komponentami. Používá se pro většinu obsahových stránek (kontakt, o nás, služby).</p><p><strong>Vstupní stránka</strong> (Landing Page) je speciální typ stránky určený pro kampaně nebo hlavní sekce. Má bohatší designové možnosti, ale složitější správu. Používejte ji jen pro důležité vstupní body.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000009",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Kdy použít Hero sekci?",
+    "field_csgov_p_content": "<p>Hero sekce je vhodná pro:</p><ul><li>Hlavní vstupní stránky sekcí</li><li>Důležité kampaně a akce</li><li>Stránky, kde chcete výrazně upoutat pozornost</li></ul><p>Nepoužívejte Hero na běžných obsahových stránkách (kontakt, aktuality), kde návštěvníci hledají konkrétní informace.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000010",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Mohu změnit URL adresu u už publikované stránky?",
+    "field_csgov_p_content": "<p>Technicky ano, ale <strong>nedoporučujeme to</strong>. Změna URL způsobí, že všechny existující odkazy (z jiných stránek, záložky, sdílení) přestanou fungovat.</p><p>Pokud je změna nutná:</p><ol><li>Poznamenejte si starou URL</li><li>Změňte URL v administraci</li><li>Požádejte správce o vytvoření přesměrování (redirect) ze staré URL na novou</li></ol>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000011",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Jak přesunout stránku do jiné sekce webu?",
+    "field_csgov_p_content": "<p>URL adresa určuje umístění stránky. Pro přesunutí:</p><ol><li>Upravte URL alias podle nového umístění (např. z <code>/kontakt</code> na <code>/o-uradu/kontakt</code>)</li><li>Uložte změny</li><li>Požádejte správce o vytvoření přesměrování</li><li>Aktualizujte odkazy v menu a z jiných stránek</li></ol><p><strong>Alternativa:</strong> Vytvořte novou stránku na správném místě a zkopírujte do ní obsah.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000012",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Jak vrátit starší verzi stránky?",
+    "field_csgov_p_content": "<p>Systém automaticky ukládá všechny revize (verze) stránky:</p><ol><li>Otevřete stránku k úpravě</li><li>Klikněte na záložku <strong>\"Revize\"</strong></li><li>V seznamu najdete všechny verze s datem a autorem</li><li>Klikněte na <strong>\"Zobrazit\"</strong> u požadované verze pro náhled</li><li>Pokud chcete tuto verzi obnovit, klikněte <strong>\"Obnovit\"</strong></li><li>Potvrďte a uložte</li></ol>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1005004-0001-0000-0000-000000000013",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Jak přidat stránku do menu?",
+    "field_csgov_p_content": "<p>Po vytvoření stránky ji můžete přidat do navigačního menu:</p><ol><li>Přejděte na <strong>Struktura</strong> → <strong>Menu</strong></li><li>Vyberte menu, kam chcete položku přidat (např. Hlavní navigace)</li><li>Klikněte na <strong>\"Přidat odkaz\"</strong></li><li>Do pole \"Název\" zadejte text, který se zobrazí v menu</li><li>Do pole \"Odkaz\" zadejte URL vaší stránky (např. <code>/kontakt</code>)</li><li>Nastavte pořadí a případně nadřazenou položku</li><li>Uložte</li></ol><p><strong>Tip:</strong> Některé typy stránek nabízejí zaškrtávátko \"Vytvořit položku v menu\" přímo ve formuláři stránky.</p>",
+    "field_csgov_p_expanded": "0"
+  }
+]

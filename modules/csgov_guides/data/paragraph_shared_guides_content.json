@@ -1,0 +1,38 @@
+[
+  {
+    "uuid": "a1009101-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Nastavení Hero sekce",
+    "field_csgov_p_content": "<h3>Co je Hero sekce?</h3><p>Hero sekce je efektní vizuální úvod stránky - velký obrázek nebo video na pozadí s nadpisem, textem a tlačítkem k akci. Hodí se zejména pro důležité stránky (vstupní, kampaně, hlavní sekce).</p><h3>Aktivace Hero sekce</h3><p>V sekci <strong>\"Hero\"</strong> zaškrtněte políčko <strong>\"Zobrazit hero sekci\"</strong>. Zobrazí se formulář pro nastavení.</p><h3>Vyplnění Hero komponenty</h3><p><strong>Nadpis:</strong> Hlavní nadpis, který se zobrazí přes obrázek. Měl by být krátký a výstižný (do 60 znaků).</p><p><strong>Perex:</strong> Kratší doplňující text pod nadpisem (do 160 znaků). Je volitelný.</p><p><strong>Obrázek na pozadí:</strong> Klikněte na \"Přidat médium\" a vyberte obrázek. Doporučené rozměry: minimálně 1920 × 600 pixelů.</p><p><strong>Tlačítko:</strong> Můžete přidat jedno nebo dvě tlačítka pro akce:</p><ul><li><strong>Text tlačítka</strong> - např. \"Více informací\", \"Kontaktujte nás\"</li><li><strong>URL odkaz</strong> - kam tlačítko povede (např. <code>/kontakt</code> nebo <code>https://externistranka.cz</code>)</li></ul><h3>Nastavení vzhledu</h3><p><strong>Pozice obsahu:</strong> Vyberte, kde se má text zobrazit - vlevo, uprostřed nebo vpravo.</p><p><strong>Výška Hero:</strong> Můžete nastavit malou, střední nebo velkou výšku sekce.</p><p><strong>Překrytí:</strong> Ztmavení pozadí zlepšuje čitelnost textu. Vyberte stupeň překrytí (žádné, slabé, střední, silné).</p><h3>Kdy Hero nepoužívat</h3><p>Hero sekce není vhodná pro všechny stránky. Nepoužívejte ji na:</p><ul><li>Běžných obsahových stránkách (aktuality, události)</li><li>Stránkách s mnoho textu (dlouhé články)</li><li>Stránkách, kde je potřeba rychlý přístup k informacím</li></ul>",
+    "field_csgov_p_background": ""
+  },
+  {
+    "uuid": "a1009101-0002-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Optimalizace pro vyhledávače (SEO)",
+    "field_csgov_p_content": "<h3>Proč je SEO důležité?</h3><p>Dobře nastavená SEO metadata pomáhají:</p><ul><li>Lépe se umístit ve výsledcích vyhledávání (Google, Seznam)</li><li>Zvýšit návštěvnost webu</li><li>Správně zobrazit náhled při sdílení na sociálních sítích</li></ul><h3>Meta titulek (Meta title)</h3><p>V postranním panelu najdete sekci <strong>\"SEO\"</strong>. Pole <strong>\"Meta titulek\"</strong> se zobrazuje:</p><ul><li>V záhlaví prohlížeče (záložka)</li><li>Ve výsledcích vyhledávání jako modrý odkaz</li><li>Při sdílení na Facebooku, Twitteru atd.</li></ul><p><strong>Doporučení:</strong></p><ul><li>Délka: 50-60 znaků</li><li>Uveďte klíčové slovo, pro které chcete být nalezeni</li><li>Buďte výstižní a přesní</li><li>Pokud nevyplníte, použije se název obsahu</li></ul><p><strong>Příklad:</strong> \"Kontaktní údaje - Městský úřad Brno\"</p><h3>Meta popisek (Meta description)</h3><p>Pole <strong>\"Meta popisek\"</strong> se zobrazuje pod titulkem ve výsledcích vyhledávání. Měl by návštěvníka přesvědčit, aby klikl na váš výsledek.</p><p><strong>Doporučení:</strong></p><ul><li>Délka: 150-160 znaků</li><li>Stručně shrňte obsah</li><li>Zahrňte klíčová slova</li><li>Buďte konkrétní, vyhněte se obecným frázím</li></ul><p><strong>Příklad:</strong> \"Najděte telefon, email, otevírací dobu úřadu a adresu pro osobní návštěvu. Mapa s navigací a kontakty na jednotlivá oddělení.\"</p><h3>Kanonická URL</h3><p>Pokud máte stejný obsah na více URL adresách, nastavte kanonickou URL, aby vyhledávače věděly, která je hlavní. Ve většině případů ponechte prázdné (použije se aktuální URL).</p>",
+    "field_csgov_p_background": ""
+  },
+  {
+    "uuid": "a1009101-0003-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Kontrola před publikováním",
+    "field_csgov_p_content": "<h3>Použijte náhled</h3><p>Před publikováním klikněte na tlačítko <strong>\"Náhled\"</strong> (ikona oka). Otevře se nová záložka s náhledem, jak bude obsah vypadat na webu.</p><p>Zkontrolujte náhled na různých zařízeních:</p><ul><li><strong>Desktop</strong> - standardní počítač (výchozí zobrazení)</li><li><strong>Tablet</strong> - iPad a podobná zařízení</li><li><strong>Mobil</strong> - smartphony (nejdůležitější!)</li></ul><p>Pro přepínání mezi zařízeními použijte nástroje prohlížeče (F12).</p><h3>Co kontrolovat v náhledu</h3><ul><li><strong>Nadpisy</strong> - jsou správně hierarchicky uspořádané?</li><li><strong>Text</strong> - je čitelný, nejsou v něm překlepy?</li><li><strong>Obrázky</strong> - zobrazují se správně, mají popisky?</li><li><strong>Odkazy</strong> - fungují a vedou na správné místo?</li><li><strong>Mobilní zobrazení</strong> - text je čitelný, tlačítka jsou dostatečně velká?</li><li><strong>Struktura</strong> - obsah dává smysl, je přehledný?</li></ul><h3>Kontrolní seznam najdete níže</h3><p>Pod tímto textem je podrobný kontrolní seznam všech důležitých bodů, které byste měli zkontrolovat před publikováním.</p><h3>Nastavení publikování</h3><p>V postranním panelu najdete sekci <strong>\"Publikování\"</strong>:</p><ul><li><strong>Zaškrtnuto \"Publikováno\"</strong> - obsah se ihned zveřejní</li><li><strong>Nezaškrtnuto</strong> - obsah se uloží jako koncept (draft)</li><li><strong>Naplánované publikování</strong> - vyplňte datum a čas pro pozdější automatické zveřejnění</li></ul><h3>Uložení a publikování</h3><p>Když jste s kontrolou hotovi, klikněte na tlačítko <strong>\"Uložit\"</strong> v dolní části formuláře. Obsah se podle nastavení buď publikuje, nebo uloží jako koncept.</p>",
+    "field_csgov_p_background": ""
+  },
+  {
+    "uuid": "a1009101-0004-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Správa publikovaného obsahu",
+    "field_csgov_p_content": "<h3>Úprava obsahu</h3><p>Publikovaný obsah můžete kdykoliv upravit:</p><ol><li>Přejděte na <strong>Obsah</strong> v hlavním menu</li><li>Najděte položku v seznamu (použijte vyhledávání nebo filtry)</li><li>Klikněte na <strong>\"Upravit\"</strong></li><li>Proveďte změny</li><li>Klikněte na <strong>\"Uložit\"</strong></li></ol><p>Změny se projeví <strong>okamžitě</strong> na veřejném webu.</p><h3>Práce s revizemi</h3><p>Systém automaticky ukládá všechny verze obsahu (revize). Můžete se vrátit k libovolné předchozí verzi:</p><ol><li>Otevřete obsah k úpravě</li><li>Klikněte na záložku <strong>\"Revize\"</strong></li><li>Zobrazí se historie všech změn s datem, časem a autorem</li><li>U požadované verze klikněte na <strong>\"Zobrazit\"</strong> pro náhled</li><li>Pokud chcete tuto verzi obnovit, klikněte na <strong>\"Obnovit\"</strong></li><li>Potvrďte a uložte</li></ol><p><strong>Tip:</strong> Do pole \"Zpráva k revizi\" pište poznámku o tom, co jste změnili. Pomůže vám to později najít správnou verzi.</p><h3>Skrytí obsahu z publikace</h3><p>Pokud chcete obsah dočasně skrýt bez jeho smazání:</p><ol><li>Otevřete obsah k úpravě</li><li>V postranním panelu <strong>odškrtněte</strong> \"Publikováno\"</li><li>Klikněte na \"Uložit\"</li></ol><p>Obsah zmizí z webu, ale zůstane v systému. Můžete ho později opět publikovat.</p><h3>Smazání obsahu</h3><p>V seznamu obsahu vyberte u položky akci <strong>\"Smazat\"</strong> a potvrďte. <strong>Smazání je nevratné!</strong></p><p><strong>Doporučení:</strong> Místo smazání raději obsah <strong>skryjte</strong> vypnutím volby \"Publikováno\". Můžete ho pak později opět použít nebo z něj vyjmout obsah.</p>",
+    "field_csgov_p_background": ""
+  }
+]

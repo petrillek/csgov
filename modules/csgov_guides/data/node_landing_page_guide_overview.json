@@ -1,0 +1,12 @@
+[
+  {
+    "uuid": "a1006000-0000-0000-0000-000000000000",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Jak vytvořit vstupní stránku",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_teaser": "Krok za krokem průvodce vytvořením vstupní stránky (landing page) s rozšířenými designovými možnostmi v redakčním systému CS Gov. Vstupní stránku vytvoříte v sekci <strong>Obsah → Přidat obsah → <a href=\"/node/add/csgov_landing_page\">Vstupní stránka</a></strong>.",
+    "field_csgov_sbs_items": "a1006000-0001-0000-0000-000000000001, a1006000-0001-0000-0000-000000000002, a1006000-0001-0000-0000-000000000003, a1006000-0001-0000-0000-000000000004, a1006000-0001-0000-0000-000000000005"
+  }
+]

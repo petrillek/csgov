@@ -1,0 +1,54 @@
+[
+  {
+    "uuid": "a1010000-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Uživatelské role a oprávnění",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "a1010000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Role a oprávnění",
+    "field_csgov_sbs_annotation": "Pochopení rolí v systému",
+    "field_csgov_teaser": "Systém má dvě hlavní uživatelské role s různými úrovněmi přístupu: Editor pro běžnou správu obsahu a Administrator pro plnou kontrolu systému.",
+    "field_csgov_content_components": "a1010001-0001-0000-0000-000000000001, a1010005-0001-0000-0000-000000000001"
+  },
+  {
+    "uuid": "a1010000-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Vytvoření nového uživatele",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "a1010000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Vytvoření uživatele",
+    "field_csgov_sbs_annotation": "Jak přidat nový účet",
+    "field_csgov_teaser": "Podrobný návod, jak vytvořit nový uživatelský účet, vyplnit potřebné údaje a přiřadit správnou roli.",
+    "field_csgov_content_components": "a1010001-0001-0000-0000-000000000002, a1010002-0001-0000-0000-000000000001, a1010005-0001-0000-0000-000000000002"
+  },
+  {
+    "uuid": "a1010000-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Správa existujících uživatelů",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "a1010000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Správa uživatelů",
+    "field_csgov_sbs_annotation": "Editace, deaktivace, resetování hesla",
+    "field_csgov_teaser": "Jak upravovat profily existujících uživatelů, měnit jejich role, resetovat hesla a v případě potřeby účty deaktivovat.",
+    "field_csgov_content_components": "a1010001-0001-0000-0000-000000000003, a1010002-0001-0000-0000-000000000002"
+  },
+  {
+    "uuid": "a1010000-0001-0000-0000-000000000004",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Zabezpečení a nejlepší postupy",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_sbs_parent": "a1010000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Zabezpečení",
+    "field_csgov_sbs_annotation": "Bezpečnostní doporučení",
+    "field_csgov_teaser": "Doporučené postupy pro bezpečnou správu uživatelských účtů: silná hesla, pravidelné kontroly, zásada minimálních oprávnění.",
+    "field_csgov_content_components": "a1010001-0001-0000-0000-000000000004, a1010003-0001-0000-0000-000000000001"
+  }
+]

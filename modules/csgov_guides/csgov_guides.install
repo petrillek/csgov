@@ -1,0 +1,51 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the CSGOV Guides module.
+ */
+
+use Drupal\migrate\MigrateExecutable;
+use Drupal\migrate\MigrateMessage;
+
+/**
+ * Implements hook_install().
+ */
+function csgov_guides_install() {
+  // Import all guide migrations automatically
+  $migration_manager = \Drupal::service('plugin.manager.migration');
+  $migrations = $migration_manager->createInstancesByTag('csgov_guides');
+
+  foreach ($migrations as $migration_id => $migration) {
+    $migration->getIdMap()->prepareUpdate();
+    $executable = new MigrateExecutable($migration, new MigrateMessage());
+    $result = $executable->import();
+
+    \Drupal::logger('csgov_guides')->info(
+      'Imported migration @id with result @result',
+      ['@id' => $migration_id, '@result' => $result]
+    );
+  }
+
+  \Drupal::messenger()->addMessage(t('Guide documentation has been installed successfully.'));
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function csgov_guides_uninstall() {
+  // Rollback all guide migrations on uninstall
+  $migration_manager = \Drupal::service('plugin.manager.migration');
+  $migrations = $migration_manager->createInstancesByTag('csgov_guides');
+
+  // Rollback in reverse order
+  $migrations = array_reverse($migrations);
+
+  foreach ($migrations as $migration_id => $migration) {
+    $migration->getIdMap()->prepareUpdate();
+    $executable = new MigrateExecutable($migration, new MigrateMessage());
+    $executable->rollback();
+
+    \Drupal::logger('csgov_guides')->info('Rolled back migration @id', ['@id' => $migration_id]);
+  }
+}

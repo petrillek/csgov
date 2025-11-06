@@ -1,0 +1,12 @@
+[
+  {
+    "uuid": "a1011000-0000-0000-0000-000000000000",
+    "langcode": "cs",
+    "status": "1",
+    "title": "Přihlášení a orientace v administraci",
+    "created": "1730822400",
+    "changed": "1730822400",
+    "field_csgov_teaser": "Průvodce prvním přihlášením do administračního rozhraní a základní orientací v systému. Naučíte se přistupovat k administraci, pohybovat se v menu a najít potřebné funkce.",
+    "field_csgov_sbs_items": "a1011000-0001-0000-0000-000000000001, a1011000-0001-0000-0000-000000000002, a1011000-0001-0000-0000-000000000003, a1011000-0001-0000-0000-000000000004"
+  }
+]

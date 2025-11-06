@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "a1010005-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Tip: Kdy použít roli Editor vs Administrator",
+    "field_csgov_p_content": "<p>Pokud se rozhodujete, jakou roli přiřadit: <strong>Editor</strong> je vhodný pro 95% případů běžné správy obsahu. Role <strong>Administrator</strong> by měla být vyhrazena pouze pro technické administrátory odpovědné za provoz a bezpečnost systému. Pokud si nejste jisti, začněte s rolí Editor - vždy můžete roli později povýšit, pokud bude potřeba.</p>",
+    "field_csgov_p_variant": "info"
+  },
+  {
+    "uuid": "a1010005-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Upozornění: Bezpečné sdílení hesel",
+    "field_csgov_p_content": "<p><strong>NIKDY</strong> nesdílejte hesla prostřednictvím běžného e-mailu! E-maily nejsou šifrované a mohou být při přenosu odposlouchány. Použijte bezpečné metody: osobní předání, telefonní hovor, šifrovaný messenger, nebo nejlépe - pošlete uživateli odkaz pro nastavení vlastního hesla. Při vytvoření účtu zaškrtněte \"Vyžadovat změnu hesla při příštím přihlášení\" aby si uživatel nastavil vlastní heslo, které bude znát pouze on.</p>",
+    "field_csgov_p_variant": "warning"
+  }
+]
