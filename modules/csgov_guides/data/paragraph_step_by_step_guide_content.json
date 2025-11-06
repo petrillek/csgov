@@ -1,0 +1,47 @@
+[
+  {
+    "uuid": "a1018100-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Co jsou průvodci krok za krokem?",
+    "field_csgov_p_content": "<p>Průvodci krok za krokem jsou strukturované návody, které vedou uživatele postupně přes komplexní úkoly. Skládají se ze dvou částí:</p><ul><li><strong>Přehledová stránka</strong> (Overview) – Hlavní stránka s názvem, popisem a seznamem všech kroků</li><li><strong>Jednotlivé kroky</strong> (Steps) – Samostatné stránky s podrobným obsahem pro každý krok</li></ul>",
+    "field_csgov_p_background": ""
+  },
+  {
+    "uuid": "a1018100-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Vytvoření přehledové stránky",
+    "field_csgov_p_content": "<p>Přejděte na <strong>Obsah → Přidat obsah → Průvodce - přehled</strong> a vyplňte:</p><ul><li><strong>Název</strong> – např. \"Jak vytvořit novinku\"</li><li><strong>Úvodník</strong> – Krátký popis účelu průvodce</li><li><strong>Hlavní obrázek</strong> – Nepovinný ilustrační obrázek</li><li><strong>Položky kroků</strong> – Sem později přidáte odkazy na jednotlivé kroky (zatím nechte prázdné)</li></ul><p>Uložte stránku a poznamenejte si její ID z URL (např. /node/123).</p>",
+    "field_csgov_p_background": ""
+  },
+  {
+    "uuid": "a1018100-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Vytváření kroků",
+    "field_csgov_p_content": "<p>Pro každý krok vytvořte novou stránku přes <strong>Obsah → Přidat obsah → Průvodce - krok</strong>:</p><ul><li><strong>Název</strong> – Název kroku (např. \"Základní informace\")</li><li><strong>Nadřazený průvodce</strong> – Vyberte přehledovou stránku, kterou jste vytvořili</li><li><strong>Popisek kroku</strong> – Krátký název pro navigaci</li><li><strong>Anotace</strong> – Velmi stručný popis (zobrazí se v seznamu kroků)</li><li><strong>Úvodník</strong> – Delší popis kroku</li><li><strong>Obsahové komponenty</strong> – Přidejte text, obrázky, seznamy, infopanely atd.</li></ul>",
+    "field_csgov_p_background": ""
+  },
+  {
+    "uuid": "a1018100-0001-0000-0000-000000000004",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Propojení kroků",
+    "field_csgov_p_content": "<p>Po vytvoření všech kroků se vraťte k přehledové stránce:</p><ol><li>Upravte přehledovou stránku</li><li>V poli <strong>Položky kroků</strong> začněte psát názvy kroků</li><li>Systém nabídne existující kroky – vyberte je v požadovaném pořadí</li><li>Přidejte všechny kroky ve správném pořadí (1, 2, 3...)</li><li>Uložte</li></ol><p>Kroky se automaticky propojí a vytvoří se navigace mezi nimi.</p>",
+    "field_csgov_p_background": ""
+  },
+  {
+    "uuid": "a1018100-0001-0000-0000-000000000005",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Kontrola a testování",
+    "field_csgov_p_content": "<p>Před publikováním zkontrolujte:</p><ul><li>Všechny kroky jsou správně propojeny s přehledem</li><li>Pořadí kroků je logické</li><li>Navigace mezi kroky funguje (tlačítka \"Další\" a \"Předchozí\")</li><li>Obsah je srozumitelný a kompletní</li><li>Obrázky a odkazy fungují</li></ul><p>Poté publikujte přehledovou stránku i všechny kroky.</p>",
+    "field_csgov_p_background": ""
+  }
+]
