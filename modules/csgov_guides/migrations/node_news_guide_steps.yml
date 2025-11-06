@@ -1,0 +1,101 @@
+id: csgov_migrate_node_news_guide_steps
+label: 'Node - News Guide - Steps'
+migration_group: csgov_guides
+migration_tags:
+  - csgov_guides
+  - csgov_migrate_node
+  - csgov_migrate_editor_guide
+migration_dependencies:
+  required:
+    - csgov_migrate_paragraph_news_guide_content
+    - csgov_migrate_paragraph_news_guide_accordion
+    - csgov_migrate_paragraph_news_guide_images
+    - csgov_migrate_paragraph_news_guide_infopanel
+
+source:
+  plugin: url
+  data_fetcher_plugin: file
+  data_parser_plugin: json
+  urls: 'profiles/contrib/csgov/modules/csgov_guides/data/node_news_guide_steps.json'
+  item_selector: ''
+
+  ids:
+    uuid:
+      type: string
+
+  fields:
+    - name: uuid
+      selector: uuid
+    - name: langcode
+      selector: langcode
+    - name: status
+      selector: status
+    - name: title
+      selector: title
+    - name: created
+      selector: created
+    - name: changed
+      selector: changed
+    - name: field_csgov_sbs_parent
+      selector: field_csgov_sbs_parent
+    - name: field_csgov_sbs_step_label
+      selector: field_csgov_sbs_step_label
+    - name: field_csgov_sbs_annotation
+      selector: field_csgov_sbs_annotation
+    - name: field_csgov_teaser
+      selector: field_csgov_teaser
+    - name: field_csgov_content_components
+      selector: field_csgov_content_components
+
+destination:
+  plugin: entity:node
+  default_bundle: csgov_step_by_step
+
+process:
+  uuid: uuid
+  nid:
+    plugin: entity_lookup
+    source: uuid
+    entity_type: node
+    value_key: uuid
+  langcode: langcode
+  status: status
+  uid:
+    plugin: default_value
+    default_value: 0
+  title: title
+  created: created
+  changed: changed
+
+  field_csgov_sbs_parent:
+    - plugin: default_value
+      source: field_csgov_sbs_parent
+      default_value: null
+    - plugin: migration_lookup
+      migration: csgov_migrate_node_news_guide_overview
+      no_stub: true
+
+  field_csgov_sbs_step_label: field_csgov_sbs_step_label
+  field_csgov_sbs_annotation: field_csgov_sbs_annotation
+
+  field_csgov_teaser/value: field_csgov_teaser
+  field_csgov_teaser/format:
+    plugin: default_value
+    default_value: basic_html
+
+  field_csgov_content_components:
+    - plugin: callback
+      source: field_csgov_content_components
+      callable: csgov_migrate_process_multiple
+    - plugin: sub_process
+      process:
+        - plugin: migration_lookup
+          source: value
+          migration:
+            - csgov_migrate_paragraph_news_guide_content
+            - csgov_migrate_paragraph_news_guide_accordion
+            - csgov_migrate_paragraph_news_guide_images
+            - csgov_migrate_paragraph_news_guide_infopanel
+          no_stub: true
+    - plugin: callback
+      callable: csgov_migrate_process_reference
