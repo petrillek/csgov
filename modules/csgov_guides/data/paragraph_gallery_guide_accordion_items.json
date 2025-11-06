@@ -3,42 +3,54 @@
     "uuid": "a1013400-0001-0000-0000-000000000001",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Kolik obrázků můžu přidat do jedné galerie?",
-    "field_csgov_p_accordion_item_text": "<p>Technicky neexistuje žádný limit, ale doporučujeme:</p><ul><li><strong>10-50 obrázků</strong> – Ideální rozsah pro jednu galerii</li><li><strong>Více než 50</strong> – Zvažte rozdělení do více galerií</li></ul><p>Velké množství obrázků může zpomalit načítání stránky.</p>"
+    "field_csgov_p_title": "Kolik obrázků můžu přidat do jedné galerie?",
+    "field_csgov_p_content": "<p>Technicky neexistuje žádný limit, ale doporučujeme:</p><ul><li><strong>10-50 obrázků</strong> – Ideální rozsah pro jednu galerii</li><li><strong>Více než 50</strong> – Zvažte rozdělení do více galerií</li></ul><p>Velké množství obrázků může zpomalit načítání stránky.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1013400-0001-0000-0000-000000000002",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Můžu nahrát obrázky všechny najednou?",
-    "field_csgov_p_accordion_item_text": "<p>Ano! V poli <strong>Obrázky galerie</strong> můžete:</p><ul><li>Vybrat více souborů najednou v dialogu pro výběr souborů</li><li>Přetáhnout více obrázků do okna nahrávání (drag & drop)</li></ul><p>Doporučujeme nahrávat max 20 obrázků najednou, aby nedošlo k chybě při nahrávání.</p>"
+    "field_csgov_p_title": "Můžu nahrát obrázky všechny najednou?",
+    "field_csgov_p_content": "<p>Ano! V poli <strong>Obrázky galerie</strong> můžete:</p><ul><li>Vybrat více souborů najednou v dialogu pro výběr souborů</li><li>Přetáhnout více obrázků do okna nahrávání (drag & drop)</li></ul><p>Doporučujeme nahrávat max 20 obrázků najednou, aby nedošlo k chybě při nahrávání.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1013400-0001-0000-0000-000000000003",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Jak změním pořadí obrázků v galerii?",
-    "field_csgov_p_accordion_item_text": "<p>Pořadí obrázků můžete změnit velmi snadno:</p><ol><li>Přejděte na <strong>Upravit</strong> galerii</li><li>V sekci <strong>Obrázky galerie</strong> najděte seznam nahraných obrázků</li><li>Chyťte obrázek za ikonu křížku (⊕) vlevo od náhledu</li><li>Přetáhněte ho na nové místo v seznamu</li><li>Klikněte na <strong>Uložit</strong></li></ol>"
+    "field_csgov_p_title": "Jak změním pořadí obrázků v galerii?",
+    "field_csgov_p_content": "<p>Pořadí obrázků můžete změnit velmi snadno:</p><ol><li>Přejděte na <strong>Upravit</strong> galerii</li><li>V sekci <strong>Obrázky galerie</strong> najděte seznam nahraných obrázků</li><li>Chyťte obrázek za ikonu křížku (⊕) vlevo od náhledu</li><li>Přetáhněte ho na nové místo v seznamu</li><li>Klikněte na <strong>Uložit</strong></li></ol>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1013400-0001-0000-0000-000000000004",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Můžu použít stejné obrázky ve více galeriích?",
-    "field_csgov_p_accordion_item_text": "<p>Ano! Obrázky z knihovny médií můžete použít v libovolném počtu galerií. To je užitečné, pokud:</p><ul><li>Máte tématické galerie (např. všechny portréty lidí)</li><li>Chcete vytvořit \"best of\" galerii</li><li>Potřebujete stejné obrázky v různých jazykových verzích</li></ul>"
+    "field_csgov_p_title": "Můžu použít stejné obrázky ve více galeriích?",
+    "field_csgov_p_content": "<p>Ano! Obrázky z knihovny médií můžete použít v libovolném počtu galerií. To je užitečné, pokud:</p><ul><li>Máte tématické galerie (např. všechny portréty lidí)</li><li>Chcete vytvořit \"best of\" galerii</li><li>Potřebujete stejné obrázky v různých jazykových verzích</li></ul>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1013400-0001-0000-0000-000000000005",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Jak se galerie zobrazuje návštěvníkům?",
-    "field_csgov_p_accordion_item_text": "<p>Galerie se návštěvníkům zobrazuje jako:</p><ul><li><strong>Mřížka náhledů</strong> – Všechny obrázky v přehledné mřížce</li><li><strong>Lightbox</strong> – Po kliknutí se obrázek zobrazí ve velkém přes celou stránku</li><li><strong>Navigace</strong> – V lightboxu lze listovat mezi obrázky</li></ul><p>Návštěvníci mohou také vidět popisky, pokud jste je přidali.</p>"
+    "field_csgov_p_title": "Jak se galerie zobrazuje návštěvníkům?",
+    "field_csgov_p_content": "<p>Galerie se návštěvníkům zobrazuje jako:</p><ul><li><strong>Mřížka náhledů</strong> – Všechny obrázky v přehledné mřížce</li><li><strong>Lightbox</strong> – Po kliknutí se obrázek zobrazí ve velkém přes celou stránku</li><li><strong>Navigace</strong> – V lightboxu lze listovat mezi obrázky</li></ul><p>Návštěvníci mohou také vidět popisky, pokud jste je přidali.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1013400-0001-0000-0000-000000000006",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Co se stane s obrázky, když smažu galerii?",
-    "field_csgov_p_accordion_item_text": "<p>Když smažete galerii:</p><ul><li><strong>Galerie zmizí</strong> – Stránka galerie již nebude dostupná</li><li><strong>Obrázky zůstávají</strong> – Všechny obrázky zůstávají v knihovně médií</li><li><strong>Můžete je znovu použít</strong> – Obrázky můžete použít v nových galeriích nebo jinde</li></ul><p>Pokud chcete smazat i obrázky, musíte je smazat samostatně z knihovny médií.</p>"
+    "field_csgov_p_title": "Co se stane s obrázky, když smažu galerii?",
+    "field_csgov_p_content": "<p>Když smažete galerii:</p><ul><li><strong>Galerie zmizí</strong> – Stránka galerie již nebude dostupná</li><li><strong>Obrázky zůstávají</strong> – Všechny obrázky zůstávají v knihovně médií</li><li><strong>Můžete je znovu použít</strong> – Obrázky můžete použít v nových galeriích nebo jinde</li></ul><p>Pokud chcete smazat i obrázky, musíte je smazat samostatně z knihovny médií.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   }
 ]

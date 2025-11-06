@@ -3,28 +3,36 @@
     "uuid": "a1015400-0001-0000-0000-000000000001",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Jaká je správná délka textu notifikace?",
-    "field_csgov_p_accordion_item_text": "<p>Text notifikace by měl být:</p><ul><li><strong>Krátký</strong> – Maximálně 1-2 věty</li><li><strong>Jasný</strong> – Srozumitelný na první přečtení</li><li><strong>Konkrétní</strong> – Obsahuje podstatné informace</li></ul><p><strong>Dobrý příklad:</strong> \"Naše kancelář bude 24.12. uzavřena. Otevřeme opět 27.12. v 8:00.\"</p><p><strong>Špatný příklad:</strong> \"Informujeme vás o tom, že v souvislosti s blížícími se vánočními svátky dochází k úpravě našich úředních hodin...\"</p>"
+    "field_csgov_p_title": "Jaká je správná délka textu notifikace?",
+    "field_csgov_p_content": "<p>Text notifikace by měl být:</p><ul><li><strong>Krátký</strong> – Maximálně 1-2 věty</li><li><strong>Jasný</strong> – Srozumitelný na první přečtení</li><li><strong>Konkrétní</strong> – Obsahuje podstatné informace</li></ul><p><strong>Dobrý příklad:</strong> \"Naše kancelář bude 24.12. uzavřena. Otevřeme opět 27.12. v 8:00.\"</p><p><strong>Špatný příklad:</strong> \"Informujeme vás o tom, že v souvislosti s blížícími se vánočními svátky dochází k úpravě našich úředních hodin...\"</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1015400-0001-0000-0000-000000000002",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Kdy použít kterou úroveň důležitosti?",
-    "field_csgov_p_accordion_item_text": "<p><strong>Error (Chyba)</strong> – Jen pro kritické problémy:</p><ul><li>Výpadek webu nebo služeb</li><li>Bezpečnostní hrozba</li><li>Nemožnost poskytování služeb</li></ul><p><strong>Warning (Varování)</strong> – Pro důležitá upozornění:</p><ul><li>Plánovaná odstávka</li><li>Změna úředních hodin</li><li>Blížící se deadline</li></ul><p><strong>Info (Informace)</strong> – Pro běžné oznámení:</p><ul><li>Nová služba</li><li>Změna kontaktů</li><li>Užitečné tipy</li></ul><p><strong>Success (Úspěch)</strong> – Pro pozitivní zprávy:</p><ul><li>Úspěšně dokončený projekt</li><li>Spuštění nové funkce</li><li>Ocenění</li></ul>"
+    "field_csgov_p_title": "Kdy použít kterou úroveň důležitosti?",
+    "field_csgov_p_content": "<p><strong>Error (Chyba)</strong> – Jen pro kritické problémy:</p><ul><li>Výpadek webu nebo služeb</li><li>Bezpečnostní hrozba</li><li>Nemožnost poskytování služeb</li></ul><p><strong>Warning (Varování)</strong> – Pro důležitá upozornění:</p><ul><li>Plánovaná odstávka</li><li>Změna úředních hodin</li><li>Blížící se deadline</li></ul><p><strong>Info (Informace)</strong> – Pro běžné oznámení:</p><ul><li>Nová služba</li><li>Změna kontaktů</li><li>Užitečné tipy</li></ul><p><strong>Success (Úspěch)</strong> – Pro pozitivní zprávy:</p><ul><li>Úspěšně dokončený projekt</li><li>Spuštění nové funkce</li><li>Ocenění</li></ul>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1015400-0001-0000-0000-000000000003",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Měli by uživatelé být schopni zavřít notifikaci?",
-    "field_csgov_p_accordion_item_text": "<p><strong>Ano</strong> – Umožněte zavření, pokud:</p><ul><li>Notifikace není kritická</li><li>Uživatel ji viděl a nepotřebuje ji vidět znovu</li><li>Jedná se o tip nebo radu</li></ul><p><strong>Ne</strong> – Zakažte zavření, pokud:</p><ul><li>Notifikace je kritická (výpadek)</li><li>Musí být viditelná po celou dobu</li><li>Týká se bezpečnosti</li></ul><p>V většině případů doporučujeme umožnit zavření.</p>"
+    "field_csgov_p_title": "Měli by uživatelé být schopni zavřít notifikaci?",
+    "field_csgov_p_content": "<p><strong>Ano</strong> – Umožněte zavření, pokud:</p><ul><li>Notifikace není kritická</li><li>Uživatel ji viděl a nepotřebuje ji vidět znovu</li><li>Jedná se o tip nebo radu</li></ul><p><strong>Ne</strong> – Zakažte zavření, pokud:</p><ul><li>Notifikace je kritická (výpadek)</li><li>Musí být viditelná po celou dobu</li><li>Týká se bezpečnosti</li></ul><p>V většině případů doporučujeme umožnit zavření.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1015400-0001-0000-0000-000000000004",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Kolik notifikací můžu mít aktivních současně?",
-    "field_csgov_p_accordion_item_text": "<p>Technicky můžete mít neomezený počet aktivních notifikací, ale <strong>doporučujeme maximum 1-2</strong>.</p><p>Důvody:</p><ul><li>Více notifikací obtěžuje návštěvníky</li><li>Ztrácejí účinnost při velkém množství</li><li>Zabírají místo na obrazovce</li></ul><p>Pokud potřebujete zobrazit více informací, zvažte vytvoření samostatné stránky s aktualitami a v notifikaci na ni odkažte.</p>"
+    "field_csgov_p_title": "Kolik notifikací můžu mít aktivních současně?",
+    "field_csgov_p_content": "<p>Technicky můžete mít neomezený počet aktivních notifikací, ale <strong>doporučujeme maximum 1-2</strong>.</p><p>Důvody:</p><ul><li>Více notifikací obtěžuje návštěvníky</li><li>Ztrácejí účinnost při velkém množství</li><li>Zabírají místo na obrazovce</li></ul><p>Pokud potřebujete zobrazit více informací, zvažte vytvoření samostatné stránky s aktualitami a v notifikaci na ni odkažte.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   }
 ]

@@ -25,10 +25,14 @@ source:
       selector: langcode
     - name: status
       selector: status
-    - name: field_csgov_p_accordion_item_title
-      selector: field_csgov_p_accordion_item_title
-    - name: field_csgov_p_accordion_item_text
-      selector: field_csgov_p_accordion_item_text
+    - name: created
+      selector: created
+    - name: field_csgov_p_title
+      selector: field_csgov_p_title
+    - name: field_csgov_p_content
+      selector: field_csgov_p_content
+    - name: field_csgov_p_expanded
+      selector: field_csgov_p_expanded
 
 destination:
   plugin: entity_reference_revisions:paragraph
@@ -43,10 +47,13 @@ process:
     value_key: uuid
   langcode: langcode
   status: status
+  created: created
 
-  field_csgov_p_accordion_item_title: field_csgov_p_accordion_item_title
+  field_csgov_p_title: field_csgov_p_title
 
-  field_csgov_p_accordion_item_text/value: field_csgov_p_accordion_item_text
-  field_csgov_p_accordion_item_text/format:
+  field_csgov_p_content/value: field_csgov_p_content
+  field_csgov_p_content/format:
     plugin: default_value
     default_value: basic_html
+
+  field_csgov_p_expanded: field_csgov_p_expanded

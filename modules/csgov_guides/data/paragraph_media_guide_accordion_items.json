@@ -3,56 +3,72 @@
     "uuid": "a1012400-0001-0000-0000-000000000001",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Můžu použít stejný obrázek na více místech?",
-    "field_csgov_p_accordion_item_text": "<p>Ano! To je jedna z hlavních výhod knihovny médií. Po nahrání můžete obrázek použít na libovolném počtu stránek. Pokud později obrázek změníte nebo nahradíte, změní se automaticky na všech místech, kde je použit.</p>"
+    "field_csgov_p_title": "Můžu použít stejný obrázek na více místech?",
+    "field_csgov_p_content": "<p>Ano! To je jedna z hlavních výhod knihovny médií. Po nahrání můžete obrázek použít na libovolném počtu stránek. Pokud později obrázek změníte nebo nahradíte, změní se automaticky na všech místech, kde je použit.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1012400-0001-0000-0000-000000000002",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Jak velký soubor můžu nahrát?",
-    "field_csgov_p_accordion_item_text": "<p>Maximální velikost nahrávaného souboru závisí na nastavení serveru, obvykle je to:</p><ul><li><strong>Obrázky:</strong> Do 10 MB</li><li><strong>Dokumenty:</strong> Do 20 MB</li></ul><p>Pokud potřebujete nahrát větší soubor, kontaktujte administrátora.</p>"
+    "field_csgov_p_title": "Jak velký soubor můžu nahrát?",
+    "field_csgov_p_content": "<p>Maximální velikost nahrávaného souboru závisí na nastavení serveru, obvykle je to:</p><ul><li><strong>Obrázky:</strong> Do 10 MB</li><li><strong>Dokumenty:</strong> Do 20 MB</li></ul><p>Pokud potřebujete nahrát větší soubor, kontaktujte administrátora.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1012400-0001-0000-0000-000000000003",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Jak zjistím, kde je médium použito?",
-    "field_csgov_p_accordion_item_text": "<p>Bohužel systém aktuálně neumožňuje přímo zobrazit, kde je médium použito. Proto je důležité:</p><ul><li>Používat popisné názvy pro snadnou identifikaci</li><li>Přidávat štítky pro organizaci</li><li>Před smazáním si ověřit, že médium již není potřeba</li></ul>"
+    "field_csgov_p_title": "Jak zjistím, kde je médium použito?",
+    "field_csgov_p_content": "<p>Bohužel systém aktuálně neumožňuje přímo zobrazit, kde je médium použito. Proto je důležité:</p><ul><li>Používat popisné názvy pro snadnou identifikaci</li><li>Přidávat štítky pro organizaci</li><li>Před smazáním si ověřit, že médium již není potřeba</li></ul>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1012400-0001-0000-0000-000000000004",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Můžu upravit již nahrané médium?",
-    "field_csgov_p_accordion_item_text": "<p>Můžete upravit název, štítky a další metadata média. Pokud však chcete změnit samotný soubor (např. jiný obrázek), doporučujeme:</p><ol><li>Nahrát nový soubor s novým názvem</li><li>Nahradit médium v místech použití</li><li>Smazat staré médium</li></ol><p>Alternativně můžete nahrát nový soubor se stejným názvem a přepsat původní.</p>"
+    "field_csgov_p_title": "Můžu upravit již nahrané médium?",
+    "field_csgov_p_content": "<p>Můžete upravit název, štítky a další metadata média. Pokud však chcete změnit samotný soubor (např. jiný obrázek), doporučujeme:</p><ol><li>Nahrát nový soubor s novým názvem</li><li>Nahradit médium v místech použití</li><li>Smazat staré médium</li></ol><p>Alternativně můžete nahrát nový soubor se stejným názvem a přepsat původní.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1012400-0001-0000-0000-000000000005",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Mohu nahrát video soubory?",
-    "field_csgov_p_accordion_item_text": "<p>Aktuální konfigurace knihovny médií podporuje pouze obrázky, dokumenty a ikony. Pro videa doporučujeme použít externí služby jako YouTube nebo Vimeo a poté vložit odkaz na stránku.</p>"
+    "field_csgov_p_title": "Mohu nahrát video soubory?",
+    "field_csgov_p_content": "<p>Aktuální konfigurace knihovny médií podporuje pouze obrázky, dokumenty a ikony. Pro videa doporučujeme použít externí služby jako YouTube nebo Vimeo a poté vložit odkaz na stránku.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1012400-0001-0000-0000-000000000006",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Co když udělám chybu při nahrávání?",
-    "field_csgov_p_accordion_item_text": "<p>Žádný problém! Můžete:</p><ul><li>Smazat chybně nahraný soubor a nahrát nový</li><li>Upravit název a metadata</li><li>Nahrát správnou verzi se stejným názvem</li></ul><p>Dokud médium nepoužijete v publikovaném obsahu, nedojde k žádnému problému na webu.</p>"
+    "field_csgov_p_title": "Co když udělám chybu při nahrávání?",
+    "field_csgov_p_content": "<p>Žádný problém! Můžete:</p><ul><li>Smazat chybně nahraný soubor a nahrát nový</li><li>Upravit název a metadata</li><li>Nahrát správnou verzi se stejným názvem</li></ul><p>Dokud médium nepoužijete v publikovaném obsahu, nedojde k žádnému problému na webu.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1012400-0001-0000-0000-000000000007",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Potřebuji přidávat štítky ke všem médiím?",
-    "field_csgov_p_accordion_item_text": "<p>Štítky nejsou povinné, ale jsou velmi užitečné, zejména pokud:</p><ul><li>Máte velké množství médií</li><li>Pracuje více editorů</li><li>Chcete rychle najít související soubory</li></ul><p>Doporučujeme používat štítky alespoň pro hlavní kategorie obsahu.</p>"
+    "field_csgov_p_title": "Potřebuji přidávat štítky ke všem médiím?",
+    "field_csgov_p_content": "<p>Štítky nejsou povinné, ale jsou velmi užitečné, zejména pokud:</p><ul><li>Máte velké množství médií</li><li>Pracuje více editorů</li><li>Chcete rychle najít související soubory</li></ul><p>Doporučujeme používat štítky alespoň pro hlavní kategorie obsahu.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   },
   {
     "uuid": "a1012400-0001-0000-0000-000000000008",
     "langcode": "cs",
     "status": "1",
-    "field_csgov_p_accordion_item_title": "Jak často mám čistit knihovnu médií?",
-    "field_csgov_p_accordion_item_text": "<p>Doporučujeme kontrolovat a čistit knihovnu médií:</p><ul><li><strong>Měsíčně</strong> – Pokud často přidáváte nový obsah</li><li><strong>Čtvrtletně</strong> – Pro běžnou údržbu</li><li><strong>Ročně</strong> – Minimálně jednou za rok</li></ul><p>Zaměřte se na mazání duplicitních, nepoužívaných nebo špatně pojmenovaných souborů.</p>"
+    "field_csgov_p_title": "Jak často mám čistit knihovnu médií?",
+    "field_csgov_p_content": "<p>Doporučujeme kontrolovat a čistit knihovnu médií:</p><ul><li><strong>Měsíčně</strong> – Pokud často přidáváte nový obsah</li><li><strong>Čtvrtletně</strong> – Pro běžnou údržbu</li><li><strong>Ročně</strong> – Minimálně jednou za rok</li></ul><p>Zaměřte se na mazání duplicitních, nepoužívaných nebo špatně pojmenovaných souborů.</p>",
+    "created": "1699000000",
+    "field_csgov_p_expanded": "0"
   }
 ]
