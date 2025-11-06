@@ -1,0 +1,22 @@
+[
+  {
+    "uuid": "a1010002-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_image": "",
+    "field_csgov_p_image_caption": "Screenshot: Formulář pro vytvoření nového uživatele s poli pro přihlašovací jméno, e-mail, heslo a výběr role",
+    "field_csgov_p_full_width": "1",
+    "field_csgov_p_view_mode": "csgov_native"
+  },
+  {
+    "uuid": "a1010002-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_image": "",
+    "field_csgov_p_image_caption": "Screenshot: Seznam uživatelů systému s možnostmi filtrování, editace a hromadných operací",
+    "field_csgov_p_full_width": "1",
+    "field_csgov_p_view_mode": "csgov_native"
+  }
+]
