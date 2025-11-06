@@ -4,19 +4,8 @@
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
-    "field_csgov_p_title": "Kontrolní seznam před publikováním rady",
-    "field_csgov_p_accordion_items": "a1007004-0001-0000-0000-000000000001, a1007004-0001-0000-0000-000000000002, a1007004-0001-0000-0000-000000000003, a1007004-0001-0000-0000-000000000004, a1007004-0001-0000-0000-000000000005, a1007004-0001-0000-0000-000000000006",
-    "field_csgov_p_variant": "secondary",
-    "field_csgov_p_size": "s",
-    "field_csgov_p_trigger_tag": "h3"
-  },
-  {
-    "uuid": "a1007003-0001-0000-0000-000000000002",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "Často kladené otázky ke správě rad a výborů",
-    "field_csgov_p_accordion_items": "a1007004-0001-0000-0000-000000000007, a1007004-0001-0000-0000-000000000008, a1007004-0001-0000-0000-000000000009, a1007004-0001-0000-0000-000000000010, a1007004-0001-0000-0000-000000000011",
+    "field_csgov_p_title": "Často kladené otázky",
+    "field_csgov_p_accordion_items": "a1007004-0001-0000-0000-000000000001, a1007004-0001-0000-0000-000000000002, a1007004-0001-0000-0000-000000000003, a1007004-0001-0000-0000-000000000004",
     "field_csgov_p_variant": "secondary",
     "field_csgov_p_size": "s",
     "field_csgov_p_trigger_tag": "h3"

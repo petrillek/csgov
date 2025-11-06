@@ -4,26 +4,29 @@
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
-    "field_csgov_p_title": "Tip: Reference vs. inline přidávání členů",
-    "field_csgov_p_content": "<p>Pokud má váš systém obě možnosti, zvažte použití <strong>referenčního přístupu</strong> (samostatné osoby) zejména pokud: (1) Stejná osoba působí ve více radách nebo výborech, (2) Chcete centrálně spravovat profily osob, (3) Potřebujete sledovat historii působení osob v různých funkcích. Použijte <strong>inline přidávání</strong>, pokud jsou členové specifičtí jen pro tuto radu a nepotřebujete jejich profily jinde.</p>",
-    "field_csgov_p_variant": "info"
+    "field_csgov_p_title": "Zákonné lhůty pro úřední desku",
+    "field_csgov_p_content": "<p>Dle zákona č. 500/2004 Sb. musí být záznam zveřejněn minimálně <strong>15 dnů</strong>. Nastavte datum archivace nejméně 15 dnů po datu zveřejnění.</p>",
+    "field_csgov_p_infopanel_type": "warning",
+    "field_csgov_p_icon": ""
   },
   {
     "uuid": "a1007005-0001-0000-0000-000000000002",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
-    "field_csgov_p_title": "Tip: Kvalitní fotografie členů",
-    "field_csgov_p_content": "<p>Jednotný styl fotografií výrazně zlepšuje profesionalitu stránky rady. Doporučení: <strong>Stejné pozadí</strong> (ideálně neutrální), <strong>Stejný typ záběru</strong> (portrét vs. poprsí), <strong>Podobné osvětlení</strong>, <strong>Čtvercový formát</strong> pro konzistentní zobrazení. Pokud nemáte možnost profesionálního focení, je lepší použít kvalitní amatérské fotografie se stejným pozadím než směs různých stylů a kvalit.</p>",
-    "field_csgov_p_variant": "success"
+    "field_csgov_p_title": "Tip pro úvodník",
+    "field_csgov_p_content": "<p>Úvodník by měl stručně popsat, o jaký dokument se jedná a koho se týká. Například: \"Vyhláška upravující místní poplatek za svoz odpadu pro rok 2025.\"</p>",
+    "field_csgov_p_infopanel_type": "tip",
+    "field_csgov_p_icon": ""
   },
   {
     "uuid": "a1007005-0001-0000-0000-000000000003",
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
-    "field_csgov_p_title": "Upozornění: Ochrana osobních údajů",
-    "field_csgov_p_content": "<p>Při zveřejňování informací o členech rady dodržujte GDPR a další předpisy o ochraně osobních údajů. <strong>Zveřejňujte pouze:</strong> Informace relevantní pro výkon veřejné funkce, Kontakty s informovaným souhlasem člena, Úřední fotografie (ne soukromé), Profesní životopisy (ne intimní detaily). <strong>Varování:</strong> Před zveřejněním kontaktních údajů (zejména emailu a telefonu) se ujistěte, že člen souhlasí s jejich zveřejněním. Zvažte použití úředních kontaktů místo osobních.</p>",
-    "field_csgov_p_variant": "warning"
+    "field_csgov_p_title": "Vytvoření profilu osoby",
+    "field_csgov_p_content": "<p>Pokud osoba ještě není v adresáři, nejprve ji vytvořte v sekci <strong>Obsah → Přidat obsah → Osoba</strong>. Poté ji můžete přiřadit k záznamu úřední desky.</p>",
+    "field_csgov_p_infopanel_type": "tip",
+    "field_csgov_p_icon": ""
   }
 ]

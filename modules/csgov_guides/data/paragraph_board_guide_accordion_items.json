@@ -4,8 +4,8 @@
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
-    "field_csgov_p_title": "✓ Jsou vyplněni všichni současní členové rady?",
-    "field_csgov_p_content": "<p>Zkontrolujte, že seznam obsahuje všechny aktuální členy rady nebo výboru. Chybějící člen může vytvořit dojem neúplnosti nebo neaktuálnosti.</p>",
+    "field_csgov_p_title": "Jak dlouho musí být záznam zveřejněn?",
+    "field_csgov_p_content": "<p>Podle zákona musí být záznam na úřední desce zveřejněn minimálně <strong>15 dnů</strong>. Systém automaticky archivuje záznam po uplynutí data archivace.</p>",
     "field_csgov_p_expanded": "0"
   },
   {
@@ -13,8 +13,8 @@
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
-    "field_csgov_p_title": "✓ Má každý člen správně vyplněnou funkci?",
-    "field_csgov_p_content": "<p>Ověřte, že každý člen má uvedenu svou aktuální funkci (předseda, místopředseda, člen) a případně gesční oblast nebo specializaci.</p>",
+    "field_csgov_p_title": "Mohu upravit už zveřejněný záznam?",
+    "field_csgov_p_content": "<p>Ano, záznam můžete upravovat i po zveřejnění. Změny se projeví okamžitě. U významných změn doporučujeme vytvořit nový záznam s poznámkou o změně oproti původnímu.</p>",
     "field_csgov_p_expanded": "0"
   },
   {
@@ -22,8 +22,8 @@
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
-    "field_csgov_p_title": "✓ Jsou fotografie všech členů v jednotném stylu?",
-    "field_csgov_p_content": "<p>Pokud používáte fotografie, měly by být vizuálně konzistentní - podobné pozadí, stejný typ záběru, srovnatelná kvalita. Pokud nějaké fotografie chybí, zvažte raději všechny nechat bez fotek než mít směs.</p>",
+    "field_csgov_p_title": "Co se stane po datu archivace?",
+    "field_csgov_p_content": "<p>Po uplynutí data archivace se záznam automaticky přesune do archivu úřední desky. Stále bude dostupný přes vyhledávání a přímý odkaz, ale nezobrazí se v aktuálních záznamech.</p>",
     "field_csgov_p_expanded": "0"
   },
   {
@@ -31,71 +31,8 @@
     "langcode": "cs",
     "status": "1",
     "created": "1730822400",
-    "field_csgov_p_title": "✓ Je pořadí členů logické a správné?",
-    "field_csgov_p_content": "<p>Zkontrolujte, že členové jsou seřazeni podle zamýšleného pořadí - obvykle podle hierarchie funkcí (předseda první) nebo abecedně. Pořadí ovlivňuje, jak jsou členové prezentováni veřejnosti.</p>",
-    "field_csgov_p_expanded": "0"
-  },
-  {
-    "uuid": "a1007004-0001-0000-0000-000000000005",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "✓ Jsou kontaktní údaje správné a aktuální?",
-    "field_csgov_p_content": "<p>Pokud zveřejňujete kontakty na členy, ověřte, že jsou aktuální a funkční. Otestujte alespoň několik emailů nebo telefonů. Nefunkční kontakty poškozují důvěryhodnost.</p>",
-    "field_csgov_p_expanded": "0"
-  },
-  {
-    "uuid": "a1007004-0001-0000-0000-000000000006",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "✓ Jsou připojeny relevantní dokumenty?",
-    "field_csgov_p_content": "<p>Zkontrolujte, že jste přidali důležité dokumenty jako statut rady, jednací řád nebo plán zasedání. Tyto dokumenty zvyšují transparentnost a usnadňují občanům orientaci.</p>",
-    "field_csgov_p_expanded": "0"
-  },
-  {
-    "uuid": "a1007004-0001-0000-0000-000000000007",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "Jak často je potřeba aktualizovat informace o radě?",
-    "field_csgov_p_content": "<p>To záleží na dynamice změn ve vaší radě. <strong>Pravidelné aktualizace:</strong> Na začátku nového volebního období (kompletní změna složení), při změnách členů během období (rezignace, nové jmenování), čtvrtletně nebo pololetně pro kontrolu kontaktů. <strong>Ad-hoc aktualizace:</strong> Při změně funkcí stávajících členů, při významných změnách v dokumentech (nový statut), při aktualizaci fotografií. <strong>Tip:</strong> Nastavte si pravidelnou připomínku (např. každé 3 měsíce) pro rychlou kontrolu aktuálnosti.</p>",
-    "field_csgov_p_expanded": "0"
-  },
-  {
-    "uuid": "a1007004-0001-0000-0000-000000000008",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "Co dělat s bývalými členy rady?",
-    "field_csgov_p_content": "<p>Existuje několik přístupů: <strong>Odstranit z aktuální rady:</strong> Nejčastější řešení - ponechat jen současné členy. <strong>Přesunout do archivu:</strong> Pokud váš systém podporuje historická období, vytvořte archivní verzi rady pro předchozí období. <strong>Označit období působení:</strong> U každého člena vyplňte datum \"Do\" kdy skončilo jeho členství. <strong>Doporučení:</strong> Pro transparentnost je dobré uchovávat historii v nějaké podobě - buď jako archivní verze rad nebo jako seznam bývalých členů na samostatné stránce.</p>",
-    "field_csgov_p_expanded": "0"
-  },
-  {
-    "uuid": "a1007004-0001-0000-0000-000000000009",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "Mohu mít více rad na jednom webu?",
-    "field_csgov_p_content": "<p>Ano! Každou radu nebo výbor vytvoříte jako samostatnou entitu. Například můžete mít: Zastupitelstvo, Rada města, Kontrolní výbor, Finanční výbor, Komise pro životní prostředí, Osadní výbory jednotlivých částí. Každá rada bude mít vlastní stránku s vlastními členy. <strong>Tip:</strong> Pro přehlednost vytvořte nadřazenou stránku \"Orgány města\" s odkazováním na všechny rady a výbory.</p>",
-    "field_csgov_p_expanded": "0"
-  },
-  {
-    "uuid": "a1007004-0001-0000-0000-000000000010",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "Jak přidat sekretariát nebo administrativní podporu?",
-    "field_csgov_p_content": "<p>Sekretariát obvykle není součástí formálního složení rady, ale můžete ho zahrnout několika způsoby: <strong>Jako kontaktní informace rady:</strong> V poli pro kontakt rady uveďte email a telefon sekretariátu. <strong>V obsahu stránky:</strong> Přidejte textovou komponentu s informacemi o sekretariátu, úředních hodinách a kontakty. <strong>Jako samostatný člen (méně časté):</strong> Pokud je tajemník/sekretář formální součástí rady, přidejte ho jako člena s funkcí \"Tajemník\" nebo \"Sekretář\". <strong>Doporučení:</strong> První dvě možnosti jsou obvykle vhodnější, protože sekretariát zajišťuje podporu, ale není členem rady.</p>",
-    "field_csgov_p_expanded": "0"
-  },
-  {
-    "uuid": "a1007004-0001-0000-0000-000000000011",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "Jaké informace o členech jsou povinné zveřejnit?",
-    "field_csgov_p_content": "<p>Povinnost zveřejnění závisí na typu organizace a legislativě: <strong>Veřejná správa (úřady, obce, kraje):</strong> Obvykle povinné zveřejnit jméno, funkci, možná i kontakt - ověřte si zákon o svobodném přístupu k informacím a zákon o obcích/krajích. <strong>Neziskové organizace:</strong> Záleží na stanovách a rozhodnutí organizace - obvykle postačí jména a funkce představenstva/dozorčí rady. <strong>Obecně doporučené minimum:</strong> Celé jméno (včetně titulů), funkce v radě, období působení. <strong>Nepovinné, ale užitečné:</strong> Fotografie, stručný životopis, kontakt. <strong>Důležité:</strong> Dodržujte GDPR - zveřejňujte jen informace relevantní pro výkon funkce a s vědomím členů.</p>",
+    "field_csgov_p_title": "Jaký formát dokumentů používat?",
+    "field_csgov_p_content": "<p>Doporučujeme používat <strong>PDF formát</strong> pro všechny oficiální dokumenty. PDF zajistí, že dokument bude vypadat stejně na všech zařízeních a nelze ho snadno upravit.</p>",
     "field_csgov_p_expanded": "0"
   }
 ]
