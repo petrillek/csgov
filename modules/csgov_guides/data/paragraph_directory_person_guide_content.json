@@ -2,19 +2,19 @@
   {
     "uuid": "a1014100-0001-0000-0000-000000000001",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>K čemu slouží adresář osob?</h3><p>Adresář osob umožňuje prezentovat lidi spojené s vaší organizací:</p><ul><li><strong>Vedení organizace</strong> – Ředitel, zástupci, manažeři</li><li><strong>Zaměstnanci</strong> – Jednotlivá oddělení a týmy</li><li><strong>Kontaktní osoby</strong> – Pro různé agendy a služby</li><li><strong>Odborníci</strong> – Specialisté v určitých oblastech</li></ul><h3>Co profil osoby obsahuje</h3><ul><li>Jméno a příjmení</li><li>Pozice/funkce</li><li>Kontaktní údaje (email, telefon, mobil)</li><li>Profilová fotografie</li></ul>"
   },
   {
     "uuid": "a1014100-0001-0000-0000-000000000002",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Postup vytvoření profilu</h3><ol><li>V administraci přejděte na <strong>Obsah → Vytvořit obsah → Adresář – osoba</strong><br>nebo přejděte přímo na: <strong><a href=\"/node/add/csgov_directory_person\">/node/add/csgov_directory_person</a></strong></li><li>Vyplňte <strong>Jméno</strong> osoby</li><li>Vyplňte <strong>Příjmení</strong> osoby</li><li>Vyplňte <strong>Pozice/funkce</strong> (např. \"Ředitel odboru financí\")</li><li>V sekci <strong>Kontaktní údaje</strong>:<ul><li><strong>Email</strong> – Pracovní emailová adresa</li><li><strong>Telefon</strong> – Pevná linka (formát: +420 123 456 789)</li><li><strong>Mobil</strong> – Mobilní telefon (nepovinné)</li></ul></li><li>V sekci <strong>Hlavní obrázek</strong> nahrajte profilovou fotografii:<ul><li>Doporučená velikost: 800x800 px</li><li>Formát: čtvercový portrét</li><li>Profesionální fotografie s neutrálním pozadím</li></ul></li><li>Zaškrtněte <strong>Uveřejněno</strong></li><li>Klikněte na <strong>Uložit</strong></li></ol>"
   },
   {
     "uuid": "a1014100-0001-0000-0000-000000000003",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Aktualizace profilu</h3><p>Profil můžete kdykoli upravit:</p><ol><li>Najděte profil osoby v seznamu obsahu (<strong>Obsah</strong>)</li><li>Klikněte na <strong>Upravit</strong></li><li>Změňte potřebné údaje</li><li>Klikněte na <strong>Uložit</strong></li></ol><h3>Kdy aktualizovat profil</h3><ul><li><strong>Změna pozice</strong> – Povýšení, přesun na jiné oddělení</li><li><strong>Změna kontaktů</strong> – Nová emailová adresa nebo telefon</li><li><strong>Nová fotografie</strong> – Aktualizace profilové fotografie</li></ul><h3>Zneaktivnění profilu</h3><p>Pokud osoba již není v organizaci, ale nechcete profil smazat:</p><ol><li>Přejděte na <strong>Upravit</strong></li><li>Zrušte zaškrtnutí <strong>Uveřejněno</strong></li><li>Klikněte na <strong>Uložit</strong></li></ol><p>Profil nebude viditelný na webu, ale zachová se v databázi.</p><h3>Smazání profilu</h3><ol><li>Přejděte na profil osoby</li><li>Klikněte na <strong>Smazat</strong></li><li>Potvrďte smazání</li></ol>"
   }
 ]

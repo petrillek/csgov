@@ -2,21 +2,21 @@
   {
     "uuid": "a1012300-0001-0000-0000-000000000001",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_accordion_title": "Často kladené otázky",
     "field_csgov_p_accordion_items": "a1012400-0001-0000-0000-000000000001, a1012400-0001-0000-0000-000000000002, a1012400-0001-0000-0000-000000000003, a1012400-0001-0000-0000-000000000004"
   },
   {
     "uuid": "a1012300-0001-0000-0000-000000000002",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_accordion_title": "Často kladené otázky",
     "field_csgov_p_accordion_items": "a1012400-0001-0000-0000-000000000005, a1012400-0001-0000-0000-000000000006"
   },
   {
     "uuid": "a1012300-0001-0000-0000-000000000003",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_accordion_title": "Často kladené otázky",
     "field_csgov_p_accordion_items": "a1012400-0001-0000-0000-000000000007, a1012400-0001-0000-0000-000000000008"
   }

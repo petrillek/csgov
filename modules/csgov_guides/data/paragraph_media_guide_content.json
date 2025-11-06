@@ -2,31 +2,31 @@
   {
     "uuid": "a1012100-0001-0000-0000-000000000001",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Co je knihovna médií?</h3><p>Knihovna médií je centrální místo, kde jsou uloženy všechny soubory používané na vašem webu:</p><ul><li><strong>Obrázky</strong> – fotografie, ilustrace, bannery</li><li><strong>Dokumenty</strong> – PDF, Word, Excel, CSV soubory</li><li><strong>Ikony</strong> – SVG grafiky pro vizuální prvky</li></ul><h3>Výhody knihovny médií</h3><ul><li><strong>Opakované použití</strong> – Jeden soubor můžete použít na více místech</li><li><strong>Centrální správa</strong> – Všechny soubory na jednom místě</li><li><strong>Efektivita</strong> – Nemusíte nahrávat stejný soubor vícekrát</li><li><strong>Organizace</strong> – Štítky a vyhledávání pro snadné nalezení</li></ul>"
   },
   {
     "uuid": "a1012100-0001-0000-0000-000000000002",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Postup nahrání obrázku</h3><ol><li>V administraci přejděte na <strong>Obsah → Média</strong></li><li>Klikněte na tlačítko <strong>Přidat médium</strong></li><li>Vyberte typ <strong>Obrázek</strong></li><li>Klikněte na <strong>Choose File</strong> (Vybrat soubor) a vyberte obrázek z vašeho počítače</li><li>Vyplňte <strong>Název</strong> – popisný název pro identifikaci obrázku</li><li>Volitelně přidejte <strong>Štítky</strong> pro lepší organizaci</li><li>Klikněte na <strong>Uložit</strong></li></ol><h3>Podporované formáty</h3><p>Knihovna podporuje běžné obrázkové formáty: <strong>JPG, PNG, GIF, WebP</strong></p>"
   },
   {
     "uuid": "a1012100-0001-0000-0000-000000000003",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Postup nahrání dokumentu</h3><ol><li>V administraci přejděte na <strong>Obsah → Média</strong></li><li>Klikněte na <strong>Přidat médium</strong></li><li>Vyberte typ <strong>Dokument</strong></li><li>Klikněte na <strong>Choose File</strong> a vyberte dokument z počítače</li><li>Vyplňte <strong>Název</strong> – například „Výroční zpráva 2024"</li><li>Volitelně vyplňte <strong>Počet stran</strong> u PDF dokumentů</li><li>Přidejte <strong>Štítky</strong> pro kategorizaci</li><li>Klikněte na <strong>Uložit</strong></li></ol><h3>Podporované formáty</h3><p>Můžete nahrávat: <strong>PDF, DOC, DOCX, XLS, XLSX, CSV, TXT</strong></p>"
   },
   {
     "uuid": "a1012100-0001-0000-0000-000000000004",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Co jsou SVG ikony?</h3><p>SVG (Scalable Vector Graphics) jsou vektorové grafiky, které:</p><ul><li>Zachovávají kvalitu při jakékoli velikosti</li><li>Jsou menší než běžné obrázky</li><li>Ideální pro ikony, loga a jednoduché grafiky</li></ul><h3>Postup nahrání ikony</h3><ol><li>V administraci přejděte na <strong>Obsah → Média</strong></li><li>Klikněte na <strong>Přidat médium</strong></li><li>Vyberte typ <strong>Ikona</strong></li><li>Nahrajte SVG soubor z vašeho počítače</li><li>Zadejte <strong>Název</strong> ikony</li><li>Klikněte na <strong>Uložit</strong></li></ol>"
   },
   {
     "uuid": "a1012100-0001-0000-0000-000000000005",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Používání štítků</h3><p>Štítky pomáhají organizovat média do kategorií:</p><ul><li>Přiřaďte relevantní štítky při nahrávání</li><li>Používejte konzistentní pojmenování (např. „aktuality\", \"události\", \"dokumenty\")</li><li>Později můžete filtrovat média podle štítků</li></ul><h3>Vyhledávání médií</h3><p>V knihovně médií můžete vyhledávat podle:</p><ul><li><strong>Názvu</strong> – zadejte klíčová slova z názvu</li><li><strong>Typu</strong> – filtrujte podle obrázků, dokumentů nebo ikon</li><li><strong>Štítků</strong> – vyberte konkrétní štítek</li></ul><h3>Mazání médií</h3><p>Média můžete smazat, pokud je již nepoužíváte:</p><ol><li>V seznamu médií najděte soubor, který chcete smazat</li><li>Klikněte na <strong>Upravit</strong></li><li>V dolní části stránky klikněte na <strong>Smazat</strong></li><li>Potvrďte smazání</li></ol><p><strong>Upozornění:</strong> Pokud je médium použito v nějakém obsahu, po smazání se na webu nezobrazí.</p>"
   }
 ]

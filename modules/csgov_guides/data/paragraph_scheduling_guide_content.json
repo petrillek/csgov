@@ -2,19 +2,19 @@
   {
     "uuid": "a1016100-0001-0000-0000-000000000001",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Co je plánování obsahu?</h3><p>Plánovač (Scheduler) umožňuje nastavit přesný čas, kdy se obsah automaticky zveřejní nebo skryje. Nemusíte být přihlášeni v daný čas - systém to udělá za vás.</p><h3>Které typy obsahu podporují plánování?</h3><ul><li><strong>Aktuality</strong> (csgov_news)</li><li><strong>Události</strong> (csgov_event)</li><li><strong>Notifikace</strong> (csgov_notification)</li><li><strong>Dokumenty</strong> (media documents)</li></ul><h3>Praktické použití</h3><ul><li><strong>Tiskové zprávy</strong> – Zveřejnění v přesný čas</li><li><strong>Časově omezené akce</strong> – Automatické skrytí po skončení</li><li><strong>Předpřipravený obsah</strong> – Vytvoření dopředu, zveřejnění později</li><li><strong>Sezónní obsah</strong> – Automatické zobrazení a skrytí</li></ul>"
   },
   {
     "uuid": "a1016100-0001-0000-0000-000000000002",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Postup naplánování zveřejnění</h3><ol><li>Vytvořte nebo upravte obsah (aktualitu, událost, notifikaci)</li><li>Vyplňte všechny potřebné informace</li><li><strong>NEZAŠKRTÁVEJTE</strong> \"Uveřejněno\" – nechte obsah jako koncept</li><li>Najděte sekci <strong>Plánování</strong> (obvykle ve spodní části formuláře nebo v postranní liště)</li><li>V poli <strong>Naplánovat zveřejnění</strong> zadejte:<ul><li>Datum (např. 15.12.2024)</li><li>Čas (např. 10:00)</li></ul></li><li>Klikněte na <strong>Uložit</strong></li></ol><h3>Co se stane</h3><ul><li>Obsah zůstane skrytý až do nastaveného času</li><li>V nastavený čas systém automaticky obsah zveřejní</li><li>Objeví se na webu bez vašeho zásahu</li></ul><h3>Kde najít naplánovaný obsah</h3><p>Naplánovaný obsah najdete v seznamu obsahu s označením časů zveřejnění.</p>"
   },
   {
     "uuid": "a1016100-0001-0000-0000-000000000003",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_content": "<h3>Naplánování automatického skrytí</h3><ol><li>Při vytváření nebo úpravě obsahu najděte sekci <strong>Plánování</strong></li><li>V poli <strong>Naplánovat skrytí</strong> zadejte:<ul><li>Datum, kdy má být obsah skryt</li><li>Čas skrytí</li></ul></li><li>Klikněte na <strong>Uložit</strong></li></ol><p>V nastavený čas systém automaticky obsah skryje (nastaví jako \"Neuveřejněno\").</p><h3>Kombinace zveřejnění a skrytí</h3><p>Můžete nastavit obojí najednou:</p><ul><li><strong>Zveřejnit:</strong> 1.12.2024 v 9:00</li><li><strong>Skrýt:</strong> 31.12.2024 v 23:59</li></ul><p>Obsah bude viditelný pouze v tomto časovém rozmezí.</p><h3>Zrušení naplánovaného zveřejnění/skrytí</h3><ol><li>Přejděte na <strong>Upravit</strong> obsah</li><li>V sekci <strong>Plánování</strong> smažte datum a čas</li><li>Klikněte na <strong>Uložit</strong></li></ol><h3>Okamžité zveřejnění naplánovaného obsahu</h3><p>Pokud chcete naplánovaný obsah zveřejnit okamžitě:</p><ol><li>Přejděte na <strong>Upravit</strong></li><li>Smažte naplánované datum zveřejnění</li><li>Zaškrtněte <strong>Uveřejněno</strong></li><li>Klikněte na <strong>Uložit</strong></li></ol>"
   }
 ]

@@ -2,14 +2,14 @@
   {
     "uuid": "a1013300-0001-0000-0000-000000000001",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_accordion_title": "Často kladené otázky",
     "field_csgov_p_accordion_items": "a1013400-0001-0000-0000-000000000001, a1013400-0001-0000-0000-000000000002, a1013400-0001-0000-0000-000000000003"
   },
   {
     "uuid": "a1013300-0001-0000-0000-000000000002",
     "langcode": "cs",
-    "status": 1,
+    "status": "1",
     "field_csgov_p_accordion_title": "Často kladené otázky",
     "field_csgov_p_accordion_items": "a1013400-0001-0000-0000-000000000004, a1013400-0001-0000-0000-000000000005, a1013400-0001-0000-0000-000000000006"
   }
