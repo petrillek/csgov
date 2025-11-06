@@ -59,12 +59,17 @@ process:
   field_csgov_p_title: field_csgov_p_title
 
   field_csgov_p_accordion_items:
-    - plugin: explode
+    - plugin: callback
       source: field_csgov_p_accordion_items
-      delimiter: ', '
-    - plugin: csgov_migrate_process_reference
-      entity_type: paragraph
-      value_key: uuid
+      callable: csgov_migrate_process_multiple
+    - plugin: sub_process
+      process:
+        - plugin: migration_lookup
+          source: value
+          migration: csgov_migrate_paragraph_board_guide_accordion_items
+          no_stub: true
+    - plugin: callback
+      callable: csgov_migrate_process_reference
 
   field_csgov_p_variant: field_csgov_p_variant
 

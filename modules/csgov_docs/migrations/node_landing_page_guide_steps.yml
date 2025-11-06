@@ -66,10 +66,12 @@ process:
   changed: changed
 
   field_csgov_sbs_parent:
-    - plugin: csgov_migrate_process_reference
+    - plugin: default_value
       source: field_csgov_sbs_parent
-      entity_type: node
-      value_key: uuid
+      default_value: null
+    - plugin: migration_lookup
+      migration: csgov_migrate_node_landing_page_guide_overview
+      no_stub: true
 
   field_csgov_sbs_step_label: field_csgov_sbs_step_label
 
@@ -81,9 +83,18 @@ process:
     default_value: basic_html
 
   field_csgov_content_components:
-    - plugin: explode
+    - plugin: callback
       source: field_csgov_content_components
-      delimiter: ', '
-    - plugin: csgov_migrate_process_reference
-      entity_type: paragraph
-      value_key: uuid
+      callable: csgov_migrate_process_multiple
+    - plugin: sub_process
+      process:
+        - plugin: migration_lookup
+          source: value
+          migration:
+            - csgov_migrate_paragraph_landing_page_guide_content
+            - csgov_migrate_paragraph_landing_page_guide_images
+            - csgov_migrate_paragraph_landing_page_guide_infopanel
+            - csgov_migrate_paragraph_landing_page_guide_accordion
+          no_stub: true
+    - plugin: callback
+      callable: csgov_migrate_process_reference
