@@ -29,13 +29,13 @@
     "uuid": "a1000020-0001-0001-0001-000000000003",
     "langcode": "cs",
     "status": "1",
-    "title": "Komponenta: Akordeon",
+    "title": "Komponenta: Akordion",
     "created": "1730822400",
     "changed": "1730822400",
     "field_csgov_sbs_parent": "",
-    "field_csgov_sbs_step_label": "Akordeon",
+    "field_csgov_sbs_step_label": "Akordion",
     "field_csgov_sbs_annotation": "Skládací sekce pro FAQ nebo dlouhé texty",
-    "field_csgov_teaser": "Akordeon umožňuje vytvořit skládací sekce, ideální pro FAQ, dlouhé texty nebo obsah rozdělený do témat.",
+    "field_csgov_teaser": "Akordion umožňuje vytvořit skládací sekce, ideální pro FAQ, dlouhé texty nebo obsah rozdělený do témat.",
     "field_csgov_content_components": "a1000021-0001-0001-0001-000000000003"
   },
   {
