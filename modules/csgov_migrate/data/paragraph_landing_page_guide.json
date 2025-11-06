@@ -1,0 +1,47 @@
+[
+  {
+    "uuid": "a1000061-0001-0001-0001-000000000000",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Úvod</h2>\n<p><strong>Vstupní stránka (Landing Page)</strong> je vizuálně atraktivní stránka určená jako vstupní bod do sekce nebo pro prezentaci konkrétního tématu, projektu nebo kampaně.</p>\n\n<h3>Kdy použít Vstupní stránku?</h3>\n<ul>\n<li>Hlavní vstupní stránky sekcí webu</li>\n<li>Prezentace projektů nebo kampaní</li>\n<li>Tematické stránky s vlastním designem</li>\n<li>Stránky s výrazným vizuálním prvkem</li>\n</ul>\n\n<h3>Rozdíl oproti běžné Stránce</h3>\n<ul>\n<li><strong>Stránka:</strong> Textově orientovaná, jednoduchá struktura</li>\n<li><strong>Vstupní stránka:</strong> Vizuálně bohatší, často s Hero sekcí, dlaždicemi, statistikami</li>\n</ul>\n\n<h3>Co budete potřebovat?</h3>\n<ul>\n<li>Připravený obsah a koncept vizuálního uspořádání</li>\n<li>Kvalitní obrázky (hlavní obrázek, hero pozadí)</li>\n<li>Ikony pro dlaždice (volitelně)</li>\n</ul>\n\n<p><strong>Odhadovaný čas:</strong> 30-45 minut</p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "a1000061-0001-0001-0001-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Vytvoření vstupní stránky</h2>\n\n<h3>Přihlášení a vytvoření</h3>\n<ol>\n<li>Přihlaste se do redakce</li>\n<li>Klikněte na <strong>\"Obsah\" → \"Přidat obsah\"</strong></li>\n<li>Vyberte <strong>\"Vstupní stránka\" (Landing Page)</strong></li>\n</ol>\n\n<p>Otevře se formulář s rozšířenými možnostmi pro vizuální stránky.</p>\n\n<h3>Přímý odkaz</h3>\n<p><code>https://vas-web.cz/node/add/csgov_landing_page</code></p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "a1000061-0001-0001-0001-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Základní nastavení</h2>\n\n<h3>Název stránky (povinné)</h3>\n<p>Výstižný název vstupní stránky.</p>\n<p><strong>Příklady:</strong></p>\n<ul>\n<li>\"Chytrá města\"</li>\n<li>\"Digitální služby\"</li>\n<li>\"Projekt Zelené město\"</li>\n<li>\"Dotační programy 2025\"</li>\n</ul>\n\n<h3>Hero sekce (doporučeno)</h3>\n<p>Vstupní stránka typicky začíná výraznou Hero sekcí:</p>\n<ol>\n<li>Zaškrtněte <strong>\"Zobrazit Hero sekci\"</strong></li>\n<li>Vyplňte:</li>\n<ul>\n<li><strong>Nadpis:</strong> Hlavní výrazný text (např. \"Digitální služby pro občany\")</li>\n<li><strong>Podnadpis:</strong> Rozšiřující text (např. \"Vyřiďte si vše online z pohodlí domova\")</li>\n<li><strong>Obrázek pozadí:</strong> Velký obrázek 1920×1080 px</li>\n<li><strong>Barva pozadí:</strong> Tmavá/světlá vrstva pro lepší čitelnost textu</li>\n</ul>\n<li>Volitelně přidejte vyhledávací pole</li>\n</ol>\n\n<h3>Úvodník</h3>\n<p>Krátký popis stránky pro vyhledávání a sdílení.</p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "a1000061-0001-0001-0001-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Tvorba obsahu vstupní stránky</h2>\n\n<h3>Typická struktura Landing Page</h3>\n<ol>\n<li><strong>Hero sekce:</strong> Výrazný úvod (nastaveno výše)</li>\n<li><strong>Text:</strong> Úvodní odstavec vysvětlující účel</li>\n<li><strong>Dlaždice:</strong> 3-4 hlavní služby/témata s ikonami</li>\n<li><strong>Seznam stránek:</strong> Automatický přehled souvisejících stránek</li>\n<li><strong>Statistický pruh:</strong> Klíčové číselné údaje (volitelně)</li>\n<li><strong>Text:</strong> Další informace</li>\n<li><strong>Informační panel:</strong> Výzva k akci nebo důležité upozornění</li>\n</ol>\n\n<h3>Doporučené komponenty</h3>\n\n<h4>Dlaždice</h4>\n<p>Ideální pro prezentaci služeb nebo kategorií:</p>\n<ul>\n<li>Přidejte komponentu \"Dlaždice\"</li>\n<li>Vytvořte 3-6 jednotlivých dlaždic</li>\n<li>Každá má: ikonu, nadpis, krátký text, odkaz</li>\n</ul>\n\n<h4>Statistický pruh</h4>\n<p>Pro prezentaci číselných údajů:</p>\n<ul>\n<li>Přidejte komponentu \"Statistický pruh\"</li>\n<li>Vytvořte 3-4 položky s číslem a popisem</li>\n<li>Příklad: \"150+ služeb online\", \"24/7 dostupnost\"</li>\n</ul>\n\n<h4>Seznam stránek</h4>\n<p>Automatický přehled souvisejícího obsahu:</p>\n<ul>\n<li>Vyberte typ obsahu (novinky, události...)</li>\n<li>Nastavte filtr (kategorie, tagy)</li>\n<li>Počet zobrazených položek</li>\n</ul>\n\n<h3>Vizuální tipy</h3>\n<ul>\n<li><strong>Střídejte barvy pozadí:</strong> Text na bílé → Dlaždice na šedé → Text na bílé</li>\n<li><strong>Kvalitní obrázky:</strong> Hero obrázek je dominantní, musí být perfektní</li>\n<li><strong>Jednoduchá struktura:</strong> Nepřeplňujte stránku, méně je více</li>\n<li><strong>Jasná výzva k akci:</strong> Co má návštěvník dělat? (registrovat se, vyhledat službu...)</li>\n</ul>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "a1000061-0001-0001-0001-000000000004",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Publikování vstupní stránky</h2>\n\n<h3>Kontrolní seznam</h3>\n<ul>\n<li>✓ Hero sekce má kvalitní obrázek a čitelný text</li>\n<li>✓ Obsah je vizuálně vyvážený</li>\n<li>✓ Dlaždice mají konzistentní strukturu</li>\n<li>✓ Všechny odkazy fungují</li>\n<li>✓ Obrázky jsou optimalizované</li>\n<li>✓ Stránka vypadá dobře na mobilu (zkontrolujte v náhledu)</li>\n</ul>\n\n<h3>Náhled</h3>\n<p>Vstupní stránku si vždy prohlédněte v náhledu před publikováním:</p>\n<ol>\n<li>Uložte jako \"Rozpracováno\"</li>\n<li>Klikněte na \"Zobrazit\" nebo \"Náhled\"</li>\n<li>Zkontrolujte celkový dojem</li>\n<li>Ověřte zobrazení na různých zařízeních</li>\n</ol>\n\n<h3>Zařazení do menu</h3>\n<p>Vstupní stránky často slouží jako hlavní položky menu:</p>\n<ol>\n<li>V záložce \"Nastavení menu\" zaškrtněte \"Poskytnout položku menu\"</li>\n<li>Zadejte název v menu</li>\n<li>Vyberte pozici v menu (hlavní menu / podpoložka)</li>\n<li>Nastavte pořadí</li>\n</ol>\n\n<h3>Publikování</h3>\n<ol>\n<li>Zkontrolujte všechny sekce</li>\n<li>Nastavte stav na <strong>\"Publikováno\"</strong></li>\n<li>Klikněte na <strong>\"Uložit\"</strong></li>\n</ol>\n\n<p>✅ Vstupní stránka je zveřejněna!</p>\n\n<h3>Po publikování</h3>\n<ul>\n<li>Otestujte všechny interaktivní prvky</li>\n<li>Zkontrolujte zobrazení na mobilu a tabletu</li>\n<li>Ověřte rychlost načítání (optimalizujte obrázky pokud je to pomalé)</li>\n<li>Sdílejte odkaz s kolegy pro zpětnou vazbu</li>\n</ul>\n\n<h3>Tipy pro údržbu</h3>\n<ul>\n<li>Pravidelně aktualizujte statistiky</li>\n<li>Obměňujte obsah v \"Seznam stránek\" komponentách</li>\n<li>Aktualizujte odkazy a informace</li>\n<li>Sledujte návštěvnost a upravujte podle chování uživatelů</li>\n</ul>",
+    "field_csgov_p_background": "default"
+  }
+]

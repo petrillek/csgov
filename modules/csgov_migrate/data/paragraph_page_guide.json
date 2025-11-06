@@ -1,0 +1,47 @@
+[
+  {
+    "uuid": "a1000051-0001-0001-0001-000000000000",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Úvod</h2>\n<p><strong>Stránka</strong> je základní typ obsahu pro běžné informační stránky na webu. Používá se pro dlouhodobý obsah, který se nemění často.</p>\n\n<h3>Kdy použít Stránku?</h3>\n<ul>\n<li>Informační sekce (O nás, Kontakt, Historie)</li>\n<li>Detailní popisy služeb</li>\n<li>Dokumentace a návody</li>\n<li>Dlouhodobý obsah (na rozdíl od novinek)</li>\n</ul>\n\n<h3>Co budete potřebovat?</h3>\n<ul>\n<li>Přístup do redakce</li>\n<li>Připravený obsah</li>\n<li>Volitelně: obrázky, přílohy</li>\n</ul>\n\n<p><strong>Odhadovaný čas:</strong> 15-20 minut</p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "a1000051-0001-0001-0001-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Vytvoření nové stránky</h2>\n\n<h3>Přihlášení</h3>\n<ol>\n<li>Přihlaste se na <code>https://vas-web.cz/user/login</code></li>\n<li>V horním menu klikněte na <strong>\"Obsah\"</strong></li>\n<li>Klikněte na <strong>\"Přidat obsah\"</strong></li>\n<li>Vyberte <strong>\"Stránka\" (Page)</strong></li>\n</ol>\n\n<p>Otevře se formulář pro vytvoření stránky.</p>\n\n<h3>Přímý odkaz</h3>\n<p><code>https://vas-web.cz/node/add/csgov_page</code></p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "a1000051-0001-0001-0001-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Základní nastavení</h2>\n\n<h3>Název stránky (povinné)</h3>\n<p>Zadejte výstižný název, který se zobrazí jako nadpis H1 stránky.</p>\n<p><strong>Příklady:</strong></p>\n<ul>\n<li>\"O městě\"</li>\n<li>\"Kontaktní informace\"</li>\n<li>\"Jak vyřídit cestovní pas\"</li>\n<li>\"Historie naší organizace\"</li>\n</ul>\n\n<h3>Úvodník / Perex (doporučeno)</h3>\n<p>Krátký úvodní text (2-3 věty), který shrnuje obsah stránky.</p>\n<p>Zobrazuje se:</p>\n<ul>\n<li>Ve výsledcích vyhledávání</li>\n<li>V přehledech stránek</li>\n<li>Při sdílení na sociálních sítích</li>\n</ul>\n\n<h3>Hlavní obrázek (volitelné)</h3>\n<p>Reprezentativní obrázek k stránce.</p>\n<ul>\n<li>Klikněte na \"Vybrat média\"</li>\n<li>Vyberte existující nebo nahrajte nový (min. 1200×630 px, JPG/PNG)</li>\n<li>Vyplňte alternativní text</li>\n</ul>\n\n<h3>Hero sekce (volitelné)</h3>\n<p>Pokud chcete výraznou vizuální hlavičku:</p>\n<ol>\n<li>Zaškrtněte \"Zobrazit Hero sekci\"</li>\n<li>Vyplňte nadpis, podnadpis a vyberte pozadí</li>\n</ol>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "a1000051-0001-0001-0001-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Tvorba obsahu stránky</h2>\n\n<h3>Použití komponent</h3>\n<p>Obsah vytvořte pomocí komponent v záložce <strong>\"Obsah\"</strong>:</p>\n<ol>\n<li>Klikněte na \"Přidat komponentu\"</li>\n<li>Vyberte typ komponenty</li>\n<li>Vyplňte obsah</li>\n<li>Potvrďte a opakujte pro další komponenty</li>\n</ol>\n\n<h3>Typická struktura stránky</h3>\n<h4>Informační stránka</h4>\n<ol>\n<li><strong>Text:</strong> Úvodní odstavec</li>\n<li><strong>Text:</strong> Hlavní informace</li>\n<li><strong>Informační panel:</strong> Důležité upozornění</li>\n<li><strong>Text:</strong> Dodatečné informace</li>\n</ol>\n\n<h4>Stránka s FAQ</h4>\n<ol>\n<li><strong>Text:</strong> Úvod</li>\n<li><strong>Akordeón:</strong> Často kladené otázky</li>\n<li><strong>Text:</strong> Kontaktní informace</li>\n</ol>\n\n<h3>Související odkazy</h3>\n<p>V záložce \"Dodatečné informace\" můžete přidat související odkazy:</p>\n<ul>\n<li>Název sekce odkazů (např. \"Související informace\")</li>\n<li>Seznam odkazů (text + URL)</li>\n</ul>\n\n<h3>Kontaktní osoba</h3>\n<p>Můžete přiřadit kontaktní osobu z adresáře, která se zobrazí u stránky.</p>\n\n<h3>Tipy pro kvalitní obsah</h3>\n<ul>\n<li>Strukturujte dlouhý text nadpisy H2, H3</li>\n<li>Používejte seznamy pro lepší přehlednost</li>\n<li>Přidejte vizuální obsah (obrázky, infopanely)</li>\n<li>Buďte konkrétní a srozumitelný</li>\n</ul>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "a1000051-0001-0001-0001-000000000004",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "",
+    "field_csgov_p_content": "<h2>Publikování stránky</h2>\n\n<h3>Kontrolní seznam</h3>\n<ul>\n<li>✓ Název je výstižný</li>\n<li>✓ Obsah je bez překlepů</li>\n<li>✓ Odkazy fungují</li>\n<li>✓ Obrázky mají alternativní texty</li>\n<li>✓ Struktura je přehledná</li>\n</ul>\n\n<h3>Náhled</h3>\n<ol>\n<li>Nastavte stav na \"Rozpracováno\"</li>\n<li>Klikněte na \"Uložit\"</li>\n<li>Zobrazte náhled</li>\n<li>Zkontrolujte zobrazení</li>\n</ol>\n\n<h3>Zařazení do menu</h3>\n<p>V záložce <strong>\"Nastavení menu\"</strong>:</p>\n<ol>\n<li>Zaškrtněte \"Poskytnout položku menu\"</li>\n<li>Zadejte název v menu</li>\n<li>Vyberte nadřazený prvek (pod jakou položkou se má zobrazit)</li>\n<li>Nastavte pořadí</li>\n</ol>\n\n<h3>Publikování</h3>\n<ol>\n<li>Vyberte stav <strong>\"Publikováno\"</strong></li>\n<li>Klikněte na <strong>\"Uložit\"</strong></li>\n</ol>\n\n<p>✅ Stránka je nyní zveřejněna!</p>\n\n<h3>Po publikování</h3>\n<ul>\n<li>Zkontrolujte zobrazení na webu</li>\n<li>Ověřte položku v menu (pokud jste ji přidali)</li>\n<li>Informujte kolegy o nové stránce</li>\n</ul>",
+    "field_csgov_p_background": "default"
+  }
+]
