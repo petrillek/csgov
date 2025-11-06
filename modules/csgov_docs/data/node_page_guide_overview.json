@@ -6,7 +6,7 @@
     "title": "Jak vytvořit stránku",
     "created": "1730822400",
     "changed": "1730822400",
-    "field_csgov_teaser": "Krok za krokem průvodce vytvořením a publikováním běžné stránky v redakčním systému CS Gov.",
+    "field_csgov_teaser": "Krok za krokem průvodce vytvořením a publikováním běžné stránky v redakčním systému CS Gov. Stránku vytvoříte v sekci <strong>Obsah → Přidat obsah → <a href=\"/node/add/csgov_page\">Stránka</a></strong>.",
     "field_csgov_sbs_items": "a1005000-0001-0000-0000-000000000001, a1005000-0001-0000-0000-000000000002, a1005000-0001-0000-0000-000000000003, a1005000-0001-0000-0000-000000000004, a1005000-0001-0000-0000-000000000005, a1005000-0001-0000-0000-000000000006"
   }
 ]
