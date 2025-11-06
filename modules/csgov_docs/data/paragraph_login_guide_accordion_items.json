@@ -1,0 +1,56 @@
+[
+  {
+    "uuid": "a1011004-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Mohu se přihlásit z mobilu nebo tabletu?",
+    "field_csgov_p_content": "<p>Ano, můžete se přihlásit z jakéhokoliv zařízení s webovým prohlížečem - smartphone, tablet, laptop, desktop. Administrační rozhraní je responzivní a přizpůsobí se velikosti obrazovky. Na mobilních zařízeních ale může být práce s některými složitějšími formuláři méně pohodlná. <strong>Doporučení:</strong> Pro běžnou editaci textu mobil/tablet funguje dobře, ale pro složitější úpravy (vytváření nových stránek s mnoha komponenty) je lepší použít počítač s větší obrazovkou.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1011004-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Je bezpečné používat funkci \"Zapamatovat si mě\"?",
+    "field_csgov_p_content": "<p><strong>Záleží na kontextu:</strong> Na <strong>vašem vlastním počítači</strong> doma nebo v kanceláři je to bezpečné a pohodlné - nebudete se muset přihlašovat při každé návštěvě. Na <strong>sdílených, veřejných nebo pracovních počítačích</strong>, které používá více lidí, <strong>tuto funkci NIKDY nepoužívejte</strong>. Kdokoliv další, kdo použije ten počítač, by mohl získat přístup k administraci pod vaším jménem. Pokud si nejste jisti, raději funkci nepoužívejte a přihlašujte se pokaždé znovu.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1011004-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Jak dlouho mohu být přihlášený?",
+    "field_csgov_p_content": "<p>Systém vás obvykle automaticky odhlásí po <strong>30-60 minutách neaktivity</strong> (záleží na konfiguraci). To je bezpečnostní opatření. Pokud aktivně pracujete (klikáte, píšete, ukládáte), session se obnovuje a zůstanete přihlášení. <strong>Důležité:</strong> Pokud odejdete od počítače a necháte prohlížeč otevřený, po určité době automatického odhlášení může být neuložená práce ztracena. Proto <strong>pravidelně ukládejte rozepsanou práci</strong> pomocí tlačítka \"Uložit\" ve formuláři. Pokud použijete \"Zapamatovat si mě\", můžete zůstat přihlášení i týdny, ale stále platí bezpečnostní doporučení nepoužívat tuto funkci na sdílených počítačích.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1011004-0001-0000-0000-000000000004",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Co dělat, když zapomenu heslo?",
+    "field_csgov_p_content": "<p>Na přihlašovací stránce klikněte na odkaz <strong>\"Zapomněli jste heslo?\"</strong>. Zadejte své uživatelské jméno nebo e-mail a systém vám pošle odkaz pro reset hesla. Pokud e-mail nedorazí do několika minut, zkontrolujte <strong>složku SPAM</strong>. Pokud máte problémy, kontaktujte administrátora systému - může vám heslo resetovat ručně. <strong>Prevence:</strong> Použijte správce hesel (např. KeePass, Bitwarden, nebo zabudovaný správce hesel v prohlížeči), abyste hesla nezapomínali.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1011004-0001-0000-0000-000000000005",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Proč vidím jiné menu než kolega?",
+    "field_csgov_p_content": "<p>Menu v toolbaru závisí na vaší <strong>uživatelské roli</strong>. Uživatelé s rolí <strong>Editor</strong> vidí základní menu pro správu obsahu (Obsah, Struktura-základní, Vzhled-základní). Uživatelé s rolí <strong>Administrator</strong> vidí kompletní menu včetně pokročilých nastavení (Konfigurace, Rozšířit, Výkon atd.). To je normální a záměrné - každý vidí jen to, k čemu má oprávnění. Více o rolích najdete v <a href=\"/node/a1010000-0000-0000-0000-000000000000\">průvodci správou uživatelů</a>.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1011004-0001-0000-0000-000000000006",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Můžu být přihlášený na více zařízeních současně?",
+    "field_csgov_p_content": "<p>Ano, můžete se přihlásit na více zařízeních najednou (např. počítač v práci + laptop doma). Každé zařízení má vlastní přihlašovací session. <strong>Upozornění:</strong> Pokud editujete stejný obsah na dvou zařízeních současně, může dojít ke konfliktům. Obvykle se uloží ta verze, kterou uložíte jako poslední, a změny z druhého zařízení se přepíšou. Proto <strong>nedoporučujeme</strong> upravovat stejný obsah na více místech najednou. Pokud máte otevřenou editaci na jednom zařízení a chcete pokračovat na druhém, nejprve uložte nebo zrušte editaci na prvním zařízení.</p>",
+    "field_csgov_p_expanded": "0"
+  }
+]
