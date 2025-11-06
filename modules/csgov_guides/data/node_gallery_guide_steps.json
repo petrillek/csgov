@@ -8,8 +8,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1013000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Co je galerie",
-    "field_csgov_sbs_overview": "<p>Galerie slouží k prezentaci fotografií a obrázků v přehledné formě. Ideální pro prezentaci akcí, projektů nebo produktů.</p>",
-    "field_csgov_content_components": "a1013100-0001-0000-0000-000000000001, a1013200-0001-0000-0000-000000000001"
+    "field_csgov_content_components": "a1013100-0001-0000-0000-000000000001, a1013200-0001-0000-0000-000000000001",
+    "field_csgov_sbs_annotation": "Fotogalerie na webu",
+    "field_csgov_teaser": "Kdy a proč používat galerie pro prezentaci fotografií a obrázků."
   },
   {
     "uuid": "a1013000-0001-0000-0000-000000000002",
@@ -20,8 +21,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1013000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Nová galerie",
-    "field_csgov_sbs_overview": "<p>Postup vytvoření nové galerie a vyplnění základních informací.</p>",
-    "field_csgov_content_components": "a1013100-0001-0000-0000-000000000002, a1013200-0001-0000-0000-000000000002, a1013300-0001-0000-0000-000000000001"
+    "field_csgov_content_components": "a1013100-0001-0000-0000-000000000002, a1013200-0001-0000-0000-000000000002, a1013300-0001-0000-0000-000000000001",
+    "field_csgov_sbs_annotation": "Vytvoření galerie",
+    "field_csgov_teaser": "Postup vytvoření nové galerie, přidání hlavního obrázku a základních informací."
   },
   {
     "uuid": "a1013000-0001-0000-0000-000000000003",
@@ -32,8 +34,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1013000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Přidání obrázků",
-    "field_csgov_sbs_overview": "<p>Naučte se přidávat obrázky do galerie a uspořádat je do požadovaného pořadí.</p>",
-    "field_csgov_content_components": "a1013100-0001-0000-0000-000000000003, a1013200-0001-0000-0000-000000000003"
+    "field_csgov_content_components": "a1013100-0001-0000-0000-000000000003, a1013200-0001-0000-0000-000000000003",
+    "field_csgov_sbs_annotation": "Přidání fotografií",
+    "field_csgov_teaser": "Jak nahrát více obrázků najednou, uspořádat je do správného pořadí a přidat popisky."
   },
   {
     "uuid": "a1013000-0001-0000-0000-000000000004",
@@ -44,7 +47,8 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1013000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Publikování",
-    "field_csgov_sbs_overview": "<p>Publikace galerie a tipy pro její správu a aktualizaci.</p>",
-    "field_csgov_content_components": "a1013100-0001-0000-0000-000000000004, a1013200-0001-0000-0000-000000000004, a1013300-0001-0000-0000-000000000002"
+    "field_csgov_content_components": "a1013100-0001-0000-0000-000000000004, a1013200-0001-0000-0000-000000000004, a1013300-0001-0000-0000-000000000002",
+    "field_csgov_sbs_annotation": "Publikování galerie",
+    "field_csgov_teaser": "Zveřejnění galerie a tipy pro její správu a aktualizaci."
   }
 ]

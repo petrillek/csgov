@@ -8,8 +8,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1015000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Co jsou notifikace",
-    "field_csgov_sbs_overview": "<p>Notifikace jsou krátká oznámení zobrazená na webu pro upozornění návštěvníků na důležité informace.</p>",
-    "field_csgov_content_components": "a1015100-0001-0000-0000-000000000001, a1015200-0001-0000-0000-000000000001"
+    "field_csgov_content_components": "a1015100-0001-0000-0000-000000000001, a1015200-0001-0000-0000-000000000001",
+    "field_csgov_sbs_annotation": "Oznámení pro návštěvníky",
+    "field_csgov_teaser": "Co jsou notifikace, typy důležitosti a kdy je používat."
   },
   {
     "uuid": "a1015000-0001-0000-0000-000000000002",
@@ -20,8 +21,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1015000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Nová notifikace",
-    "field_csgov_sbs_overview": "<p>Postup vytvoření nové notifikace s nastavením typu, umístění a viditelnosti.</p>",
-    "field_csgov_content_components": "a1015100-0001-0000-0000-000000000002, a1015200-0001-0000-0000-000000000002, a1015300-0001-0000-0000-000000000001"
+    "field_csgov_content_components": "a1015100-0001-0000-0000-000000000002, a1015200-0001-0000-0000-000000000002, a1015300-0001-0000-0000-000000000001",
+    "field_csgov_sbs_annotation": "Vytvoření notifikace",
+    "field_csgov_teaser": "Postup vytvoření nové notifikace s výběrem typu, umístění a nastavením viditelnosti."
   },
   {
     "uuid": "a1015000-0001-0000-0000-000000000003",
@@ -32,7 +34,8 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1015000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Správa notifikací",
-    "field_csgov_sbs_overview": "<p>Naplánování, úprava a deaktivace notifikací.</p>",
-    "field_csgov_content_components": "a1015100-0001-0000-0000-000000000003, a1015200-0001-0000-0000-000000000003, a1015300-0001-0000-0000-000000000002"
+    "field_csgov_content_components": "a1015100-0001-0000-0000-000000000003, a1015200-0001-0000-0000-000000000003, a1015300-0001-0000-0000-000000000002",
+    "field_csgov_sbs_annotation": "Plánování a správa",
+    "field_csgov_teaser": "Automatické zobrazení a skrytí notifikací pomocí plánovače a jejich správa."
   }
 ]

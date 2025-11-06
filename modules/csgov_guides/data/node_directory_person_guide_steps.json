@@ -8,8 +8,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1014000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Co je adresář",
-    "field_csgov_sbs_overview": "<p>Adresář osob slouží k prezentaci zaměstnanců, vedení organizace nebo kontaktních osob na webu.</p>",
-    "field_csgov_content_components": "a1014100-0001-0000-0000-000000000001, a1014200-0001-0000-0000-000000000001"
+    "field_csgov_content_components": "a1014100-0001-0000-0000-000000000001, a1014200-0001-0000-0000-000000000001",
+    "field_csgov_sbs_annotation": "Profily osob v adresáři",
+    "field_csgov_teaser": "K čemu slouží adresář osob a jaké informace obsahuje profil zaměstnance."
   },
   {
     "uuid": "a1014000-0001-0000-0000-000000000002",
@@ -20,8 +21,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1014000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Nový profil",
-    "field_csgov_sbs_overview": "<p>Postup vytvoření nového profilu osoby s fotografií a kontaktními údaji.</p>",
-    "field_csgov_content_components": "a1014100-0001-0000-0000-000000000002, a1014200-0001-0000-0000-000000000002, a1014300-0001-0000-0000-000000000001"
+    "field_csgov_content_components": "a1014100-0001-0000-0000-000000000002, a1014200-0001-0000-0000-000000000002, a1014300-0001-0000-0000-000000000001",
+    "field_csgov_sbs_annotation": "Vytvoření profilu",
+    "field_csgov_teaser": "Postup vytvoření profilu osoby s fotografií, pozicí a kontaktními údaji."
   },
   {
     "uuid": "a1014000-0001-0000-0000-000000000003",
@@ -32,7 +34,8 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1014000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Správa profilů",
-    "field_csgov_sbs_overview": "<p>Aktualizace, úprava a mazání profilů osob v adresáři.</p>",
-    "field_csgov_content_components": "a1014100-0001-0000-0000-000000000003, a1014200-0001-0000-0000-000000000003, a1014300-0001-0000-0000-000000000002"
+    "field_csgov_content_components": "a1014100-0001-0000-0000-000000000003, a1014200-0001-0000-0000-000000000003, a1014300-0001-0000-0000-000000000002",
+    "field_csgov_sbs_annotation": "Správa profilů",
+    "field_csgov_teaser": "Aktualizace údajů, zneaktivnění a mazání profilů v adresáři."
   }
 ]

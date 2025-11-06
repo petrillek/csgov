@@ -8,8 +8,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Knihovna médií",
-    "field_csgov_sbs_overview": "<p>Knihovna médií je centrální úložiště pro všechny soubory používané na webu. Umožňuje nahrávat, organizovat a opakovaně používat obrázky, dokumenty a ikony napříč celým webem.</p>",
-    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000001, a1012200-0001-0000-0000-000000000001"
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000001, a1012200-0001-0000-0000-000000000001",
+    "field_csgov_sbs_annotation": "Centrální úložiště médií",
+    "field_csgov_teaser": "Pochopení základů knihovny médií a jejího využití pro správu obrázků, dokumentů a ikon."
   },
   {
     "uuid": "a1012000-0001-0000-0000-000000000002",
@@ -20,8 +21,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Obrázky",
-    "field_csgov_sbs_overview": "<p>Obrázky jsou nejčastěji používaným typem médií. Naučte se je správně nahrávat, pojmenovávat a označovat pro snadné vyhledávání.</p>",
-    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000002, a1012200-0001-0000-0000-000000000002, a1012300-0001-0000-0000-000000000001"
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000002, a1012200-0001-0000-0000-000000000002, a1012300-0001-0000-0000-000000000001",
+    "field_csgov_sbs_annotation": "Nahrávání a správa obrázků",
+    "field_csgov_teaser": "Jak nahrát obrázky do knihovny médií, pojmenovat je a organizovat pomocí štítků."
   },
   {
     "uuid": "a1012000-0001-0000-0000-000000000003",
@@ -32,8 +34,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Dokumenty",
-    "field_csgov_sbs_overview": "<p>Dokumenty jako PDF, Word nebo Excel soubory můžete nahrát do knihovny médií a zpřístupnit je návštěvníkům webu ke stažení.</p>",
-    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000003, a1012200-0001-0000-0000-000000000003, a1012300-0001-0000-0000-000000000002"
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000003, a1012200-0001-0000-0000-000000000003, a1012300-0001-0000-0000-000000000002",
+    "field_csgov_sbs_annotation": "Nahrávání dokumentů",
+    "field_csgov_teaser": "Postup nahrání dokumentů (PDF, Word, Excel) do knihovny médií a jejich zpřístupnění návštěvníkům."
   },
   {
     "uuid": "a1012000-0001-0000-0000-000000000004",
@@ -44,8 +47,9 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Ikony",
-    "field_csgov_sbs_overview": "<p>Ikony ve formátu SVG jsou škálovatelné grafiky, které se používají pro vizuální prvky na webu. Naučte se je nahrávat a používat.</p>",
-    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000004, a1012200-0001-0000-0000-000000000004"
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000004, a1012200-0001-0000-0000-000000000004",
+    "field_csgov_sbs_annotation": "SVG ikony",
+    "field_csgov_teaser": "Nahrávání a použití škálovatelných ikon ve formátu SVG."
   },
   {
     "uuid": "a1012000-0001-0000-0000-000000000005",
@@ -56,7 +60,8 @@
     "changed": "1699000000",
     "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
     "field_csgov_sbs_step_label": "Organizace",
-    "field_csgov_sbs_overview": "<p>Správná organizace médií vám pomůže rychle najít potřebné soubory. Naučte se používat štítky, vyhledávání a mazání nepotřebných médií.</p>",
-    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000005, a1012200-0001-0000-0000-000000000005, a1012300-0001-0000-0000-000000000003"
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000005, a1012200-0001-0000-0000-000000000005, a1012300-0001-0000-0000-000000000003",
+    "field_csgov_sbs_annotation": "Organizace a vyhledávání",
+    "field_csgov_teaser": "Jak efektivně organizovat média pomocí štítků, vyhledávat v knihovně a mazat nepotřebné soubory."
   }
 ]
