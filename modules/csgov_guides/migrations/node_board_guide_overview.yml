@@ -69,6 +69,7 @@ process:
       process:
         target_id:
           - plugin: migration_lookup
-          source: value
-          migration: csgov_migrate_node_board_guide_steps
-          no_stub: true
+            source: value
+            migration:
+              - csgov_migrate_node_board_guide_steps
+            no_stub: true
