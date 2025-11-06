@@ -1,4 +1,4 @@
-id: csgov_migrate_docs_node_news_guide_steps
+id: csgov_docs_node_news_guide_steps
 label: 'Docs - News Guide Step Nodes'
 migration_group: csgov_migrate
 migration_tags:
@@ -7,16 +7,16 @@ migration_tags:
   - csgov_migrate_docs
 migration_dependencies:
   required:
-    - csgov_migrate_docs_paragraph_news_guide_content
-    - csgov_migrate_docs_paragraph_news_guide_images
-    - csgov_migrate_docs_paragraph_news_guide_accordions
-    - csgov_migrate_docs_paragraph_news_guide_infopanels
+    - csgov_docs_paragraph_news_guide_content
+    - csgov_docs_paragraph_news_guide_images
+    - csgov_docs_paragraph_news_guide_accordions
+    - csgov_docs_paragraph_news_guide_infopanels
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: 'profiles/contrib/csgov/modules/csgov_migrate/data/docs/node_news_guide_steps.json'
+  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/node_news_guide_steps.json'
   item_selector: ''
 
   ids:
@@ -73,7 +73,7 @@ process:
       method: process
     - plugin: migration_lookup
       migration:
-        - csgov_migrate_docs_node_news_guide_overview
+        - csgov_docs_node_news_guide_overview
       no_stub: true
 
   field_csgov_sbs_step_label: field_csgov_sbs_step_label
@@ -90,10 +90,10 @@ process:
         - plugin: migration_lookup
           source: value
           migration:
-            - csgov_migrate_docs_paragraph_news_guide_content
-            - csgov_migrate_docs_paragraph_news_guide_images
-            - csgov_migrate_docs_paragraph_news_guide_accordions
-            - csgov_migrate_docs_paragraph_news_guide_infopanels
+            - csgov_docs_paragraph_news_guide_content
+            - csgov_docs_paragraph_news_guide_images
+            - csgov_docs_paragraph_news_guide_accordions
+            - csgov_docs_paragraph_news_guide_infopanels
           no_stub: true
     - plugin: callback
       callable: csgov_migrate_process_reference

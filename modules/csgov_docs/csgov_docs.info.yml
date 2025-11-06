@@ -1,0 +1,10 @@
+name: 'CS Gov Documentation'
+type: module
+description: 'Editor documentation and guides for CS Gov content types and components'
+package: CS Gov
+core_version_requirement: ^10 || ^11
+
+dependencies:
+  - drupal:migrate
+  - migrate_plus:migrate_plus
+  - csgov:csgov_migrate

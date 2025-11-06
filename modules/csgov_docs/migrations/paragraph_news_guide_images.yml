@@ -1,4 +1,4 @@
-id: csgov_migrate_docs_paragraph_news_guide_images
+id: csgov_docs_paragraph_news_guide_images
 label: 'Docs - News Guide Image Paragraphs'
 migration_group: csgov_migrate
 migration_tags:
@@ -10,7 +10,7 @@ source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: 'profiles/contrib/csgov/modules/csgov_migrate/data/docs/paragraph_news_guide_images.json'
+  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/paragraph_news_guide_images.json'
   item_selector: ''
 
   ids:

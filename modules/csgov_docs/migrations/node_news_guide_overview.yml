@@ -1,4 +1,4 @@
-id: csgov_migrate_docs_node_news_guide_overview
+id: csgov_docs_node_news_guide_overview
 label: 'Docs - News Guide Overview Node'
 migration_group: csgov_migrate
 migration_tags:
@@ -7,13 +7,13 @@ migration_tags:
   - csgov_migrate_docs
 migration_dependencies:
   required:
-    - csgov_migrate_docs_node_news_guide_steps
+    - csgov_docs_node_news_guide_steps
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: 'profiles/contrib/csgov/modules/csgov_migrate/data/docs/node_news_guide_overview.json'
+  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/node_news_guide_overview.json'
   item_selector: ''
 
   ids:
@@ -70,5 +70,5 @@ process:
           - plugin: migration_lookup
             source: value
             migration:
-              - csgov_migrate_docs_node_news_guide_steps
+              - csgov_docs_node_news_guide_steps
             no_stub: true
