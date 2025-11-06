@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "a1015200-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_infopanel_type": "tip",
+    "field_csgov_p_infopanel_title": "Název notifikace není viditelný pro návštěvníky",
+    "field_csgov_p_infopanel_text": "<p>Pole <strong>Název</strong> slouží pouze pro identifikaci v administraci. Návštěvníci vidí pouze <strong>Text notifikace</strong>.</p><p>Používejte popisné názvy jako \"Výpadek 15.11.2024\" nebo \"Vánoční provoz\".</p>"
+  },
+  {
+    "uuid": "a1015200-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_infopanel_type": "warning",
+    "field_csgov_p_infopanel_title": "Používejte notifikace střídmě",
+    "field_csgov_p_infopanel_text": "<p>Notifikace upoutávají pozornost, proto:</p><ul><li>Zobrazujte <strong>max 1-2 notifikace</strong> současně</li><li>Používejte je pouze pro <strong>důležité informace</strong></li><li>Odstraňte je, jakmile přestanou být aktuální</li><li>Nepoužívejte je pro běžné aktuality nebo informace</li></ul><p>Příliš mnoho notifikací návštěvníky obtěžuje a ztrácejí účinnost.</p>"
+  },
+  {
+    "uuid": "a1015200-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_infopanel_type": "tip",
+    "field_csgov_p_infopanel_title": "Kdy použít automatické skrytí",
+    "field_csgov_p_infopanel_text": "<p>Naplánované skrytí je užitečné pro:</p><ul><li><strong>Časově omezené události</strong> – Výpadek služby od-do</li><li><strong>Akce s termínem</strong> – Upozornění na blížící se deadline</li><li><strong>Svátky</strong> – Vánoční provozní doba</li></ul><p>Nemusíte myslet na ruční odstranění notifikace.</p>"
+  }
+]

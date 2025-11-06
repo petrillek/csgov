@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "a1014200-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_infopanel_type": "tip",
+    "field_csgov_p_infopanel_title": "Zobrazení systému generuje z pole Název",
+    "field_csgov_p_infopanel_text": "<p>Název profilu (používaný v systému) se automaticky vytvoří ze <strong>Jména</strong> a <strong>Příjmení</strong>. Nemusíte ho vyplňovat ručně.</p><p>Na webu se zobrazuje plné jméno osoby z těchto polí.</p>"
+  },
+  {
+    "uuid": "a1014200-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_infopanel_type": "tip",
+    "field_csgov_p_infopanel_title": "Doporučení pro profilové fotografie",
+    "field_csgov_p_infopanel_text": "<p>Pro jednotný vzhled adresáře doporučujeme:</p><ul><li><strong>Stejný styl</strong> – Všechny fotografie ve stejném stylu (např. na bílém pozadí)</li><li><strong>Čtvercový formát</strong> – 800x800 px nebo větší</li><li><strong>Portrét</strong> – Foceno zepředu, od pasu nahoru</li><li><strong>Profesionální vzhled</strong> – Formální oblečení</li><li><strong>Dobrá kvalita</strong> – Ostrá, dobře osvětlená fotografie</li></ul>"
+  },
+  {
+    "uuid": "a1014200-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_infopanel_type": "warning",
+    "field_csgov_p_infopanel_title": "GDPR a ochrana osobních údajů",
+    "field_csgov_p_infopanel_text": "<p>Před zveřejněním profilu se ujistěte, že:</p><ul><li>Máte souhlas osoby se zveřejněním údajů</li><li>Fotografie je schválená dotyčnou osobou</li><li>Kontaktní údaje jsou aktuální a správné</li><li>Osoba souhlasí s publikací na webu</li></ul><p>Nepublikujte osobní údaje bez souhlasu.</p>"
+  }
+]

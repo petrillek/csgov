@@ -1,0 +1,38 @@
+[
+  {
+    "uuid": "a1016000-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": 1,
+    "title": "Úvod do plánování obsahu",
+    "created": 1699000000,
+    "changed": 1699000000,
+    "field_csgov_sbs_parent": "a1016000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Co je plánování",
+    "field_csgov_sbs_overview": "<p>Plánování obsahu umožňuje automaticky zveřejnit nebo skrýt obsah v určitý čas.</p>",
+    "field_csgov_content_components": "a1016100-0001-0000-0000-000000000001, a1016200-0001-0000-0000-000000000001"
+  },
+  {
+    "uuid": "a1016000-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": 1,
+    "title": "Naplánování zveřejnění",
+    "created": 1699000000,
+    "changed": 1699000000,
+    "field_csgov_sbs_parent": "a1016000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Plánované zveřejnění",
+    "field_csgov_sbs_overview": "<p>Jak nastavit automatické zveřejnění obsahu v budoucnosti.</p>",
+    "field_csgov_content_components": "a1016100-0001-0000-0000-000000000002, a1016200-0001-0000-0000-000000000002, a1016300-0001-0000-0000-000000000001"
+  },
+  {
+    "uuid": "a1016000-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": 1,
+    "title": "Plánování skrytí a správa",
+    "created": 1699000000,
+    "changed": 1699000000,
+    "field_csgov_sbs_parent": "a1016000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Skrytí a správa",
+    "field_csgov_sbs_overview": "<p>Automatické skrytí obsahu a správa naplánovaného obsahu.</p>",
+    "field_csgov_content_components": "a1016100-0001-0000-0000-000000000003, a1016200-0001-0000-0000-000000000003, a1016300-0001-0000-0000-000000000002"
+  }
+]

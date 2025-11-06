@@ -1,0 +1,62 @@
+[
+  {
+    "uuid": "a1012000-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": 1,
+    "title": "Úvod do knihovny médií",
+    "created": 1699000000,
+    "changed": 1699000000,
+    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Knihovna médií",
+    "field_csgov_sbs_overview": "<p>Knihovna médií je centrální úložiště pro všechny soubory používané na webu. Umožňuje nahrávat, organizovat a opakovaně používat obrázky, dokumenty a ikony napříč celým webem.</p>",
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000001, a1012200-0001-0000-0000-000000000001"
+  },
+  {
+    "uuid": "a1012000-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": 1,
+    "title": "Nahrávání obrázků",
+    "created": 1699000000,
+    "changed": 1699000000,
+    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Obrázky",
+    "field_csgov_sbs_overview": "<p>Obrázky jsou nejčastěji používaným typem médií. Naučte se je správně nahrávat, pojmenovávat a označovat pro snadné vyhledávání.</p>",
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000002, a1012200-0001-0000-0000-000000000002, a1012300-0001-0000-0000-000000000001"
+  },
+  {
+    "uuid": "a1012000-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": 1,
+    "title": "Nahrávání dokumentů",
+    "created": 1699000000,
+    "changed": 1699000000,
+    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Dokumenty",
+    "field_csgov_sbs_overview": "<p>Dokumenty jako PDF, Word nebo Excel soubory můžete nahrát do knihovny médií a zpřístupnit je návštěvníkům webu ke stažení.</p>",
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000003, a1012200-0001-0000-0000-000000000003, a1012300-0001-0000-0000-000000000002"
+  },
+  {
+    "uuid": "a1012000-0001-0000-0000-000000000004",
+    "langcode": "cs",
+    "status": 1,
+    "title": "Práce s ikonami (SVG)",
+    "created": 1699000000,
+    "changed": 1699000000,
+    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Ikony",
+    "field_csgov_sbs_overview": "<p>Ikony ve formátu SVG jsou škálovatelné grafiky, které se používají pro vizuální prvky na webu. Naučte se je nahrávat a používat.</p>",
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000004, a1012200-0001-0000-0000-000000000004"
+  },
+  {
+    "uuid": "a1012000-0001-0000-0000-000000000005",
+    "langcode": "cs",
+    "status": 1,
+    "title": "Organizace a správa médií",
+    "created": 1699000000,
+    "changed": 1699000000,
+    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_sbs_step_label": "Organizace",
+    "field_csgov_sbs_overview": "<p>Správná organizace médií vám pomůže rychle najít potřebné soubory. Naučte se používat štítky, vyhledávání a mazání nepotřebných médií.</p>",
+    "field_csgov_content_components": "a1012100-0001-0000-0000-000000000005, a1012200-0001-0000-0000-000000000005, a1012300-0001-0000-0000-000000000003"
+  }
+]

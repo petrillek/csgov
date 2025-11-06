@@ -1,0 +1,37 @@
+[
+  {
+    "uuid": "a1016400-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Co když nastavím zveřejnění v minulosti?",
+    "field_csgov_p_accordion_item_text": "<p>Pokud nastavíte datum zveřejnění, které už proběhlo:</p><ul><li>Systém zveřejní obsah při nejbližším spuštění plánovače (obvykle každou hodinu)</li><li>Nebude to okamžitě, ale nejpozději do hodiny</li></ul><p>Pokud potřebujete zveřejnit okamžitě, použijte checkbox \"Uveřejněno\" místo plánovače.</p>"
+  },
+  {
+    "uuid": "a1016400-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Jak přesné je plánování?",
+    "field_csgov_p_accordion_item_text": "<p>Plánovač běží pravidelně (obvykle každou hodinu nebo každých 15 minut, podle nastavení serveru). To znamená:</p><ul><li>Obsah nebude zveřejněn v <strong>přesně</strong> nastavený čas</li><li>Může být mírné zpoždění (max cca 15-60 minut)</li></ul><p>Pro většinu případů je to dostačující. Pokud potřebujete přesné zveřejnění v konkrétní minutu, musíte být přihlášeni a zveřejnit ručně.</p>"
+  },
+  {
+    "uuid": "a1016400-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Můžu upravit naplánovaný obsah před zveřejněním?",
+    "field_csgov_p_accordion_item_text": "<p>Ano! Naplánovaný obsah můžete kdykoli upravit:</p><ol><li>Najděte obsah v seznamu obsahu</li><li>Klikněte na <strong>Upravit</strong></li><li>Proveďte změny</li><li>Klikněte na <strong>Uložit</strong></li></ol><p>Nastavený čas zveřejnění zůstane zachován, pokud ho ručně nezměníte.</p>"
+  },
+  {
+    "uuid": "a1016400-0001-0000-0000-000000000004",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Co se stane, když nastavím skrytí, ale obsah upravím později?",
+    "field_csgov_p_accordion_item_text": "<p>Pokud upravíte již zveřejněný obsah, který má nastavené plánované skrytí:</p><ul><li>Obsah zůstane zveřejněný</li><li>Plánované skrytí zůstane aktivní</li><li>V nastavený čas bude obsah skryt</li></ul><p>Úprava obsahu neovlivní naplánované skrytí.</p>"
+  },
+  {
+    "uuid": "a1016400-0001-0000-0000-000000000005",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Dostanu notifikaci, když je obsah zveřejněn/skryt?",
+    "field_csgov_p_accordion_item_text": "<p>Standardně systém <strong>neposílá notifikace</strong> při automatickém zveřejnění nebo skrytí obsahu.</p><p>Doporučujeme:</p><ul><li>Zkontrolovat web po plánovaném zveřejnění</li><li>Vytvořit si poznámku nebo upomínku v kalendáři</li><li>Pravidelně kontrolovat seznam naplánovaného obsahu</li></ul><p>Administrátor může nastavit emailové notifikace, pokud je to potřeba.</p>"
+  }
+]

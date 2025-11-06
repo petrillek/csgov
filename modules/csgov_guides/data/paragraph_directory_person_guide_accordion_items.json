@@ -1,0 +1,37 @@
+[
+  {
+    "uuid": "a1014400-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Jsou všechny kontaktní údaje povinné?",
+    "field_csgov_p_accordion_item_text": "<p>Povinné jsou pouze:</p><ul><li><strong>Jméno</strong></li><li><strong>Příjmení</strong></li><li><strong>Pozice/funkce</strong></li></ul><p>Kontaktní údaje (email, telefon, mobil) a fotografie jsou nepovinné, ale doporučujeme je vyplnit pro úplnost profilu.</p>"
+  },
+  {
+    "uuid": "a1014400-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Můžu přidat více informací o osobě?",
+    "field_csgov_p_accordion_item_text": "<p>Základní profil osoby obsahuje pouze základní údaje. Pokud potřebujete přidat více informací (životopis, vzdělání, projekty), zvažte:</p><ul><li>Vytvoření <strong>samostatné stránky</strong> s detailními informacemi</li><li>Odkaz z profilu na tuto stránku</li></ul><p>Adresář osob je určen především pro rychlý přehled a kontakty.</p>"
+  },
+  {
+    "uuid": "a1014400-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Jak se profily zobrazují na webu?",
+    "field_csgov_p_accordion_item_text": "<p>Profily osob se obvykle zobrazují jako:</p><ul><li><strong>Seznam/přehled</strong> – Mřížka nebo seznam všech osob</li><li><strong>Detailní profil</strong> – Samostatná stránka s fotografií a kontakty</li><li><strong>Filtrování</strong> – Možnost filtrovat podle pozice nebo oddělení</li></ul><p>Konkrétní zobrazení závisí na nastavení webu.</p>"
+  },
+  {
+    "uuid": "a1014400-0001-0000-0000-000000000004",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Co když nemám fotografii osoby?",
+    "field_csgov_p_accordion_item_text": "<p>Pokud nemáte fotografii:</p><ul><li>Můžete profil vytvořit i bez fotografie</li><li>Systém zobrazí výchozí zástupnou ikonu</li><li>Fotografii můžete doplnit později úpravou profilu</li></ul><p>Doporučujeme ale mít fotografie u všech osob pro jednotný a profesionální vzhled adresáře.</p>"
+  },
+  {
+    "uuid": "a1014400-0001-0000-0000-000000000005",
+    "langcode": "cs",
+    "status": 1,
+    "field_csgov_p_accordion_item_title": "Můžu nastavit pořadí zobrazení osob?",
+    "field_csgov_p_accordion_item_text": "<p>Pořadí zobrazení osob závisí na nastavení výpisu. Obvykle se osoby řadí:</p><ul><li><strong>Podle příjmení</strong> – Alfabeticky</li><li><strong>Podle pozice</strong> – Vedení na začátku, pak ostatní</li><li><strong>Podle data vytvoření</strong> – Nejnovější jako první</li></ul><p>Konkrétní způsob řazení může nastavit administrátor webu.</p>"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "uuid": "a1014000-0000-0000-0000-000000000000",
+    "langcode": "cs",
+    "status": 1,
+    "title": "Adresář osob",
+    "created": 1699000000,
+    "changed": 1699000000,
+    "field_csgov_teaser": "Naučte se vytvářet a spravovat profily zaměstnanců a kontaktních osob v adresáři.",
+    "field_csgov_sbs_items": "a1014000-0001-0000-0000-000000000001, a1014000-0001-0000-0000-000000000002, a1014000-0001-0000-0000-000000000003"
+  }
+]
