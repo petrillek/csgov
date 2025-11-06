@@ -13,7 +13,7 @@ source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: 'profiles/contrib/csgov/modules/csgov_migrate/data/paragraph_csgov_accordion_editor_guide.json'
+  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/paragraph_csgov_accordion_editor_guide.json'
   item_selector: ''
 
   ids:

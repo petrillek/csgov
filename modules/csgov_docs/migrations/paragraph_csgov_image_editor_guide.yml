@@ -1,16 +1,16 @@
-id: csgov_docs_paragraph_news_guide_images
-label: 'Docs - News Guide Image Paragraphs'
+id: csgov_migrate_paragraph_csgov_image_editor_guide
+label: 'Paragraph - Image - Editor Guide'
 migration_group: csgov_migrate
 migration_tags:
   - csgov_migrate
   - csgov_migrate_paragraph
-  - csgov_migrate_docs
+  - csgov_migrate_editor_guide
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/paragraph_news_guide_images.json'
+  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/paragraph_csgov_image_editor_guide.json'
   item_selector: ''
 
   ids:
@@ -55,11 +55,13 @@ process:
       source: field_csgov_p_image
       default_value: -1
     - plugin: migration_lookup
-      migration: csgov_migrate_media_image
+      migration: csgov_migrate_media_csgov_image
       no_stub: true
     - plugin: csgov_migrate_media_override
       override: random_image
 
   field_csgov_p_image_caption: field_csgov_p_image_caption
+
   field_csgov_p_full_width: field_csgov_p_full_width
+
   field_csgov_p_view_mode: field_csgov_p_view_mode

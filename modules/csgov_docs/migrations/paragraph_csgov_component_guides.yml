@@ -1,16 +1,16 @@
-id: csgov_docs_paragraph_news_guide_accordion_items
-label: 'Docs - News Guide Accordion Item Paragraphs'
+id: csgov_migrate_paragraph_csgov_component_guides
+label: 'Paragraph - Content - Component Guides'
 migration_group: csgov_migrate
 migration_tags:
   - csgov_migrate
   - csgov_migrate_paragraph
-  - csgov_migrate_docs
+  - csgov_migrate_editor_guide
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/paragraph_news_guide_accordion_items.json'
+  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/paragraph_csgov_component_guides.json'
   item_selector: ''
 
   ids:
@@ -30,14 +30,12 @@ source:
       selector: field_csgov_p_title
     - name: field_csgov_p_content
       selector: field_csgov_p_content
-    - name: field_csgov_p_icon
-      selector: field_csgov_p_icon
-    - name: field_csgov_p_is_open
-      selector: field_csgov_p_is_open
+    - name: field_csgov_p_background
+      selector: field_csgov_p_background
 
 destination:
   plugin: entity_reference_revisions:paragraph
-  default_bundle: csgov_accordion_item
+  default_bundle: csgov_content
 
 process:
   uuid: uuid
@@ -57,12 +55,4 @@ process:
     plugin: default_value
     default_value: basic_html
 
-  field_csgov_p_icon:
-    - plugin: skip_on_empty
-      source: field_csgov_p_icon
-      method: process
-    - plugin: migration_lookup
-      migration: csgov_migrate_media_svg
-      no_stub: true
-
-  field_csgov_p_is_open: field_csgov_p_is_open
+  field_csgov_p_background: field_csgov_p_background

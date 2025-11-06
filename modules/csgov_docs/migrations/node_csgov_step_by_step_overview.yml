@@ -1,19 +1,16 @@
-id: csgov_docs_node_news_guide_overview
-label: 'Docs - News Guide Overview Node'
+id: csgov_migrate_node_csgov_step_by_step_overview
+label: 'Node - Step by Step Overview'
 migration_group: csgov_migrate
 migration_tags:
   - csgov_migrate
   - csgov_migrate_node
-  - csgov_migrate_docs
-migration_dependencies:
-  required:
-    - csgov_docs_node_news_guide_steps
+  - csgov_migrate_editor_guide
 
 source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/node_news_guide_overview.json'
+  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/node_csgov_step_by_step_overview.json'
   item_selector: ''
 
   ids:
@@ -70,5 +67,5 @@ process:
           - plugin: migration_lookup
             source: value
             migration:
-              - csgov_docs_node_news_guide_steps
+              - csgov_migrate_node_csgov_step_by_step
             no_stub: true

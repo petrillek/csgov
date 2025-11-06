@@ -1,14 +1,5 @@
 [
   {
-    "uuid": "a1000001-0001-0001-0001-000000000001",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "",
-    "field_csgov_p_content": "<ol>\n<li><strong>Přihlaste se</strong> do administračního rozhraní webu pomocí svých přihlašovacích údajů</li>\n<li>V horní liště klikněte na <strong>Obsah</strong> → <strong>Přidat obsah</strong></li>\n<li>Vyberte typ obsahu, který chcete vytvořit (např. <strong>Novinka</strong>, <strong>Událost</strong>, <strong>Stránka</strong>)</li>\n<li>Otevře se formulář se záložkami pro vyplnění obsahu</li>\n</ol>\n\n<h3>Struktura formuláře</h3>\n<p>Většina typů obsahu má podobnou strukturu se třemi hlavními záložkami:</p>\n<ul>\n<li><strong>Úvodník</strong> - základní informace (název, datum, úvodní text, obrázek)</li>\n<li><strong>Obsah</strong> - hlavní obsah stránky pomocí komponent</li>\n<li><strong>Extra</strong> - doplňkové informace a metadata</li>\n</ul>\n\n<p>Boční panel obsahuje nastavení publikování, URL adresy a další pokročilé možnosti.</p>",
-    "field_csgov_p_background": "default"
-  },
-  {
     "uuid": "a1000001-0001-0001-0001-000000000002",
     "langcode": "cs",
     "status": "1",
@@ -41,7 +32,7 @@
     "status": "1",
     "created": "1730822400",
     "field_csgov_p_title": "",
-    "field_csgov_p_content": "<p>Sekce pro přidání seznamu odkazů na související stránky nebo externí zdroje.</p>\n\n<h3>Název sekce</h3>\n<p>Nadpis, který se zobrazí nad seznamem odkazů.</p>\n<p><strong>Příklady:</strong> \"Související informace\", \"Užitečné odkazy\", \"Další zdroje\", \"Ke stažení\"</p>\n\n<h3>Přidání odkazů</h3>\n<ol>\n<li>Klikněte na tlačítko <strong>\"Přidat odkaz\"</strong></li>\n<li>Vyplňte <strong>text odkazu</strong> - popisný text, na který se bude klikat</li>\n<li>Zadejte <strong>URL adresu</strong>:\n<ul>\n<li><strong>Externí odkaz:</strong> Zadejte celou URL začínající https:// (např. https://www.example.com)</li>\n<li><strong>Interní odkaz:</strong> Zadejte relativní cestu začínající / (např. /o-nas/kontakt) nebo začněte psát název stránky pro automatické našeptání</li>\n</ul>\n</li>\n<li>Případně přidejte další odkazy tlačítkem \"Přidat další položku\"</li>\n</ol>\n\n<h3>Dobré praktiky</h3>\n<ul>\n<li><strong>Popisný text:</strong> Nepoužívejte \"klikněte zde\" nebo \"více\", ale popište kam odkaz vede</li>\n<li><strong>Logické řazení:</strong> Seřaďte odkazy podle důležitosti nebo logické posloupnosti</li>\n<li><strong>Ověřte funkčnost:</strong> Zkontrolujte, že všechny odkazy fungují</li>\n<li><strong>Umírněnost:</strong> Příliš mnoho odkazů může být matoucí (max 5-10)</li>\n</ul>\n\n<p><strong>Příklad správně vyplněných odkazů:</strong></p>\n<ul>\n<li>Text: \"Jízdní řády městské dopravy\" → URL: https://doprava.mesto.cz/jizdni-rady</li>\n<li>Text: \"Mapa nové linky\" → URL: /doprava/mapa-linek/linka-25</li>\n<li>Text: \"Kontakt na dopravní podnik\" → URL: /o-nas/kontakty/doprava</li>\n</ul>",
+    "field_csgov_p_content": "<p>Sekce pro přidání seznamu odkazů na související stránky nebo externí zdroje.</p>\n\n<h3>Název sekce</h3>\n<p>Nadpis, který se zobrazí nad seznamem odkazů.</p>\n<p><strong>Příklady:</strong> \"Související informace\", \"Užitečné odkazy\", \"Další zdroje\", \"Ke stažení\"</p>\n\n<h3>Přidání odkazů</h3>\n<ol>\n<li>Klikněte na tlačítko <strong>\"Přidat odkaz\"</strong></li>\n<li>Vyplňte <strong>text odkazu</strong> - popisný text, na který se bude klikat</li>\n<li>Zadejte <strong>URL adresu</strong>:\n<ul>\n<li><strong>Externí odkaz:</strong> Zadejte celou URL začínající https:// (např. https://www.csgov.cz)</li>\n<li><strong>Interní odkaz:</strong> Zadejte relativní cestu začínající / (např. /o-nas/kontakt) nebo začněte psát název stránky pro automatické našeptání</li>\n</ul>\n</li>\n<li>Případně přidejte další odkazy tlačítkem \"Přidat další položku\"</li>\n</ol>\n\n<h3>Dobré praktiky</h3>\n<ul>\n<li><strong>Popisný text:</strong> Nepoužívejte \"klikněte zde\" nebo \"více\", ale popište kam odkaz vede</li>\n<li><strong>Logické řazení:</strong> Seřaďte odkazy podle důležitosti nebo logické posloupnosti</li>\n<li><strong>Ověřte funkčnost:</strong> Zkontrolujte, že všechny odkazy fungují</li>\n<li><strong>Umírněnost:</strong> Příliš mnoho odkazů může být matoucí (max 5-10)</li>\n</ul>\n\n<p><strong>Příklad správně vyplněných odkazů:</strong></p>\n<ul>\n<li>Text: \"Jízdní řády městské dopravy\" → URL: /doprava/jizdni-rady</li>\n<li>Text: \"Mapa nové linky\" → URL: /doprava/mapa-linek/linka-25</li>\n<li>Text: \"Kontakt na dopravní podnik\" → URL: /o-nas/kontakty/doprava</li>\n</ul>",
     "field_csgov_p_background": "default"
   },
   {

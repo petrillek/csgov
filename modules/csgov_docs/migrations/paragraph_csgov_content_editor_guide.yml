@@ -1,5 +1,5 @@
-id: csgov_migrate_paragraph_csgov_accordion_item_editor_guide
-label: 'Paragraph - Accordion Item - Editor Guide'
+id: csgov_migrate_paragraph_csgov_content_editor_guide
+label: 'Paragraph - Content (Editor Guide)'
 migration_group: csgov_migrate
 migration_tags:
   - csgov_migrate
@@ -10,7 +10,7 @@ source:
   plugin: url
   data_fetcher_plugin: file
   data_parser_plugin: json
-  urls: 'profiles/contrib/csgov/modules/csgov_migrate/data/paragraph_csgov_accordion_item_editor_guide.json'
+  urls: 'profiles/contrib/csgov/modules/csgov_docs/data/paragraph_csgov_content_editor_guide.json'
   item_selector: ''
 
   ids:
@@ -30,12 +30,12 @@ source:
       selector: field_csgov_p_title
     - name: field_csgov_p_content
       selector: field_csgov_p_content
-    - name: field_csgov_p_expanded
-      selector: field_csgov_p_expanded
+    - name: field_csgov_p_background
+      selector: field_csgov_p_background
 
 destination:
   plugin: entity_reference_revisions:paragraph
-  default_bundle: csgov_accordion_item
+  default_bundle: csgov_content
 
 process:
   uuid: uuid
@@ -55,4 +55,4 @@ process:
     plugin: default_value
     default_value: basic_html
 
-  field_csgov_p_expanded: field_csgov_p_expanded
+  field_csgov_p_background: field_csgov_p_background
