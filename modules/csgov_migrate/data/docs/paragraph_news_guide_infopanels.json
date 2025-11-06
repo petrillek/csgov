@@ -1,0 +1,12 @@
+[
+  {
+    "uuid": "a1003005-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Upozornění na mazání",
+    "field_csgov_p_content": "<p><strong>Smazání novinky je nevratné!</strong> Před kliknutím na \"Smazat\" se ujistěte, že opravdu chcete novinku trvale odstranit. Po smazání nelze obsah obnovit běžnými prostředky.</p><p>Pokud chcete novinku pouze skrýt z webu, použijte místo smazání změnu stavu na <strong>\"Rozpracováno\"</strong> nebo <strong>\"Archivováno\"</strong>.</p>",
+    "field_csgov_p_infopanel_type": "warning",
+    "field_csgov_p_icon": "d07019c7-3c41-4953-8de9-0ef5d32986e4"
+  }
+]
