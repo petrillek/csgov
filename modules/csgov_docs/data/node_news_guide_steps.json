@@ -3,19 +3,6 @@
     "uuid": "a1003000-0001-0000-0000-000000000001",
     "langcode": "cs",
     "status": "1",
-    "title": "Přihlášení a navigace",
-    "created": "1730822400",
-    "changed": "1730822400",
-    "field_csgov_sbs_parent": "a1003000-0000-0000-0000-000000000000",
-    "field_csgov_sbs_step_label": "Přihlášení",
-    "field_csgov_sbs_annotation": "Jak začít pracovat s redakčním systémem",
-    "field_csgov_teaser": "Jak se přihlásit do redakčního systému a otevřít formulář pro vytvoření novinky.",
-    "field_csgov_content_components": "a1003001-0001-0000-0000-000000000001"
-  },
-  {
-    "uuid": "a1003000-0001-0000-0000-000000000002",
-    "langcode": "cs",
-    "status": "1",
     "title": "Základní údaje novinky",
     "created": "1730822400",
     "changed": "1730822400",
@@ -23,10 +10,10 @@
     "field_csgov_sbs_step_label": "Základní údaje",
     "field_csgov_sbs_annotation": "Název, datum, úvodník a hlavní obrázek",
     "field_csgov_teaser": "Vyplnění základních polí: název novinky, datum publikování, úvodník a hlavní obrázek.",
-    "field_csgov_content_components": "a1003002-0001-0000-0000-000000000001, a1003001-0001-0000-0000-000000000002, a1003002-0001-0000-0000-000000000002"
+    "field_csgov_content_components": "a1003002-0001-0000-0000-000000000001, a1003001-0001-0000-0000-000000000001, a1003002-0001-0000-0000-000000000002"
   },
   {
-    "uuid": "a1003000-0001-0000-0000-000000000003",
+    "uuid": "a1003000-0001-0000-0000-000000000002",
     "langcode": "cs",
     "status": "1",
     "title": "Vytváření obsahu",
@@ -36,10 +23,10 @@
     "field_csgov_sbs_step_label": "Obsah",
     "field_csgov_sbs_annotation": "Přidání textů, obrázků a dalších komponent",
     "field_csgov_teaser": "Jak vytvořit obsah novinky pomocí jednotlivých komponent - text, obrázky, galerie a další.",
-    "field_csgov_content_components": "a1003002-0001-0000-0000-000000000003, a1003001-0001-0000-0000-000000000003"
+    "field_csgov_content_components": "a1003002-0001-0000-0000-000000000003, a1003001-0001-0000-0000-000000000002"
   },
   {
-    "uuid": "a1003000-0001-0000-0000-000000000004",
+    "uuid": "a1003000-0001-0000-0000-000000000003",
     "langcode": "cs",
     "status": "1",
     "title": "Kategorie a metadata",
@@ -49,10 +36,10 @@
     "field_csgov_sbs_step_label": "Kategorie",
     "field_csgov_sbs_annotation": "Typ novinky, související odkazy, kontaktní osoba",
     "field_csgov_teaser": "Zařazení novinky do kategorie, přidání souvisejících odkazů a kontaktní osoby.",
-    "field_csgov_content_components": "a1003001-0001-0000-0000-000000000004"
+    "field_csgov_content_components": "a1003001-0001-0000-0000-000000000003"
   },
   {
-    "uuid": "a1003000-0001-0000-0000-000000000005",
+    "uuid": "a1003000-0001-0000-0000-000000000004",
     "langcode": "cs",
     "status": "1",
     "title": "Kontrola a publikování",
@@ -62,10 +49,10 @@
     "field_csgov_sbs_step_label": "Publikování",
     "field_csgov_sbs_annotation": "Finální kontrola před zveřejněním",
     "field_csgov_teaser": "Kontrolní seznam před publikováním, náhled a finální zveřejnění novinky.",
-    "field_csgov_content_components": "a1003001-0001-0000-0000-000000000005, a1003003-0001-0000-0000-000000000001"
+    "field_csgov_content_components": "a1003001-0001-0000-0000-000000000004, a1003003-0001-0000-0000-000000000001"
   },
   {
-    "uuid": "a1003000-0001-0000-0000-000000000006",
+    "uuid": "a1003000-0001-0000-0000-000000000005",
     "langcode": "cs",
     "status": "1",
     "title": "Správa publikované novinky",
@@ -75,6 +62,6 @@
     "field_csgov_sbs_step_label": "Po publikování",
     "field_csgov_sbs_annotation": "Úpravy, revize a mazání novinky",
     "field_csgov_teaser": "Jak upravit, vrátit změny nebo smazat již publikovanou novinku.",
-    "field_csgov_content_components": "a1003001-0001-0000-0000-000000000006, a1003005-0001-0000-0000-000000000001, a1003003-0001-0000-0000-000000000002"
+    "field_csgov_content_components": "a1003001-0001-0000-0000-000000000005, a1003005-0001-0000-0000-000000000001, a1003003-0001-0000-0000-000000000002"
   }
 ]
