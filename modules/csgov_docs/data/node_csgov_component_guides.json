@@ -23,7 +23,7 @@
     "field_csgov_sbs_step_label": "Infopanel",
     "field_csgov_sbs_annotation": "Zvýrazněný box pro důležité informace",
     "field_csgov_teaser": "Informační panel slouží ke zvýraznění důležitých informací, upozornění nebo tipů pomocí barevného rámečku.",
-    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000002"
+    "field_csgov_content_components": "a1000022-0001-0001-0001-000000000001, a1000021-0001-0001-0001-000000000002, a1000022-0001-0001-0001-000000000002, a1000022-0001-0001-0001-000000000003, a1000022-0001-0001-0001-000000000004"
   },
   {
     "uuid": "a1000020-0001-0001-0001-000000000003",
@@ -36,7 +36,7 @@
     "field_csgov_sbs_step_label": "Akordeón",
     "field_csgov_sbs_annotation": "Skládací sekce pro FAQ nebo dlouhé texty",
     "field_csgov_teaser": "Akordeón umožňuje vytvořit skládací sekce, ideální pro FAQ, dlouhé texty nebo obsah rozdělený do témat.",
-    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000003"
+    "field_csgov_content_components": "a1000023-0001-0001-0001-000000000001, a1000021-0001-0001-0001-000000000003"
   },
   {
     "uuid": "a1000020-0001-0001-0001-000000000004",

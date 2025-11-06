@@ -1,0 +1,29 @@
+[
+  {
+    "uuid": "a1000024-0001-0001-0001-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Co je akordeón?",
+    "field_csgov_p_content": "<p>Akordeón je skládací komponenta - toto je živý příklad. Kliknutím na nadpis se obsah rozbalí nebo sbalí.</p>",
+    "field_csgov_p_expanded": "1"
+  },
+  {
+    "uuid": "a1000024-0001-0001-0001-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Jak přidat položku?",
+    "field_csgov_p_content": "<p>V nastavení akordeonnu klikněte na \"Přidat položku akordeonnu\" a vyplňte nadpis a obsah.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1000024-0001-0001-0001-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Může být položka rozbalená?",
+    "field_csgov_p_content": "<p>Ano! První položka v tomto příkladu je rozbalená už při načtení stránky. To nastavíte zaškrtnutím \"Rozbaleno\" u dané položky.</p>",
+    "field_csgov_p_expanded": "0"
+  }
+]
