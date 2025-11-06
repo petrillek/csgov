@@ -5,6 +5,9 @@ migration_tags:
   - csgov_migrate
   - csgov_migrate_node
   - csgov_migrate_editor_guide
+migration_dependencies:
+  required:
+    - csgov_migrate_node_csgov_step_by_step
 
 source:
   plugin: url
