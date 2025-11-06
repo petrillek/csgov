@@ -67,7 +67,9 @@ process:
       callable: csgov_migrate_process_multiple
     - plugin: sub_process
       process:
-        - plugin: migration_lookup
-          source: value
-          migration: csgov_migrate_node_login_guide_steps
-          no_stub: true
+        target_id:
+          - plugin: migration_lookup
+            source: value
+            migration:
+              - csgov_migrate_node_login_guide_steps
+            no_stub: true
