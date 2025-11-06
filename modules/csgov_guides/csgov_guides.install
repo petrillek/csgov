@@ -7,6 +7,7 @@
 
 use Drupal\migrate\MigrateExecutable;
 use Drupal\migrate\MigrateMessage;
+use Drupal\migrate\Plugin\MigrationInterface;
 
 /**
  * Implements hook_install().
@@ -16,15 +17,37 @@ function csgov_guides_install() {
   $migration_manager = \Drupal::service('plugin.manager.migration');
   $migrations = $migration_manager->createInstancesByTag('csgov_guides');
 
-  foreach ($migrations as $migration_id => $migration) {
-    $migration->getIdMap()->prepareUpdate();
-    $executable = new MigrateExecutable($migration, new MigrateMessage());
-    $result = $executable->import();
+  // Sort migrations by dependencies
+  $ordered_migrations = _csgov_guides_sort_migrations($migrations);
 
-    \Drupal::logger('csgov_guides')->info(
-      'Imported migration @id with result @result',
-      ['@id' => $migration_id, '@result' => $result]
-    );
+  foreach ($ordered_migrations as $migration_id => $migration) {
+    try {
+      // Clear any stuck status
+      $status = $migration->getStatus();
+      if ($status !== MigrationInterface::STATUS_IDLE) {
+        $migration->setStatus(MigrationInterface::STATUS_IDLE);
+        \Drupal::logger('csgov_guides')->warning(
+          'Reset stuck migration @id from status @status',
+          ['@id' => $migration_id, '@status' => $status]
+        );
+      }
+
+      // Prepare and execute import
+      $migration->getIdMap()->prepareUpdate();
+      $executable = new MigrateExecutable($migration, new MigrateMessage());
+      $result = $executable->import();
+
+      \Drupal::logger('csgov_guides')->info(
+        'Imported migration @id with result @result',
+        ['@id' => $migration_id, '@result' => $result]
+      );
+    }
+    catch (\Exception $e) {
+      \Drupal::logger('csgov_guides')->error(
+        'Failed to import migration @id: @message',
+        ['@id' => $migration_id, '@message' => $e->getMessage()]
+      );
+    }
   }
 
   \Drupal::messenger()->addMessage(t('Guide documentation has been installed successfully.'));
@@ -38,14 +61,82 @@ function csgov_guides_uninstall() {
   $migration_manager = \Drupal::service('plugin.manager.migration');
   $migrations = $migration_manager->createInstancesByTag('csgov_guides');
 
-  // Rollback in reverse order
-  $migrations = array_reverse($migrations);
+  // Sort by dependencies and reverse for rollback
+  $ordered_migrations = _csgov_guides_sort_migrations($migrations);
+  $ordered_migrations = array_reverse($ordered_migrations, TRUE);
 
-  foreach ($migrations as $migration_id => $migration) {
-    $migration->getIdMap()->prepareUpdate();
-    $executable = new MigrateExecutable($migration, new MigrateMessage());
-    $executable->rollback();
+  foreach ($ordered_migrations as $migration_id => $migration) {
+    try {
+      // Clear any stuck status
+      $status = $migration->getStatus();
+      if ($status !== MigrationInterface::STATUS_IDLE) {
+        $migration->setStatus(MigrationInterface::STATUS_IDLE);
+        \Drupal::logger('csgov_guides')->warning(
+          'Reset stuck migration @id from status @status',
+          ['@id' => $migration_id, '@status' => $status]
+        );
+      }
 
-    \Drupal::logger('csgov_guides')->info('Rolled back migration @id', ['@id' => $migration_id]);
+      // Prepare and execute rollback
+      $migration->getIdMap()->prepareUpdate();
+      $executable = new MigrateExecutable($migration, new MigrateMessage());
+      $executable->rollback();
+
+      \Drupal::logger('csgov_guides')->info('Rolled back migration @id', ['@id' => $migration_id]);
+    }
+    catch (\Exception $e) {
+      \Drupal::logger('csgov_guides')->error(
+        'Failed to rollback migration @id: @message',
+        ['@id' => $migration_id, '@message' => $e->getMessage()]
+      );
+    }
   }
+}
+
+/**
+ * Sort migrations by their dependencies.
+ *
+ * @param array $migrations
+ *   Array of migration instances.
+ *
+ * @return array
+ *   Sorted array of migrations.
+ */
+function _csgov_guides_sort_migrations(array $migrations) {
+  $sorted = [];
+  $processed = [];
+
+  // Helper function to recursively add migrations with dependencies
+  $add_migration = function($migration_id) use ($migrations, &$sorted, &$processed, &$add_migration) {
+    // Skip if already processed
+    if (isset($processed[$migration_id])) {
+      return;
+    }
+
+    // Skip if migration doesn't exist
+    if (!isset($migrations[$migration_id])) {
+      return;
+    }
+
+    $migration = $migrations[$migration_id];
+    $dependencies = $migration->getMigrationDependencies();
+
+    // Process required dependencies first
+    if (!empty($dependencies['required'])) {
+      foreach ($dependencies['required'] as $dependency) {
+        $add_migration($dependency);
+      }
+    }
+
+    // Add this migration
+    $sorted[$migration_id] = $migration;
+    $processed[$migration_id] = TRUE;
+  };
+
+  // Process all migrations
+  foreach (array_keys($migrations) as $migration_id) {
+    $add_migration($migration_id);
+  }
+
+  return $sorted;
 }
