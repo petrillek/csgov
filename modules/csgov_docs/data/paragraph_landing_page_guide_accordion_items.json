@@ -1,0 +1,101 @@
+[
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Je primární CTA viditelné bez scrollování?",
+    "field_csgov_p_content": "<p>Hlavní call-to-action by mělo být viditelné ihned po načtení stránky, ideálně v Hero sekci. Návštěvníci by neměli muset scrollovat, aby našli, co mají dělat.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Je sdělení hodnoty jasné a okamžitě srozumitelné?",
+    "field_csgov_p_content": "<p>Návštěvník by měl do 5 sekund pochopit, co nabízíte a proč je to pro něj relevantní. Otestujte si nadpis a úvodní text na někom, kdo stránku neviděl - pochopil to okamžitě?</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Zobrazuje se stránka správně na mobilech?",
+    "field_csgov_p_content": "<p>Více než 50% návštěvníků pravděpodobně přijde z mobilních zařízení. Zkontrolujte, že tlačítka jsou dostatečně velká, text je čitelný a obrázky se načítají rychle.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000004",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Jsou použity důkazy a sociální důkazy?",
+    "field_csgov_p_content": "<p>Reference, čísla, loga partnerů nebo hodnocení zákazníků výrazně zvyšují důvěryhodnost. Pokud je máte k dispozici, použijte je.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000005",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Je minimalizováno rozptýlení?",
+    "field_csgov_p_content": "<p>Vstupní stránka by měla mít omezenou navigaci a minimální množství odkazů ven. Chcete, aby návštěvník provedl konkrétní akci, ne aby odešel jinam.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000006",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "✓ Načítá se stránka rychle?",
+    "field_csgov_p_content": "<p>Každá sekunda zpoždění snižuje konverze. Optimalizujte velikosti obrázků a vyhněte se zbytečně velkým souborům. Ideální doba načtení je pod 3 sekundy.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000007",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Jaký je rozdíl mezi vstupní stránkou a běžnou stránkou?",
+    "field_csgov_p_content": "<p>Vstupní stránka (landing page) má specifický cíl - přivést návštěvníka k jedné konkrétní akci (registrace, objednávka, stažení). Běžná stránka (Page) je univerzálnější a může obsahovat různé informace a více odkazů. Vstupní stránky se obvykle používají pro marketingové kampaně, zatímco běžné stránky tvoří strukturu webu.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000008",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Měla by mít vstupní stránka hlavní menu?",
+    "field_csgov_p_content": "<p>To záleží na kontextu. Pro marketingové kampaně je často lepší <strong>omezit navigaci</strong>, aby návštěvníci nebyli rozptylováni a zaměřili se na hlavní akci. Pro vstupní stránky v rámci webu, kam přicházejí interní návštěvníci, může být menu užitečné. Zvolte podle účelu stránky.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000009",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Kolik by měla být vstupní stránka dlouhá?",
+    "field_csgov_p_content": "<p>Neexistuje univerzální odpověď. Pro jednoduchý produkt nebo nabídku může stačit krátká stránka (2-3 screeny). Pro komplexnější nebo dražší nabídky může být potřeba dlouhá stránka s podrobnými informacemi, důkazy a FAQ. <strong>Pravidlo:</strong> Poskytněte dostatek informací pro přesvědčení, ale ne tolik, aby to návštěvníka unavilo. Testujte a optimalizujte na základě dat.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000010",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Mohu použít video na vstupní stránce?",
+    "field_csgov_p_content": "<p>Ano! Video může být velmi efektivní, zejména pro vysvětlení komplexního produktu nebo služby. Umístěte ho buď do Hero sekce nebo jako součást obsahových komponent. <strong>Doporučení:</strong> Video by mělo být krátké (30-90 sekund), mělo by se automaticky spustit bez zvuku (nebo vůbec), a mělo by mít titulky pro přístupnost.</p>",
+    "field_csgov_p_expanded": "0"
+  },
+  {
+    "uuid": "a1006004-0001-0000-0000-000000000011",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Jak měřit úspěšnost vstupní stránky?",
+    "field_csgov_p_content": "<p>Klíčové metriky pro vstupní stránky:</p><ul><li><strong>Konverzní poměr:</strong> Procento návštěvníků, kteří provedli požadovanou akci</li><li><strong>Bounce rate:</strong> Procento návštěvníků, kteří okamžitě odešli</li><li><strong>Čas na stránce:</strong> Kolik času návštěvníci stráví čtením obsahu</li><li><strong>Scroll depth:</strong> Jak daleko se návštěvníci posouvají na stránce</li><li><strong>Heat mapy:</strong> Kde návštěvníci klikají a kam se dívají</li></ul><p>Použijte analytické nástroje jako Google Analytics pro sledování těchto metrik a průběžně optimalizujte stránku.</p>",
+    "field_csgov_p_expanded": "0"
+  }
+]
