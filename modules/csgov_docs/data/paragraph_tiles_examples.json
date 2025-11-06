@@ -1,0 +1,12 @@
+[
+  {
+    "uuid": "a1000029-0001-0001-0001-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Příklad dlaždic",
+    "field_csgov_p_tiles": "a1000030-0001-0001-0001-000000000001, a1000030-0001-0001-0001-000000000002, a1000030-0001-0001-0001-000000000003",
+    "field_csgov_p_columns": "3",
+    "field_csgov_p_no_border": "0"
+  }
+]

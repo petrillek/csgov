@@ -10,7 +10,7 @@
     "field_csgov_sbs_step_label": "Text",
     "field_csgov_sbs_annotation": "Základní textový editor pro běžný obsah",
     "field_csgov_teaser": "Komponenta Text slouží pro vytváření běžného textového obsahu s formátováním pomocí WYSIWYG editoru.",
-    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000001"
+    "field_csgov_content_components": "a1000025-0001-0001-0001-000000000001, a1000021-0001-0001-0001-000000000001, a1000025-0001-0001-0001-000000000002, a1000025-0001-0001-0001-000000000003"
   },
   {
     "uuid": "a1000020-0001-0001-0001-000000000002",
@@ -49,7 +49,7 @@
     "field_csgov_sbs_step_label": "Obrázek",
     "field_csgov_sbs_annotation": "Samostatný obrázek v textu",
     "field_csgov_teaser": "Komponenta Obrázek umožňuje vložit samostatný obrázek do obsahu s popiskem a různými možnostmi zobrazení.",
-    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000004"
+    "field_csgov_content_components": "a1000026-0001-0001-0001-000000000001, a1000021-0001-0001-0001-000000000004"
   },
   {
     "uuid": "a1000020-0001-0001-0001-000000000005",
@@ -62,7 +62,7 @@
     "field_csgov_sbs_step_label": "Galerie",
     "field_csgov_sbs_annotation": "Fotogalerie s více obrázky",
     "field_csgov_teaser": "Galerie umožňuje vytvořit fotogalerii s více obrázky, které se zobrazují jako miniatury s možností lightboxu.",
-    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000005"
+    "field_csgov_content_components": "a1000027-0001-0001-0001-000000000001, a1000021-0001-0001-0001-000000000005"
   },
   {
     "uuid": "a1000020-0001-0001-0001-000000000006",
@@ -75,7 +75,7 @@
     "field_csgov_sbs_step_label": "Seznam stránek",
     "field_csgov_sbs_annotation": "Automatický seznam odkazů na jiný obsah",
     "field_csgov_teaser": "Seznam stránek vytvoří automatický přehled vybraných stránek s náhledy, úvodníky a odkazy.",
-    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000006"
+    "field_csgov_content_components": "a1000032-0001-0001-0001-000000000001, a1000021-0001-0001-0001-000000000006"
   },
   {
     "uuid": "a1000020-0001-0001-0001-000000000007",
@@ -88,7 +88,7 @@
     "field_csgov_sbs_step_label": "Obrázek + text",
     "field_csgov_sbs_annotation": "Kombinace obrázku a textu vedle sebe",
     "field_csgov_teaser": "Komponenta Obrázek s textem umožňuje vytvořit layout s obrázkem a textem umístěnými vedle sebe.",
-    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000007"
+    "field_csgov_content_components": "a1000028-0001-0001-0001-000000000001, a1000021-0001-0001-0001-000000000007, a1000028-0001-0001-0001-000000000002"
   },
   {
     "uuid": "a1000020-0001-0001-0001-000000000008",
@@ -101,7 +101,7 @@
     "field_csgov_sbs_step_label": "Dlaždice",
     "field_csgov_sbs_annotation": "Vizuální dlaždice s ikonami a textem",
     "field_csgov_teaser": "Dlaždice slouží k vytvoření vizuálně atraktivního přehledu služeb, kategorií nebo odkazů s ikonami.",
-    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000008"
+    "field_csgov_content_components": "a1000029-0001-0001-0001-000000000001, a1000021-0001-0001-0001-000000000008"
   },
   {
     "uuid": "a1000020-0001-0001-0001-000000000009",
@@ -114,7 +114,7 @@
     "field_csgov_sbs_step_label": "Přílohy",
     "field_csgov_sbs_annotation": "Seznam souborů ke stažení",
     "field_csgov_teaser": "Komponenta Přílohy vytvoří seznam souborů ke stažení (PDF, DOC, XLS) s ikonami podle typu souboru.",
-    "field_csgov_content_components": "a1000021-0001-0001-0001-000000000009"
+    "field_csgov_content_components": "a1000031-0001-0001-0001-000000000001, a1000021-0001-0001-0001-000000000009"
   },
   {
     "uuid": "a1000020-0001-0001-0001-000000000010",

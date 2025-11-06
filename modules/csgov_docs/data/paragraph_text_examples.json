@@ -1,0 +1,29 @@
+[
+  {
+    "uuid": "a1000025-0001-0001-0001-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Příklad textové komponenty",
+    "field_csgov_p_content": "<h2>Toto je živý příklad</h2>\n<p>Toto je <strong>textová komponenta</strong> s formátováním. Můžete použít:</p>\n<ul>\n<li>Nadpisy (H2, H3, H4)</li>\n<li><strong>Tučné písmo</strong> a <em>kurzívu</em></li>\n<li>Odrážkové a číslované seznamy</li>\n<li>Odkazy na <a href=\"#\">jiné stránky</a></li>\n</ul>\n<p>Toto je základní stavební kámen vašeho obsahu.</p>",
+    "field_csgov_p_background": "default"
+  },
+  {
+    "uuid": "a1000025-0001-0001-0001-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Varianta: Světle šedé pozadí",
+    "field_csgov_p_content": "<p>Textová komponenta může mít <strong>světle šedé pozadí</strong> pro vizuální oddělení od ostatního obsahu. Použijte pro sekce, které chcete jemně zvýraznit.</p>",
+    "field_csgov_p_background": "gray"
+  },
+  {
+    "uuid": "a1000025-0001-0001-0001-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_title": "Varianta: Primární barva pozadí",
+    "field_csgov_p_content": "<p>Nebo použijte <strong>primární barvu pozadí</strong> pro výrazné zvýraznění důležité sekce. Tuto variantu používejte střídmě.</p>",
+    "field_csgov_p_background": "primary"
+  }
+]
