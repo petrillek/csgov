@@ -6,10 +6,10 @@
     "title": "Úvod do knihovny médií",
     "created": "1699000000",
     "changed": "1699000000",
-    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
-    "field_csgov_sbs_step_label": "Knihovna médií",
+    "field_csgov_guide_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_guide_step_label": "Knihovna médií",
     "field_csgov_content_components": "a1012100-0001-0000-0000-000000000001, a1012200-0001-0000-0000-000000000001",
-    "field_csgov_sbs_annotation": "Centrální úložiště médií",
+    "field_csgov_guide_annotation": "Centrální úložiště médií",
     "field_csgov_teaser": "Pochopení základů knihovny médií a jejího využití pro správu obrázků, dokumentů a ikon."
   },
   {
@@ -19,10 +19,10 @@
     "title": "Nahrávání obrázků",
     "created": "1699000000",
     "changed": "1699000000",
-    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
-    "field_csgov_sbs_step_label": "Obrázky",
+    "field_csgov_guide_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_guide_step_label": "Obrázky",
     "field_csgov_content_components": "a1012100-0001-0000-0000-000000000002, a1012200-0001-0000-0000-000000000002, a1012300-0001-0000-0000-000000000001",
-    "field_csgov_sbs_annotation": "Nahrávání a správa obrázků",
+    "field_csgov_guide_annotation": "Nahrávání a správa obrázků",
     "field_csgov_teaser": "Jak nahrát obrázky do knihovny médií, pojmenovat je a organizovat pomocí štítků."
   },
   {
@@ -32,10 +32,10 @@
     "title": "Nahrávání dokumentů",
     "created": "1699000000",
     "changed": "1699000000",
-    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
-    "field_csgov_sbs_step_label": "Dokumenty",
+    "field_csgov_guide_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_guide_step_label": "Dokumenty",
     "field_csgov_content_components": "a1012100-0001-0000-0000-000000000003, a1012200-0001-0000-0000-000000000003, a1012300-0001-0000-0000-000000000002",
-    "field_csgov_sbs_annotation": "Nahrávání dokumentů",
+    "field_csgov_guide_annotation": "Nahrávání dokumentů",
     "field_csgov_teaser": "Postup nahrání dokumentů (PDF, Word, Excel) do knihovny médií a jejich zpřístupnění návštěvníkům."
   },
   {
@@ -45,10 +45,10 @@
     "title": "Práce s ikonami (SVG)",
     "created": "1699000000",
     "changed": "1699000000",
-    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
-    "field_csgov_sbs_step_label": "Ikony",
+    "field_csgov_guide_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_guide_step_label": "Ikony",
     "field_csgov_content_components": "a1012100-0001-0000-0000-000000000004, a1012200-0001-0000-0000-000000000004",
-    "field_csgov_sbs_annotation": "SVG ikony",
+    "field_csgov_guide_annotation": "SVG ikony",
     "field_csgov_teaser": "Nahrávání a použití škálovatelných ikon ve formátu SVG."
   },
   {
@@ -58,10 +58,10 @@
     "title": "Organizace a správa médií",
     "created": "1699000000",
     "changed": "1699000000",
-    "field_csgov_sbs_parent": "a1012000-0000-0000-0000-000000000000",
-    "field_csgov_sbs_step_label": "Organizace",
+    "field_csgov_guide_parent": "a1012000-0000-0000-0000-000000000000",
+    "field_csgov_guide_step_label": "Organizace",
     "field_csgov_content_components": "a1012100-0001-0000-0000-000000000005, a1012200-0001-0000-0000-000000000005, a1012300-0001-0000-0000-000000000003",
-    "field_csgov_sbs_annotation": "Organizace a vyhledávání",
+    "field_csgov_guide_annotation": "Organizace a vyhledávání",
     "field_csgov_teaser": "Jak efektivně organizovat média pomocí štítků, vyhledávat v knihovně a mazat nepotřebné soubory."
   }
 ]

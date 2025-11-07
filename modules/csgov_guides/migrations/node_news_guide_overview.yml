@@ -35,12 +35,12 @@ source:
       selector: changed
     - name: field_csgov_teaser
       selector: field_csgov_teaser
-    - name: field_csgov_sbs_items
-      selector: field_csgov_sbs_items
+    - name: field_csgov_guide_items
+      selector: field_csgov_guide_items
 
 destination:
   plugin: entity:node
-  default_bundle: csgov_step_by_step_overview
+  default_bundle: csgov_guide_overview
 
 process:
   uuid: uuid
@@ -63,9 +63,9 @@ process:
     plugin: default_value
     default_value: basic_html
 
-  field_csgov_sbs_items:
+  field_csgov_guide_items:
     - plugin: callback
-      source: field_csgov_sbs_items
+      source: field_csgov_guide_items
       callable: csgov_migrate_process_multiple
     - plugin: sub_process
       process:

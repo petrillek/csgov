@@ -37,12 +37,12 @@ source:
       selector: created
     - name: changed
       selector: changed
-    - name: field_csgov_sbs_parent
-      selector: field_csgov_sbs_parent
-    - name: field_csgov_sbs_step_label
-      selector: field_csgov_sbs_step_label
-    - name: field_csgov_sbs_annotation
-      selector: field_csgov_sbs_annotation
+    - name: field_csgov_guide_parent
+      selector: field_csgov_guide_parent
+    - name: field_csgov_guide_step_label
+      selector: field_csgov_guide_step_label
+    - name: field_csgov_guide_annotation
+      selector: field_csgov_guide_annotation
     - name: field_csgov_teaser
       selector: field_csgov_teaser
     - name: field_csgov_content_components
@@ -50,7 +50,7 @@ source:
 
 destination:
   plugin: entity:node
-  default_bundle: csgov_step_by_step
+  default_bundle: csgov_guide
 
 process:
   uuid: uuid
@@ -65,17 +65,17 @@ process:
   created: created
   changed: changed
 
-  field_csgov_sbs_parent:
+  field_csgov_guide_parent:
     - plugin: default_value
-      source: field_csgov_sbs_parent
+      source: field_csgov_guide_parent
       default_value: null
     - plugin: migration_lookup
       migration: csgov_migrate_node_board_guide_overview
       no_stub: true
 
-  field_csgov_sbs_step_label: field_csgov_sbs_step_label
+  field_csgov_guide_step_label: field_csgov_guide_step_label
 
-  field_csgov_sbs_annotation: field_csgov_sbs_annotation
+  field_csgov_guide_annotation: field_csgov_guide_annotation
 
   field_csgov_teaser/value: field_csgov_teaser
   field_csgov_teaser/format:
