@@ -27,48 +27,6 @@
     "field_csgov_p_background": "primary"
   },
   {
-    "uuid": "a1000032-0001-0001-0001-000000000001",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "Příklad seznamu stránek",
-    "field_csgov_p_content": "<p>Zde by se zobrazily vybrané stránky s jejich obrázky, názvy a úvodníky.</p>",
-    "field_csgov_p_nodes": "",
-    "field_csgov_p_view_mode": "card",
-    "field_csgov_p_columns": "3",
-    "field_csgov_p_link": ""
-  },
-  {
-    "uuid": "a1000030-0001-0001-0001-000000000001",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_icon": "",
-    "field_csgov_p_title": "První dlaždice",
-    "field_csgov_p_content": "<p>Toto je příklad dlaždice s ikonou, nadpisem a textem.</p>",
-    "field_csgov_p_link": ""
-  },
-  {
-    "uuid": "a1000030-0001-0001-0001-000000000002",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_icon": "",
-    "field_csgov_p_title": "Druhá dlaždice",
-    "field_csgov_p_content": "<p>Každá dlaždice může mít vlastní ikonu a odkaz.</p>",
-    "field_csgov_p_link": ""
-  },
-  {
-    "uuid": "a1000030-0001-0001-0001-000000000003",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_icon": "",
-    "field_csgov_p_title": "Třetí dlaždice",
-    "field_csgov_p_content": "<p>Dlaždice se automaticky uspořádají do mřížky.</p>",
-    "field_csgov_p_link": ""
-  },
-  {
     "uuid": "a1000021-0001-0001-0001-000000000001",
     "langcode": "cs",
     "status": "1",

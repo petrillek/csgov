@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "a1000030-0001-0001-0001-000000000001",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_icon": "",
+    "field_csgov_p_title": "První dlaždice",
+    "field_csgov_p_content": "<p>Toto je příklad dlaždice s ikonou, nadpisem a textem.</p>",
+    "field_csgov_p_link": ""
+  },
+  {
+    "uuid": "a1000030-0001-0001-0001-000000000002",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_icon": "",
+    "field_csgov_p_title": "Druhá dlaždice",
+    "field_csgov_p_content": "<p>Každá dlaždice může mít vlastní ikonu a odkaz.</p>",
+    "field_csgov_p_link": ""
+  },
+  {
+    "uuid": "a1000030-0001-0001-0001-000000000003",
+    "langcode": "cs",
+    "status": "1",
+    "created": "1730822400",
+    "field_csgov_p_icon": "",
+    "field_csgov_p_title": "Třetí dlaždice",
+    "field_csgov_p_content": "<p>Dlaždice se automaticky uspořádají do mřížky.</p>",
+    "field_csgov_p_link": ""
+  }
+]

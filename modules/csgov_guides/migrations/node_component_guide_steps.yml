@@ -9,9 +9,17 @@ migration_tags:
 
 migration_dependencies:
   required:
-    - csgov_migrate_paragraph_media_guide_content
-    - csgov_migrate_paragraph_media_guide_infopanel
-    - csgov_migrate_paragraph_media_guide_accordion
+    - csgov_migrate_paragraph_component_guide_content
+    - csgov_migrate_paragraph_component_guide_infopanel
+    - csgov_migrate_paragraph_component_guide_accordion_items
+    - csgov_migrate_paragraph_component_guide_accordion
+    - csgov_migrate_paragraph_component_guide_image
+    - csgov_migrate_paragraph_component_guide_gallery
+    - csgov_migrate_paragraph_component_guide_image_text
+    - csgov_migrate_paragraph_component_guide_attachments
+    - csgov_migrate_paragraph_component_guide_node_list
+    - csgov_migrate_paragraph_component_guide_tile_items
+    - csgov_migrate_paragraph_component_guide_tiles
 
 source:
   plugin: url
@@ -88,9 +96,15 @@ process:
         - plugin: migration_lookup
           source: value
           migration:
-            - csgov_migrate_paragraph_media_guide_content
-            - csgov_migrate_paragraph_media_guide_infopanel
-            - csgov_migrate_paragraph_media_guide_accordion
+            - csgov_migrate_paragraph_component_guide_content
+            - csgov_migrate_paragraph_component_guide_infopanel
+            - csgov_migrate_paragraph_component_guide_accordion
+            - csgov_migrate_paragraph_component_guide_image
+            - csgov_migrate_paragraph_component_guide_gallery
+            - csgov_migrate_paragraph_component_guide_image_text
+            - csgov_migrate_paragraph_component_guide_attachments
+            - csgov_migrate_paragraph_component_guide_node_list
+            - csgov_migrate_paragraph_component_guide_tiles
           no_stub: true
     - plugin: callback
       callable: csgov_migrate_process_reference
