@@ -2,7 +2,7 @@ langcode: cs
 status: true
 dependencies:
   config:
-    - core.entity_view_mode.node.csgov_guide
+    - core.entity_view_mode.node.csgov_step_by_step
     - field.field.node.csgov_guide.field_csgov_content_components
     - field.field.node.csgov_guide.field_csgov_guide_annotation
     - field.field.node.csgov_guide.field_csgov_guide_parent
@@ -17,10 +17,10 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
-id: node.csgov_guide.csgov_guide
+id: node.csgov_guide.csgov_step_by_step
 targetEntityType: node
 bundle: csgov_guide
-mode: csgov_guide
+mode: csgov_step_by_step
 content:
   field_csgov_guide_annotation:
     type: string

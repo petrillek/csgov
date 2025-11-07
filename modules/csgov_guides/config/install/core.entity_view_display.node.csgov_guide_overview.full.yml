@@ -33,7 +33,7 @@ content:
     type: entity_reference_entity_view
     label: hidden
     settings:
-      view_mode: csgov_guide
+      view_mode: csgov_step_by_step
       link: false
     third_party_settings:
       nomarkup:
