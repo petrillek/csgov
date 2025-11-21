@@ -39,11 +39,27 @@ drush migrate:import csgov_migrate_paragraph_csgov_node_list --no-interaction
 drush migrate:import csgov_migrate_paragraph_csgov_tile_item --no-interaction
 drush migrate:import csgov_migrate_paragraph_csgov_tiles --no-interaction
 
+echo "   Phase 1b: Special paragraphs (editor guides, component guides, shared)"
+drush migrate:import csgov_migrate_paragraph_csgov_accordion_editor_guide --no-interaction
+drush migrate:import csgov_migrate_paragraph_csgov_accordion_item_editor_guide --no-interaction
+drush migrate:import csgov_migrate_paragraph_csgov_content_editor_guide --no-interaction
+drush migrate:import csgov_migrate_paragraph_csgov_image_editor_guide --no-interaction
+drush migrate:import csgov_migrate_paragraph_csgov_infopanel_editor_guide --no-interaction
+drush migrate:import csgov_migrate_paragraph_csgov_component_guides --no-interaction
+drush migrate:import csgov_migrate_paragraph_shared_guides_accordion_items --no-interaction
+drush migrate:import csgov_migrate_paragraph_shared_guides_accordion --no-interaction
+drush migrate:import csgov_migrate_paragraph_shared_guides_content --no-interaction
+drush migrate:import csgov_migrate_paragraph_shared_guides_images --no-interaction
+
 echo "   Phase 2: Guide overviews (without items for now)"
 drush migrate:import csgov_migrate_node_csgov_guide_overview --no-interaction
 
 echo "   Phase 3: Guide steps (with parent references)"
 drush migrate:import csgov_migrate_node_csgov_guide --no-interaction
+
+echo "   Phase 3b: Special guide nodes (shared guides, component guides)"
+drush migrate:import csgov_migrate_node_shared_guides --no-interaction || echo "     (skipped - migration not found)"
+drush migrate:import csgov_migrate_node_csgov_component_guides --no-interaction || echo "     (skipped - migration not found)"
 
 echo "   Phase 4: Update overviews with guide items"
 drush migrate:import csgov_migrate_node_csgov_guide_overview --update --no-interaction

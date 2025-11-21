@@ -85,6 +85,16 @@ process:
       - csgov_migrate_paragraph_csgov_node_list
       - csgov_migrate_paragraph_csgov_tile_item
       - csgov_migrate_paragraph_csgov_tiles
+      - csgov_migrate_paragraph_csgov_accordion_editor_guide
+      - csgov_migrate_paragraph_csgov_accordion_item_editor_guide
+      - csgov_migrate_paragraph_csgov_content_editor_guide
+      - csgov_migrate_paragraph_csgov_image_editor_guide
+      - csgov_migrate_paragraph_csgov_infopanel_editor_guide
+      - csgov_migrate_paragraph_csgov_component_guides
+      - csgov_migrate_paragraph_shared_guides_accordion
+      - csgov_migrate_paragraph_shared_guides_accordion_items
+      - csgov_migrate_paragraph_shared_guides_content
+      - csgov_migrate_paragraph_shared_guides_images
       no_stub: true
   - plugin: callback
     callable: csgov_migrate_process_reference
@@ -102,3 +112,13 @@ migration_dependencies:
   - csgov_migrate_paragraph_csgov_node_list
   - csgov_migrate_paragraph_csgov_tile_item
   - csgov_migrate_paragraph_csgov_tiles
+  - csgov_migrate_paragraph_csgov_accordion_editor_guide
+  - csgov_migrate_paragraph_csgov_accordion_item_editor_guide
+  - csgov_migrate_paragraph_csgov_content_editor_guide
+  - csgov_migrate_paragraph_csgov_image_editor_guide
+  - csgov_migrate_paragraph_csgov_infopanel_editor_guide
+  - csgov_migrate_paragraph_csgov_component_guides
+  - csgov_migrate_paragraph_shared_guides_accordion
+  - csgov_migrate_paragraph_shared_guides_accordion_items
+  - csgov_migrate_paragraph_shared_guides_content
+  - csgov_migrate_paragraph_shared_guides_images
