@@ -53,15 +53,12 @@ process:
   created: created
   changed: changed
   field_csgov_guide_parent:
-  - plugin: callback
+  - plugin: default_value
     source: field_csgov_guide_parent
-    callable: csgov_migrate_process_single
+    default_value: null
   - plugin: migration_lookup
-    migration: csgov_migrate_node_csgov_guide
+    migration: csgov_migrate_node_csgov_guide_overview
     no_stub: true
-  - plugin: extract
-    index:
-    - 0
   field_csgov_guide_step_label: field_csgov_guide_step_label
   field_csgov_guide_annotation: field_csgov_guide_annotation
   field_csgov_teaser/value: field_csgov_teaser
@@ -93,6 +90,7 @@ process:
     callable: csgov_migrate_process_reference
 migration_dependencies:
   required:
+  - csgov_migrate_node_csgov_guide_overview
   - csgov_migrate_paragraph_csgov_accordion
   - csgov_migrate_paragraph_csgov_accordion_item
   - csgov_migrate_paragraph_csgov_attachments
