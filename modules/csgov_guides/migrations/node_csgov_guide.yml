@@ -93,15 +93,14 @@ process:
     callable: csgov_migrate_process_reference
 migration_dependencies:
   required:
-  - csgov_migrate_paragraph_csgov_content
-  - csgov_migrate_paragraph_csgov_tiles
-  - csgov_migrate_paragraph_csgov_image
-  - csgov_migrate_paragraph_csgov_attachments
-  - csgov_migrate_paragraph_csgov_accordion_item
-  - csgov_migrate_paragraph_csgov_node_list
-  - csgov_migrate_node_csgov_guide
-  - csgov_migrate_paragraph_csgov_image_text
-  - csgov_migrate_paragraph_csgov_gallery
   - csgov_migrate_paragraph_csgov_accordion
+  - csgov_migrate_paragraph_csgov_accordion_item
+  - csgov_migrate_paragraph_csgov_attachments
+  - csgov_migrate_paragraph_csgov_content
+  - csgov_migrate_paragraph_csgov_gallery
+  - csgov_migrate_paragraph_csgov_image
+  - csgov_migrate_paragraph_csgov_image_text
   - csgov_migrate_paragraph_csgov_infopanel
+  - csgov_migrate_paragraph_csgov_node_list
   - csgov_migrate_paragraph_csgov_tile_item
+  - csgov_migrate_paragraph_csgov_tiles
