@@ -65,8 +65,3 @@ process:
       no_stub: true
   - plugin: callback
     callable: csgov_migrate_process_reference
-migration_dependencies:
-  required:
-    - csgov_migrate_node_csgov_guide
-    - csgov_migrate_node_csgov_component_guides
-    - csgov_migrate_node_shared_guides
