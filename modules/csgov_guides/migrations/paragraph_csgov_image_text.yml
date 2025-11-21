@@ -36,11 +36,6 @@ destination:
   default_bundle: csgov_image_text
 process:
   uuid: uuid
-  id:
-    plugin: entity_lookup
-    source: uuid
-    entity_type: paragraph
-    value_key: uuid
   langcode: langcode
   status: status
   created: created
