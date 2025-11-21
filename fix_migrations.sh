@@ -51,17 +51,18 @@ drush migrate:import csgov_migrate_paragraph_shared_guides_accordion --no-intera
 drush migrate:import csgov_migrate_paragraph_shared_guides_content --no-interaction
 drush migrate:import csgov_migrate_paragraph_shared_guides_images --no-interaction
 
-echo "   Phase 2: Guide overviews (without items for now)"
+echo "   Phase 2: Guide nodes (overviews and steps)"
 drush migrate:import csgov_migrate_node_csgov_guide_overview --no-interaction
-
-echo "   Phase 3: Guide steps (with parent references)"
 drush migrate:import csgov_migrate_node_csgov_guide --no-interaction
 
-echo "   Phase 3b: Special guide nodes (shared guides, component guides)"
+echo "   Phase 2b: Special guide nodes"
 drush migrate:import csgov_migrate_node_shared_guides --no-interaction || echo "     (skipped - migration not found)"
 drush migrate:import csgov_migrate_node_csgov_component_guides --no-interaction || echo "     (skipped - migration not found)"
 
-echo "   Phase 4: Update overviews with guide items"
+echo "   Phase 3: Update all guides to fix references"
+echo "     - Updating guide steps to populate parent references..."
+drush migrate:import csgov_migrate_node_csgov_guide --update --no-interaction
+echo "     - Updating guide overviews to populate guide_items..."
 drush migrate:import csgov_migrate_node_csgov_guide_overview --update --no-interaction
 
 # Step 6: Show final status

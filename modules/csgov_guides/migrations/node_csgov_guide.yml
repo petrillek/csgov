@@ -100,7 +100,6 @@ process:
     callable: csgov_migrate_process_reference
 migration_dependencies:
   required:
-  - csgov_migrate_node_csgov_guide_overview
   - csgov_migrate_paragraph_csgov_accordion
   - csgov_migrate_paragraph_csgov_accordion_item
   - csgov_migrate_paragraph_csgov_attachments
