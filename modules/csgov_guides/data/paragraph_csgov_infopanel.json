@@ -227,16 +227,6 @@
     "field_csgov_p_icon": ""
   },
   {
-    "uuid": "a1000005-0001-0001-0001-000000000001",
-    "langcode": "cs",
-    "status": "1",
-    "created": "1730822400",
-    "field_csgov_p_title": "Upozornění",
-    "field_csgov_p_content": "<p>Smazání je <strong>nevratné</strong>! Pokud si nejste jistí, raději obsah <strong>skryjte</strong> (vypněte \"Publikováno\") místo smazání.</p>",
-    "field_csgov_p_infopanel_type": "warning",
-    "field_csgov_p_icon": "d07019c7-3c41-4953-8de9-0ef5d32986e4"
-  },
-  {
     "uuid": "a1015200-0001-0000-0000-000000000001",
     "langcode": "cs",
     "status": "1",
