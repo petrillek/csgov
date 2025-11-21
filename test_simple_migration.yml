@@ -1,0 +1,9 @@
+# Test if the issue is with entity_lookup on id field
+
+# Check what the OLD working migration did for the id field
+echo "=== Checking OLD migration id handling ==="
+git show origin/claude/connect-demo-c-011CUpvR9jbJ1JTceYTC2iWT:modules/csgov_guides/migrations/paragraph_news_guide_content.yml | grep -A 8 "^process:" | head -12
+
+echo
+echo "=== Checking NEW migration id handling ==="
+head -50 modules/csgov_guides/migrations/paragraph_csgov_content.yml | grep -A 8 "^process:"
